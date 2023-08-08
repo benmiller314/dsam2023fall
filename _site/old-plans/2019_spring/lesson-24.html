@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Collaborative Unit Studio</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="bottom_header container-fluid">
+
+<div id="bg" class="container-fluid">
+<div id="fg" class="container-fluid foreground col-xs-10 col-xs-offset-1">
+<a class="sr-only sr-only-focusable" href="#navbarNav">Jump to site menu</a>
+
+  <article class="col-md-8 col-md-offset-2 foreground">
+    <section id="content">
+      <h1 id="collaborative-unit-studio">Collaborative Unit Studio</h1>
+
+<p><strong>Work to have done</strong>: Group Twine Proposal, answering questions in the PROPOSAL.md file</p>
+
+<p><strong>Plan for the Day</strong>:</p>
+
+<ol>
+  <li>General notes on proposals</li>
+  <li>Homework preview</li>
+  <li>Studio!</li>
+</ol>
+
+<h2 id="1-general-notes-on-proposals">1. General notes on proposals</h2>
+
+<ol class="spaced">
+  <li>You probably want to <strong>start on your title slide</strong>. If it's not, you can change that on the story map: click the passage, open the ellipsis (...) menu, and check "Start Story Here."</li>
+  <li><strong>Remember to communicate about when you'll be editing</strong>: you want to avoid using the same ID for multiple passages.</li>
+  <li>I'd briefly mentioned that there are <a href="https://twinery.org/wiki/twine2:how_to_choose_a_story_format">multiple story formats</a>: Harlowe, SugarCube, and Snowman. I've been studying up on <a href="https://twine2.neocities.org">Harlowe</a>, the default mode for Twine 2. I'm not going to <em>require</em> it, but you do need to <strong>pay attention to what format any example code you find is written in</strong> – it won't necessarily translate. You can change story formats, if you want, using the story menu (on the bottom when viewing the story map).</li>
+  <li>If you're dividing the work by branching early into different paths, each written by one group member:
+    <ul>
+    <li>I personally would love to see you cross paths with the characters you didn't choose – or, at least, to encounter some recognizably-the-same passages even though you're on different paths. The <code>(if:)</code> macro will help you do this if you <code>(set:)</code> a <code>$pathname</code> variable early on.</li>
+    <li>For today, you may want to work in separate Twine files, and combine later. It's a little copy-paste-y, but better than a merge error. Or if you do want crossovers among the separate paths, this might be a great time to put those targets in place!</li>
+    </ul>
+  </li>
+  <li>Last, Safari seems to be a little funnier about file export than other browsers. If you see a screen full of code and a title that says "blob", just manually <strong>save the page as source code</strong> (not as web archive), and it should work fine. </li>
+  </ol>
+
+<h2 id="2-homework-preview">2. Homework preview</h2>
+
+<h2 id="3-studio">3. Studio</h2>
+<p>Take advantage of the dedicated time to make plans!</p>
+
+<p>And if you didn’t get any Twine passages linked up and pushed to GitHub during Tuesday’s class, make sure to do so before you leave today! This is the time to play around, while it’s easy to ask questions and share discoveries.</p>
+
+<h1 id="homework-for-next-time">Homework for next time</h1>
+
+<p>Turn in a collaborative project preview to your repository. As it says in the README for the project, this is just an early snapshot of your progress, to get the gears turning.</p>
+
+<p>Push the following to your repository (GitHub or Box, just make sure I can find it):</p>
+<ul>
+  <li>An html file exported from Twine using the <strong>Publish to File</strong> tool;</li>
+  <li>A static <strong><a href="https://www.take-a-screenshot.org/">screenshot</a> (.png or .jpg)</strong> of your narrative in progress, showing the story map of passages and links between them.</li>
+  <li>Any other files we'd need to successfully import and view your Twine – images, css to import (e.g. bootstrap), etc – should be pushed to the repo as well.</li>
+  <li>An <strong>updated README.md, explaining</strong> in at least 300 words <strong>what you're showing us</strong> in this preview. Feel free also to ask questions or lay out next steps for yourselves!
+    <ul>
+    <li>How you compose this is up to you: will you assign one member of the team to draft a summary of progress, or will you join a google doc or slack, or...?</li>
+    <li>You can rename the old README to PROMPT.md; do include the <code>.md</code>, please</li>
+    </ul>
+  </li>
+  <li>If necessary, <strong>credits</strong> for any assets used should be added to a clearly labeled passage in your Twine, and linked to from the title page.</li>
+</ul>
+
+    </section>
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+
+<section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Back to main content</a>
+
+<script type="text/javascript">
+  if(page.url.includes("plans")) {
+    var today = page.url.substr(-2, 2);
+        today = parseInt(today);
+    var prev = today-1;
+    var next = today+1;
+
+    if (prev < 0) {
+      var prevlink = null;
+
+    } else {
+      var prevlink = "lesson-" +
+                 (prev < 10 ? "0" + prev : prev);
+    }
+    if (next > 25) {
+      var nextlink = null;
+    } else {
+      var nextlink = "lesson-" +
+                 (next < 10 ? "0" + next : next);
+    }
+
+
+  }
+</script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <ul id="lesson-nav">
+    <li><a id="prevlink-a" href="#"  class="hidden">Previous Lesson</a></li>
+    <li><a id="nextlink-a" href="#"  class="hidden">Next Lesson</a>
+  </ul>
+</nav>
+</section>
+
+
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2019_spring/lesson-24.md">view page source.</a>
+</p>
+
+</footer>
+
+<!--jQuery & Twitter Bootstrap JavaScript-->
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/jquery-3.2.1.min.js"></script>
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/bootstrap.js"></script>
+
+</body>
+</html>

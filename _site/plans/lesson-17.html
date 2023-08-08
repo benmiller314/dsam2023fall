@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Core Concepts of HTML &amp; CSS + Studio</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      
+<h1 id="core-concepts-of-html--css--studio">Core Concepts of HTML &amp; CSS + Studio</h1>
+
+<div class="alert alert-warning">We've had a request to activate the Zoom today. Please remind me if I forget?</div>
+
+<p><strong>Work to have done</strong>:</p>
+<ul>
+  <li>As much of the <a href="https://internetingishard.com/html-and-css/">Interneting is Hard (but it doesn’t have to be)</a> tutorial as you can – at least parts 1-4 (from “Introduction” through “Hello, CSS”); <em>push your tutorial code to GH</em></li>
+</ul>
+
+<p><strong>Plan for the day</strong>:</p>
+
+<ol>
+  <li>Upcoming workshops (5 min)</li>
+  <li>Key Concepts and Practical Takeaways (20-30 min)</li>
+  <li>Intro to studio (5 min)</li>
+  <li>Studio (35-45 min)</li>
+</ol>
+
+<h2 id="0-announcement-accessible-web-design-workshops">0. Announcement: Accessible Web Design workshops</h2>
+
+<p>There’s a series of workshops this Friday (html) and next (css), right here in this room, from 2:30-3:30, aimed at ways to make the web more navigable by more people. They’re hosted by Lynn Priestley – who is, among other things, author of the <a href="https://cap-alt-delete.github.io/website-portfolio-2021spring/">Loose Leaf cafe</a> website that I gave you as an example. She’s also the host of a podcast on this subject, <a href="https://open.spotify.com/show/2fiqvtqdyyZfpGATtPLpgl?si=8582cbb529574d53">Welcomed by Design</a>.</p>
+
+<p>If you can make the time, I highly encourage you to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPzuLPbCkRQ7k4--R8Ti7zkM1zzLP-jlZ7MwQIShlyeiU6Kw/viewform">register using this link</a> to get demo / practice files! Here’s a <a href="/uploads/AccessibleWebWorkshops.pdf">flyer with more information</a>. <span class="sr-only">And here’s a background image description for the flyer, which should otherwise have embedded text accessible: Abstract, color-block representation of a desktop computer screen, with the introductory text placed on the main web page. The event details are on a coding sidebar, with the who/what/where/preregister headings wrapped to look like HTML tags. End of image description.</span></p>
+
+<p>There’s also a workshop this Friday morning, 11:00-1:00, on <em>Alt-Text as Poetry</em>, hosted by the artist, writer, and disability activist Bojana Coklyat. That’s across the street in 527 William Pitt Union. This workshop will be capped at 20 and is open to anyone at the university, though priority will be given to graduate and upper-level undergraduate students. You can <a href="https://pitt.co1.qualtrics.com/jfe/form/SV_6znqFaKfKQgazem">register here</a>.</p>
+
+<h2 id="1-key-concepts-and-practical-takeaways-20-30-min-">1. Key Concepts and Practical Takeaways (20-30 min) <!-- so for a 1:00 start, aim to be done by 3:25 In 2023, we start the solo round at around 1:10. All groups talking by 1:23. --></h2>
+<div class="alert alert-success">
+Start by answering each of the questions below <strong>on your own</strong> (skipping the EXTs for now). Write down your answers in your own space. <!-- FOR NEXT TIME: Have a downloadable quiz sheet so people don't feel like they have to waste time copying stuff out -->
+</div>
+<p>(Note that some of the True/False questions are actually a little subtler than that framing suggests: e.g. *mostly* true, except when ____.)</p>
+
+<p>Then <strong>discuss your answers in groups</strong> at your tables, and be ready to discuss tricky ones with the whole class if time allows. Some you should be able to go through rather quickly, while others may require more discussion.</p>
+
+<div class="alert alert-success">
+<strong>Please take turns within your group</strong> reading questions and proposing answers, so that everyone in the group bears responsibility. <!--Also, to help me keep track of where everyone's up to, <strong>please take notes in the <a href="http://bit.ly/cdm2023spring-notes">shared google doc</a></strong> -->.
+</div>
+
+<p><strong>Speedy teams, note the EXTs</strong> at the end. Conversely, feel free to <strong>skip the EXTs in the middle if you’re running behind</strong> – we want to make sure you have enough working time in the second part of class.</p>
+
+<p>Call me in if you can’t come to a resolution! I will share my answer key when your table is ready.</p>
+
+<!-- <div class="alert alert-warning">
+To get async credit for this portion of the class, please answer these questions in your own space (i.e. not in the gdoc) and send your answers my way.
+
+You'll also want to do the generative exercise a bit further down!
+</div> -->
+
+<h3 id="organizing-files">Organizing files</h3>
+
+<ol>
+  <li>True or False: filenames are not case sensitive, so it doesn’t matter if something is uppercase or lowercase.</li>
+  <li>T / F: web browsers know how to handle spaces in filenames, so it doesn’t matter if you have spaces in a filename or not.</li>
+  <li>T / F: all files referred to in an html document have to be in the same folder as that html document.</li>
+  <li>What’s one advantage of using a relative link? <!-- easier to change folder names / servers --> What’s one risk? <!-- link could break, especially if you shift folder nesting levels --></li>
+</ol>
+
+<p>EXT: What are some html elements can you use to refer to an external file? (Hint: you should know at least three already.) Where would you put the filename within each of those elements? <!-- <a href="">, <img src="">, <link href=""> --></p>
+
+<h3 id="html-basics">HTML basics</h3>
+<ol>
+  <li>What kind of information goes in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>?</li>
+  <li>How do you mark up comments in HTML?</li>
+  <li>T / F: every HTML element has an opening tag, some element content, and a closing tag.</li>
+  <li>T / F: in rendering an HTML file, there’s no difference between a space, a blank line, or five blank lines.</li>
+</ol>
+
+<p>EXT: What three tags should pretty much every published page’s <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> include? <!-- <title>, <meta charset='UTF-8'/> (or whatever actual charset makes sense), <link rel="stylesheet"> --></p>
+
+<h3 id="image-basics">Image basics</h3>
+<ol>
+  <li>T / F: every <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tag should specify a source file.</li>
+  <li>T / F: every <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tag should specify a width and a height.
+    <ul>
+      <li>What happens if you only set one?</li>
+    </ul>
+  </li>
+  <li>T / F: every <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tag should specify alternative text with <code class="language-plaintext highlighter-rouge">alt</code>.</li>
+</ol>
+
+<p>EXT: What makes .jpg files better for photographs than .png files? What makes .png files better for simple diagrams?</p>
+
+<h3 id="css-basics">CSS basics</h3>
+<ol>
+  <li>What do the curly brackets and semicolons in CSS rules do?</li>
+  <li>How can you apply a single CSS rule to multiple selectors?</li>
+  <li>How do you mark up comments in CSS?
+    <ul>
+      <li>EXT: what’s the shortcut in your text editor for (un)commenting out the current line?</li>
+    </ul>
+  </li>
+  <li>Name three different places you could store CSS rules. <!-- external stylesheet, page-specific <style> in the <head>, inline style in the attributes of an html element --></li>
+  <li>Why is it generally a bad idea to use inline styles?</li>
+</ol>
+
+<p>EXT: Given the three locations in question 4, when would you want to use each? What are the pros and cons?</p>
+
+<div class="alert alert-info">
+<p>If your group finishes early, (a) let me know you're done, (b) <a href="../uploads">download my answer key</a> and confirm we're on the same page. If not, let me know that, too!</p>
+
+<p>Then (c) try the EXT activities below while you wait for the other groups to catch up.</p>
+</div>
+
+<!-- EXT 1: Flip through these <a href="http://designbeep.com/2012/05/17/33-great-examples-of-web-design-sketches/">example web-design sketches</a>. What design patterns do you notice? What drawing conventions? -->
+
+<p>EXT: Talk through the example sites from last year (from HW reading before break, and pasted again below for convenience), looking at the HTML with either View Source or your browser’s inspector. How are the pages structured? Any surprises? Any changes you’d want to make? Anything you’d want to borrow for your own site?</p>
+<details><summary>Convenient links</summary>
+<ul><li> <a href="https://fatemaquaid987.github.io/website/index.html">Fatema Quaid</a>, by Fatema Quaid</li>
+<li><a href="https://cmgo412.github.io/website-portfolio-2021spring/">Hi, I'm Caela</a>, by Caela Go</li>
+<li><a href="https://cap-alt-delete.github.io/website-portfolio-2021spring/">Loose Leaf</a>, by Lynn Priestley</li>
+<li><a href="https://shreyababu.github.io/website-portfolio-2020fall">The Rwandan Genocide: 100 Days of Silence</a>, by Shreya Babu</li>
+</ul>
+</details>
+
+<h2 id="2-anything-to-discuss-further-5-8-min-">2. Anything to discuss further? (5-8 min) <!-- for a 1:00 start, you have to move on no later than 1:35. So aim to start discussion no later than 1:20... 1:15 would be better --></h2>
+
+<p>Let me know if you have any challenges or questions after reading my answer key!</p>
+
+<h2 id="3-studio--practice-45-60-min-">3. Studio / Practice (45-60 min) <!-- for a 1:00 start, you have to get here by 1:25, ending by 1:35 --></h2>
+
+<div class="alert alert-success">See below for options, then please go to <a href="https://bit.ly/cdm2023spring-notes#heading=h.hiw73w6fl2zt#heading=h.jf786cdz1a2q">bit.ly/cdm2023spring-notes</a> and let me know what you're working on; this helps me figure out where I can be most helpful.</div>
+
+<ol>
+  <li>
+    <p><strong>If your tutorial pages aren’t looking like the examples, tell me now, so I can help you get there!</strong> You’ll get a lot more out of the later tutorials if you’ve got these first ones solidly under your belt.</p>
+  </li>
+  <li>
+    <p>The assignment for Thursday includes another two chapters in the tutorial and a game to play (or a blog post to read) about more advanced CSS selectors. If you haven’t yet done so, why not start those homework assignments?</p>
+  </li>
+  <li>If you’re feeling good about all that, start translating your website sketches – especially your website <em>content</em> – into HTML and then CSS. Begin by adapting the tutorials, once you know you’ve got them working, to include your own materials.
+    <ul>
+      <li>Use the <em>docs</em> folder for files you’ll eventually want to publish on the web.</li>
+      <li>Call the file for your landing/home page <strong>index.html</strong>. You can always change the <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code>.</li>
+    </ul>
+  </li>
+  <li>Above all, call me over for help as needed.</li>
+</ol>
+
+<p>EXT: If you’ve already done the above, and you’re good on what a CSS class is, and how to add it to an HTML element, read up on <a href="https://benmiller314.github.io/cdm2023spring/resources#frameworks">CSS frameworks</a> on our course Resources page. They’re basically a bunch of pre-created CSS classes you can use to design your own layout from scratch: a little like Lego for web design. (I use the Bootstrap framework on this site.)</p>
+
+<h2 id="homework-for-next-time">Homework for Next Time</h2>
+
+<ul>
+  <li><strong>Do</strong> more of the <a href="https://internetingishard.com/html-and-css/">tutorial</a>, getting through at least The Box Model (5) and CSS Selectors (6), if you haven’t yet.
+    <ul>
+      <li>Remember that I won’t assign <em>all</em> the sections of the tutorial; you can look ahead in the <a href="https://benmiller314.github.io/cdm2023spring/schedule#current">schedule</a> to see which parts I expect you to read and do, and what’s beyond baseline. You can probably skip Floats, for example… and I’ll ask you to look at some Grid tutorials that aren’t part of the main series.</li>
+    </ul>
+  </li>
+  <li>Please do, though <strong>read</strong> more about <a href="https://css-tricks.com/how-css-selectors-work/">how CSS selectors work</a> <em>OR</em> if you prefer game-based learning to straight-up reading, try loading and clearing plates at the delightful <a href="https://flukeout.github.io/">CSS Diner</a>. (There’s still reading, in the sidebar, which tells you how to win the round.)</li>
+  <li>As you’re able to get the tutorials working, you can start adapting the files there to include your own content; save those more personalized files in the <em>docs</em> folder.
+    <ul>
+      <li>Save and commit as you go!</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- * **View** screencast on using <nav><ul><li></a> and CSS to remove bullets ... and to resize the <a> directly using padding. Point out that this is a direct application of the Box Model. -->
+
+<p>Pi Day bonus! <a href="LullaPi: A Piano Piece Inspired by the digits of Pi">https://www.youtube.com/watch?v=NmxPeBeX_38</a></p>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/plans/lesson-17.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

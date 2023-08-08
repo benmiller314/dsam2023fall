@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Web Unit Post-Workshop Studio</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      
+<h1 id="web-unit-post-workshop-studio">Web Unit Post-Workshop Studio</h1>
+
+<p><strong>Work to have done</strong>: asynchronous peer-review; optional <a href="https://github.com/benmiller314/cdm2023spring/issues/13">forum post about possible consolidation-unit projects</a></p>
+
+<p><strong>Plan for the day</strong>:</p>
+
+<ul>
+  <li>Planting seeds</li>
+  <li>Gathering questions</li>
+  <li>Studio time!
+    <ul>
+      <li>Check for new feedback</li>
+      <li>Set an intention</li>
+      <li>Work time</li>
+      <li>Exit note</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="planting-seeds">Planting seeds</h2>
+
+<p>As a reminder of past advice, please:</p>
+<ul>
+  <li>Call your homepage index.html, probably in the docs folder. (Other html files can be called whatever you want… but will probably work best in lowercase and without spaces.)</li>
+  <li>Be sure to include some <a href="http://jgthms.com/web-design-in-4-minutes">basic spacing</a> to limit the length of lines and let your content breathe.</li>
+</ul>
+
+<p>In addition, after reading through the drafts and comments, I hope you can…</p>
+
+<details>
+<summary>Reuse your stylesheet on multiple pages if the rules haven't changed.</summary>
+
+<p>As I noted in response to questions about the baseline call for a "sitewide" stylesheet, it's an important threshold concept of CSS that you can have a single set of rules that are invoked in multiple places. In other words: instead of copying out your rules into a new file for each HTML page, just copy the <code>&lt;link rel="stylesheet" href="styles.css" /&gt;</code> from your first page into the <code>&lt;head&gt;</code> of your second page (and third, and fourth, etc).</p>
+
+<p>If you do have a style that you want to change – say, a heading size that's bigger on the homepage than on other pages – you can "scope" those rules with descendent selectors. For example:
+<pre><code class="css">
+    body {
+      font-size: 18px;    /* sets the baseline font size */
+    }
+
+    /* heading styles for most pages */
+
+    h1 {
+      font-size: 2em;     
+    }
+
+    h2 {
+      font-size: 1.75em;
+    }
+
+    /* bigger heading sizes for home page */
+
+    body.home h1 {
+      font-size: 4em;
+    }
+
+</code></pre></p>
+
+<p>That last rule selects <code>h1</code> elements only if they're inside a <code>&lt;body class="home"&gt;</code>. You add the class at the top of the file, and voila! A per-page style within the same sitewide stylesheet.</p>
+
+</details>
+
+<details>
+<summary>Have alt text for all your images.</summary>
+<p>Text-alternatives, which you add to images using <code>&lt;img alt="text description here" src="path/to/source.jpg"&gt;</code>, are a required element in validated html. They're also really helpful, and not only to blind users: they make the html file more readable on its own, and thus more semantic, and they help you troubleshoot layout when image paths are broken by showing you where each image is trying to appear.</p>
+
+<p>For more guidance on how to write useful alt text, see <a href="https://webaim.org/techniques/alttext/">https://webaim.org/techniques/alttext/</a>.</p>
+</details>
+
+<details>
+<summary>Level up your HTML.</summary>
+
+<p>I see this in three ways: div soup, hard-coded spacing, and skipped header levels.</p>
+
+<p>"Div soup" is when you have divs inside divs inside divs, and they all start to flow and meld and it's hard to see what role each thing is actually playing. To help with that, <em>see whether you can replace some with a more semantic tag</em>: Is that div with one line of text acting like an <code>&lt;h2&gt;</code>? Are those divs wrapping up each of several articles of clothing with its photo, name, and price acting like <code>&lt;article&gt;</code>s? Is the whole display of items really a <code>&lt;section&gt;</code>?</p>
+
+<p>When I say "hard-coded spacing," I mean spacing that uses  <code>&lt;br/&gt;</code>. That tag is not really for spacing, but rather for creating <em>manual but meaningful line breaks</em>. Think poetry, or maybe a two-part heading where you want to enforce a particular phrasing (e.g. a line break after a colon). A real <code>&lt;br/&gt;</code> should itself be part of your content, a piece of punctuation as much as a comma or period. <em>Instead of hard-coding space after your paragraphs or headers, give them some <code>margin-bottom</code>!</em> A margin of 1em or slightly more (depending on your <code>line-height</code>) should do the trick.</p>
+
+<!-- put a gif here of adding and removing margin? -->
+
+
+<p>Finally, your <code>h1</code>, <code>h2</code>, and <code>h3</code> headings should follow a nested sequence that respects their numbers: the top-level heading on any given page should be an <code>h1</code>, and you shouldn't have any <code>h3</code>'s unless you first proceed through <code>h2</code>. If you like the look of a smaller header, but that would "require" you to skip a level, instead use your browser's inspector to find the current CSS – font size, color, spacing, etc – and copy/paste that into a new rule for the heading level you're actually up to. (See above for tips on limiting the scope of these changes through classes and descendent selectors.)</p>
+
+</details>
+
+<!-- <details><summary>Level up your ordered lists.</summary>
+
+Did you know you can choose the number an <code>&lt;ol&gt;</code> list starts with?
+
+You can also <a href="https://css-tricks.com/almanac/properties/l/list-style">choose different list-item-types</a> for alphabetical or roman counting systems. Same goes for bullets in your <code>&lt;ul&gt;</code>'s.
+<figure role="figure">
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="matt-west" data-slug-hash="DCEzd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="HTML List Demos">
+  <span>See the Pen <a href="https://codepen.io/matt-west/pen/DCEzd">
+  HTML List Demos</a> by Matt West (<a href="https://codepen.io/matt-west">@matt-west</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</figure>
+
+</details> -->
+
+<details>
+<summary>Remember to credit your sources somewhere on the site.</summary>
+
+<p>If you're using resources you didn't make yourself, be sure to <em>include enough information to recover where it came from</em>: a direct link to the image and to the specific license (if there is one) is ideal. Creative Commons sources often provide that html for you!</p>
+
+<p>Where to put this information? Ideally, somewhere small near the image itself. (There's a semantic html way of doing this with <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code>, which you may remember from <a href="https://www.internetingishard.com/html-and-css/semantic-html/#figures-and-captions">the Semantic HTML</a> section of the tutorial. See also <a href="https://www.scottohara.me/blog/2019/01/21/how-do-you-figure.html">this extended discussion of figures, figcaptions, and alt text</a>.)</p>
+
+<p>Alternately, you can have a rights page somewhere, or use the site footer – or have a live hyperlink from your site to an external credits.md file in your repo.</p>
+
+<div class="alert alert-info"><em>NB: If an image is under copyright, you can still use it if you can make a good case that it's a Fair Use.</em>  See the homework reading after <a href="lesson-04">Lesson 4</a> to review the Four Factors you need to consider.</div>
+</details>
+
+<!-- index.html
+<details>
+<summary>Call your homepage index.html (or index.md)</summary>
+By default, this is what a web browser will display when you just type in the URL of your website: it is, in other words, the default filename for your home page. If your home page currently has another filename, <a href="https://www.lifewire.com/index-html-page-3466505">you probably want to change it to index.html</a>. You can always keep your more interesting name as the &lt;title&gt;!
+</details> -->
+
+<!-- Consider titles
+<details>
+<summary>Consider titles.</summary>
+
+A title can provide a context, a clue, a genre, a commentary; it can add an extra layer to viewer expectations. In previous units, you were titling your entire project; for a website, every page has its own <code>&lt;title&gt;</code> element in the <code>&lt;head&gt;</code>, which will show up in the browser's tab. These titles <em>could</em> be the same for all your pages, but they could also vary. What text do you want on top of the window, to show users where they are?
+</details> -->
+
+<!-- Proofread for tag nesting
+<details>
+<summary>Remember to proofread for tag nesting.</summary>
+
+<p>I said in the last bullet that <code>&lt;body&gt;</code> should be at the top of the page, but I also know it's often confusing for newcomers to html: many of you are naturally inclined to put your navigation up above the body tag, sometimes in the head and sometimes even above the html tag. I get it: in many contexts, the "body of the page" doesn't include things like headings and menus. And many browsers will be flexible enough to figure out what you mean.</p>
+
+<p>But properly speaking, the <em>entire</em> rendered content of the page should fall between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>, and <code>&lt;/html&gt;</code> should be the last line in the file with any content. (A blank line after that is fine.)</p>
+
+</details>
+-->
+
+<!-- Lowest linecount challenge
+<details>
+<summary>When you're ready for polish, take the lowest line-count challenge.</summary>
+
+<p>This is primarily a polishing step after all your content and style is pretty much set – but it may also help you clarify what your HTML is really doing, which can in turn make it easier to style.</p>
+
+<p>Do your CSS rules repeat each other? Maybe they can be combined. <ul>
+  <li>Look for elements that all behave the same way, and give them a shared class.</li>
+  <li>Remember that you can apply more than one class to the same html element, so you can make rules for shared attributes in one class and special cases in another.</li>
+</ul></p>
+
+<p>Does your HTML have lots of containers with only one element in them?
+<ul>
+  <li>Some containers are important for positioning, e.g. centering with a flexbox.</li>
+  <li>Others, though, are unnecessary clutter: if you can "unwrap" the element and apply CSS rules directly to it, with no loss in function, go ahead and unwrap it. You can usually move classes from an outer element straight onto the inner one. See my <a href="https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9171fa85-be27-437d-99b9-acfa00f44a4f">demo video from last week</a> for an example.</li>
+</ul></p>
+</details> -->
+
+<!-- Update your README
+<details>
+<summary>Remember to update your README.</summary>
+It should have a brief description of the project, and may I also suggest an active link to your live website, if you have one?
+</details> -->
+
+<h2 id="gathering-questions">Gathering questions</h2>
+
+<p>As you finish taking in the advice of your peers (and going over my suggestions above), I’d like to know <strong>what questions you have that I might be able to help with</strong> – especially if it’s about something you’ve seen in assigned readings or revision suggestions, but you’re not sure how to implement.</p>
+
+<div class="alert alert-success">
+Head into <a href="http://bit.ly/cdm2023spring-notes">the google doc</a> and write down what you're thinking about. It can be anonymous!</div>
+
+<p>I’ll float and respond to in-person questions, as usual, but when I have some down time I’ll also come back to these questions in the gdoc and write up responses.</p>
+
+<h2 id="studio-time">Studio Time!</h2>
+<h3 id="check-for-new-feedback">Check for new feedback</h3>
+
+<p>I had set the deadline for asynchronous workshop fairly close to the start of class, so as of my writing this, a lot of notes were still missing. Please <strong>open up your website repo, head into the history, and see if you have any unread comments there.</strong></p>
+
+<p>Hopefully everyone has by now received at least 2 (ideally 3) comments from members of your workshop groups! <strong>If you have not, please let me know</strong>, so I can make sure you’ve got a diverse set of perspectives on your work in progress.</p>
+
+<h3 id="set-an-intention">Set an intention</h3>
+<p>As usual, before you start, <a href="http://bit.ly/cdm2023spring-notes">go to the next section of the google doc</a> and write a quick line about what you hope to accomplish with your remaining time. e.g. Will you…</p>
+<ul>
+    <li>Work on responsive layout?</li>
+    <li>Work on replacing placeholder content with real content?</li>
+    <li>Work on one of the suggestions above? (Which?)</li>
+    <li>Work on one of your stretch goals? (Which?)</li>
+    <li>etc etc</li>
+  </ul>
+<p>Just a sentence or two as a guidepost will give you something to come back to, to reorient, if you find yourself walking in circles or caught in a thicket.</p>
+
+<div class="alert alert-warning">
+Don't forget to save periodically as you go:
+ <ul>
+   <li>as an html / css / js file</li>
+   <li>as a git commit, saying what you've just achieved</li>
+   <li>as a screenshot</li>
+ </ul>
+</div>
+
+<h3 id="work-time">Work Time</h3>
+<p>Please ask questions as they come up. Otherwise, I’ll try to work through the questions from the doc.</p>
+
+<h3 id="exit-note">Exit Note</h3>
+<p>Before you leave, just as a way for me to check in, I’d like to hear more about what happened today: did you find images? Level up on a particular CSS skill? Decide something about your project? Raise a question in a new way that you’d like some help with?</p>
+
+<h1 id="homework-for-next-time">Homework for next time</h1>
+
+<ul>
+  <li><strong>Continue revising forward</strong> on your website. We’ll have one more studio day, then the final unit project will be due in one week, on Thursday 4/7. But <em>so will the reflection,</em> so budget your time accordingly.</li>
+  <li>Don’t forget to <strong>save, commit, and push as you go.</strong></li>
+  <li>In Tuesday’s class, I’ll also make sure everyone knows how to take the site live, so you can show it off to friends and family without requiring them to navigate GitHub. ;¬)</li>
+</ul>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2022spring/lesson-22.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

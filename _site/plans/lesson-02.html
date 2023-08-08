@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Interfaces and Repositories</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      
+<h1 id="interfaces-and-repositories">Interfaces and Repositories</h1>
+
+<!--  BEN: Set up (Zoom breakout) groups ahead of time! -->
+
+<p><strong>Texts to have read:</strong></p>
+
+<ul>
+  <li>The <a href="/uploads">syllabus</a> and <a href="https://canvas.pitt.edu/courses/187176/modules">related Canvas modules</a></li>
+</ul>
+
+<p><strong>Work to have achieved:</strong></p>
+
+<ul>
+  <li>Respond to the <a href="http://bit.ly/cdm2021survey">Tech Comfort Survey</a></li>
+  <li>Post to the main course <a href="https://github.com/benmiller314/cdm2023spring/issues/1">issue queue</a>, introducing yourself to classmates (and whoever stumbles upon it)</li>
+  <li>Download and install <a href="https://desktop.github.com">GitHub Desktop</a> and <a href="https://code.visualstudio.com">VSCode</a> (or your syntax-ready editor of choice)</li>
+</ul>
+
+<h2 id="plan-for-the-day">Plan for the Day</h2>
+
+<!-- <div class="alert alert-warning">
+We've had a request to record today's session. Is everyone okay with that?
+</div> -->
+
+<ol>
+  <li>GitHub, part 2 (~20-30 min)
+    <ul>
+      <li>Why version control?</li>
+      <li>Introduction to GitHub using basic text files</li>
+      <li>a demo of diffs<!-- repo, commit, history, diff --></li>
+      <li>Multiple views of the same files: web, Finder/Explorer, GH Desktop, text editor</li>
+    </ul>
+  </li>
+  <li>Your turn! Practice forking an assignment repository and editing its files (~20-30 min)</li>
+  <li>Shareback and discuss (~10-15 min)</li>
+  <li>HW Preview (2-3 min)</li>
+</ol>
+
+<p>Welcome back! I really enjoyed reading all the introductory posts and letters; thank you for those. If you haven’t had a chance to get to know your classmates’ opening posts, I encourage you to <a href="https://github.com/benmiller314/cdm2023spring/issues/1">check them out</a>!</p>
+
+<p>And if you haven’t posted one, please do! As noted in the contract, you get one free missed homework per unit, but you don’t want to spend them before you really need them.</p>
+
+<h2 id="1-github-part-2">1. GitHub, part 2</h2>
+<p>In those intro posts, we saw that GitHub can host a discussion forum, so in that sense it’s a community website: it makes media social.</p>
+
+<p>But its core functionality is meant to solve a different media problem: tracking changes to files over time.</p>
+
+<figure role="figure">
+  <a href="http://phdcomics.com/comics/archive.php?comicid=1531"><img src="../assets/img/cham-phd101212s.gif" style="max-height: 600px; max-height: 70vh; width: auto;" alt="webcomic shows a series of panels renaming final.doc to final_rev2, final_rev_6.comments, and so on to absurdity" title="I'm not the first to use this comic in a discussion of version control. See, for example, https://caltechlibrary.github.io/git-desktop/aio/." /></a>
+  <figcaption>from <a href="http://phdcomics.com/comics/archive.php?comicid=1531">PhD Comics</a> by Jorge Cham (2012).</figcaption>
+</figure>
+
+<p>Retaining and renaming ever more files isn’t just messy to keep track of: it also eats up your storage space, especially if you’re working with multimedia. What <em>git</em> allows you to do instead is to <strong>track the differences</strong> between versions of files <strong>while keeping the same filename.</strong></p>
+
+<div class="alert alert-success">
+Let's check out the GitHub.com web interface, and see how it works:
+<strong><a href="https://github.com/benmiller314/text-demo">https://github.com/benmiller314/text-demo</a></strong>
+</div>
+
+<h3 id="initial-questions-to-ask-of-any-app">Initial questions to ask of any app:</h3>
+
+<ul>
+  <li>How is the space laid out?</li>
+  <li>What’s given the most prominent visual focus? Secondary focus?</li>
+  <li>What features/tools do you have quick access to?</li>
+</ul>
+
+<!--
+1. Create a new .txt file based on https://www.poetryfoundation.org/poems/56159/this-is-just-to-say
+2. <del>Demo the importance of the extension by previewing what happens if it's .md?</del> NAH
+3. Commit the new file directly to master.
+    - Note that the commit message has two parts: a short label, and a bigger box. These are kind of like the subject line of an email and the email body. The first is what you'll see automatically when browsing the history; the second will require an additional click. And GitHub will let you leave the "body" blank, but you're required to have a "subject line."
+4. Use the CODE button to *Open in GitHub Desktop*. Ask the questions above again: how is the space laid out? What's given the most prominent visual focus? Secondary focus? What features/tools do you have quick access to?
+5. Open the file and change the text. *Ask for suggestions (in the Zoom chat, if on Zoom).*
+6. Create a new branch, then merge it. Why, you ask?
+   It matters when you're working with others: you want to make sure you're comparing against the most up-to-date version, so you don't accidentally erase something new.
+   This will become important in a minute.
+-->
+
+<h2 id="2-your-turn">2. Your turn</h2>
+
+<p>Time to take these abstractions and put them into practice.</p>
+
+<p>We’ll be working in groups. I’ve used your Tech Comfort Survey responses from Lesson 1 to build teams where at least one person has prior GitHub experience, so I hope you’ll be able to help each other where needed!</p>
+
+<!-- groups go here: -->
+<ul>
+  <li>Asher, Jackson, Lauren, Suchi</li>
+  <li>Diego, Janna, Jordan, Kellen</li>
+  <li>Mike, Ana, Betul, Mark</li>
+  <li>Josie, Alexandra A, Ariana, Michael</li>
+  <li>Ben A, Alex L, Elio, Skylar, Taylor</li>
+</ul>
+
+<div class="alert alert-success">
+Head to
+<p><strong><a href="https://github.com/benmiller314/cdm-gh-practice#readme">https://github.com/benmiller314/cdm-gh-practice</a></strong>, where you'll find more instructions for what to do next – starting with forking the repo. (Thanks, group GitHub anchors!)</p>
+
+<p>Please start by skimming through the instructions in the README file, so you know where this is headed. (It'll spare you confusion later, based on past semesters!)</p>
+
+<p>I'll give you the overview while we're still together:</p>
+
+<ol><li>Make a copy of the repository for your group</li>
+<li>Write a short story, one line per person, committing every time you add a line</li>
+<li>File a <em>pull request</em> to merge it back to my repo</li></ol>
+</div>
+
+<p>Read through the details, then follow the steps. <strong>We’ll work in groups for about 10-15 minutes, then report back.</strong> <!-- Don't forget that you can use Zoom chat and screenshare to show your groupmates what you're doing. --> NB: For this task, you can use either the GitHub web interface or use GitHub Desktop to “pull” files to edit on your own computer and then “push” them back.</p>
+
+<p>Call me if you need me! Otherwise, I’ll be floating from group to group. And note the EXT activity in the repository itself if you finish early.</p>
+
+<h2 id="3-report-back-and-discuss">3. Report back and discuss</h2>
+
+<p>What was exciting? What was challenging? Anyone get to the EXT?</p>
+
+<h2 id="hw-for-next-time">HW for next time:</h2>
+
+<ul>
+  <li>Please <strong>read / play</strong> through Tyler Su’s <a href="https://tylersu.github.io/o/">“Playing Lev Manovich”</a>, which defines and illustrates five principles of new media. Be ready to talk about what you noticed, and what you wondered.</li>
+  <li><strong>Listen</strong> to the following recordings:
+<!-- update each time with examples from this class where possible -->
+    <ul>
+      <li>Barner, Tyller. “Coffee Shop Conversations.” <em>Digital Media and Pedagogy Showcase Spring 2019.</em> <a href="http://dmap.pitt.edu/node/248">http://dmap.pitt.edu/node/248</a>.</li>
+      <li>Joo, Jackie. “Come Over for Dinner.” <em>Composing Digital Media Spring 2021.</em> (The showcase became… complicated.) <a href="https://github.com/jackie216/soundscape2021spring/blob/master/Come-Over-For-Dinner-final.mp3?raw=true">access via GitHub repo</a>; description in the <a href="https://github.com/jackie216/soundscape2021spring/blob/master/README.md">repo README</a>.</li>
+      <li>Kozierok, Evan. “The King of the Jungle.” <em>Composing Digital Media Spring 2022.</em> <a href="https://github.com/evankozierok/soundscape2022spring">access via GitHub repo</a>; description and transcript available from the <a href="https://github.com/evankozierok/soundscape2022spring#readme">repo README</a>.</li>
+      <li>Quaid, Fatema. “A Haunted Halt.” <em>Digital Media and Pedagogy Showcase Fall 2019.</em> <a href="http://dmap.pitt.edu/node/295">http://dmap.pitt.edu/node/295</a>.</li>
+    </ul>
+  </li>
+  <li><strong>Write</strong> a short blog post to the appropriate thread <a href="https://github.com/benmiller314/cdm2023spring/issues">on the issue queue</a>:
+    <ul>
+      <li>What do you notice, i.e. what stands out while reading or listening?</li>
+      <li>What does that suggest, or what does it make you wonder?</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ext-vs-code-interface">EXT: VS Code interface</h2>
+
+<p>Using those same questions from above:</p>
+
+<ul>
+  <li>How is the space laid out?</li>
+  <li>What’s given the most prominent visual focus? Secondary focus?</li>
+  <li>What features/tools do you have quick access to?</li>
+</ul>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/plans/lesson-02.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

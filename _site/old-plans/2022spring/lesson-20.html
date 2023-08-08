@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Web Unit Studio / Layout Q &amp; A</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      <h1 id="web-unit-studio--layout-q--a">Web Unit Studio / Layout Q &amp; A</h1>
+
+<p><strong>Work to have done</strong>:</p>
+
+<ul>
+  <li>Nearly all of the <a href="https://www.internetingishard.com/html-and-css/">Interneting is Hard</a> tutorial, most recently on Web Typography and Semantic HTML.</li>
+  <li>Push a second preview of your site-in-progress, now with a first pass at layout</li>
+</ul>
+
+<p><strong>Plan for the day</strong>:</p>
+
+<ol>
+  <li>Schedule update and inquiry</li>
+  <li>CSS layout example: grid areas
+    <ul>
+      <li>And some FAQs on Grid and Flex</li>
+    </ul>
+  </li>
+  <li>Studio: toward a full working draft
+    <ul>
+      <li>Set Goals</li>
+      <li>Go forth!</li>
+      <li>Exit note</li>
+    </ul>
+  </li>
+  <li>HW: Post a draft for Tuesday’s workshop</li>
+</ol>
+
+<h2 id="1-schedule-update-and-inquiry">1. Schedule update and inquiry</h2>
+
+<p>In light of various positive indicators around COVID rates, I am tentatively planning to travel for Passover, which would require me to teach class remotely on Thursday, April 14th: a studio day during the final consolidation/integration unit, and our third-to-last class overall.</p>
+
+<p>I want to check in: is going online that day going to cause any major problems that you can think of?</p>
+
+<p>Meanwhile, our next class – the web-unit workshop – was originally scheduled to be fully asynchronous, though I was planning to extend online office hours to include our usual class meeting time.</p>
+
+<p>I can hold to that async arrangement if you’ve planned around it, or I can be available to support an in-person workshop if you feel like that would compensate for the new remote day. Can I get a sense of the room?</p>
+
+<h2 id="2-css-layout-example-grid-areas">2. CSS layout example: Grid Areas</h2>
+
+<p>In the EXT readings on CSS Grid, from over the weekend, I’d mentioned <a href="https://gridbyexample.com/learn">Grid By Example</a>, but I suspect not many people made it that far. I’d like to play around with one of the CodePens from that site (by web developer Rachel Andrew), as a way of giving you some examples of what Grid offers in terms of layout.</p>
+
+<p>I’ll be in her <a href="https://codepen.io/rachelandrew/pen/oXKgoQ?editors=1100">Grid by Example 11: Defining Grid Areas</a>, which is a CodePen.</p>
+
+<!-- Points to hit:
+
+* We can easily stretch the header or the sidebar
+* grid-template-columns: repeat(3, 120px);
+* grid-template-columns: 120px 1fr;
+* We can make the Content area its own grid (though NB that it's helpful to exclude the title of the section, so we'd need a wrapper)
+* grid-template-columns: repeat(autofit, 120px)
+  grid-template-rows: minmax(120px, max-content)
+
+-->
+
+<h3 id="faq-on-layout">FAQ on layout</h3>
+
+<details><summary>When to use Grid, and when Flexbox?</summary>
+
+<p>Generally speaking, if you only have one dimension (one row, or one column), Flexbox is your friend. To put that another way: use <a href="https://ishadeed.com/article/grid-layout-flexbox-components/">Grid for layout, Flexbox for components</a>. (That link goes to a nice explanation, with examples, of when you'd want to use which.) Some things really are harder with Grid!</p>
+
+<p>And remember that HTML is often about nesting boxes inside boxes: there's no reason you can't have a flexbox inside a gridbox.</p>
+</details>
+
+<details><summary>Do we <em>have</em> to use Grid or Flexbox?</summary>
+
+<p>Not at all! You can lay out your page using real widths and heights, and if you express them as responsive units (<code>em</code> or <code>%</code>), you'll even get scaling effects as the viewport changes size. To get a horizontal centering effect, you can use <code>margin: 0 auto;</code> on any block element with a declared width, or <code>text-align: center;</code> on any inline element, and you should be good to go.</p>
+
+<p>That said, for dynamically adjusting space between elements, and especially for centering things vertically, these new layout tools are definitely your friends.</p>
+</details>
+
+<details><summary>Can I learn Flexbox in a more bloodthirsty way?</summary>
+
+<p>Try <a href="https://flexboxzombies.com/">Flexbox Zombies</a>, an interactive course that's currently free. In it, you imagine the flex layout as aiming a crossbow at undead monsters: you have to position the targets using CSS rules to survive. It's kind of slow-paced, but that's because it's filled with challenges for you to solve, with the idea being that typing out the rules many times will make them second-nature by the end.</p>
+</details>
+
+<h2 id="3-studio-toward-a-full-working-draft">3. Studio: toward a full working draft</h2>
+
+<p>Keep working on your projects and/or tutorials, knowing that you have a draft due by Tuesday morning. See if you can get up to <a href="https://bit.ly/cdm2023spring-notes#heading=h.5bpexk6at73l">baseline</a>! (In general, use the gdoc as your source for the most up-to-date baseline, since it also has clarifying commentary.)</p>
+
+<p>I’m hoping by now you’re starting to get a feel for how to use the browser’s inspector to see what’s being rendered, and how!</p>
+
+<p>And now you know that includes layout like grid and flex containers, too!</p>
+
+<h3 id="set-goals">Set Goals</h3>
+
+<p>What do you need to do to level up on HTML and CSS in the direction of your specific project? As usual, please write down some goals in the <a href="https://bit.ly/cdm2023spring-notes">shared google doc</a>, <strong>set a goal for today</strong>: what do you need to do to level up on HTML, CSS, and resource gathering to move toward your specific project?</p>
+
+<div class="alert alert-info">
+Also for my sake and yours, please <strong>be as specific as possible:</strong> e.g. rather than “working on my site,” you might say, “choosing images for photo gallery” or “building grid for layout with top menu and featured image” etc etc.
+</div>
+
+<p><em>Not sure where to start?</em></p>
+<ul>
+  <li>Check <a href="http://jgthms.com/web-design-in-4-minutes">Web Design in 4 minutes</a> and at least add spacing and some web-ready fonts.</li>
+  <li>I also have a <a href="https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9171fa85-be27-437d-99b9-acfa00f44a4f">7-minute screencast building on the end of that Flexbox tutorial</a> with some tips on cleaning up and proofreading your code. Hopefully informative? (Apparently I bumped against the microphone toward the beginning – terribly sorry for the occasional scraping noise!)</li>
+</ul>
+
+<p><em>Already feeling done?</em> Ask yourself:</p>
+<ul>
+  <li>Are you repeating the same CSS rule in multiple places? Instead, see if you can reuse CSS classes in multiple places, extending them where you need to.</li>
+  <li>Does that div need to be there? If it’s not for layout or semantic grouping, it might not be necessary. See that screencast above for an example.</li>
+  <li>Do you have style or presentation directly in the HTML? See if you can extract it out to the stylesheet.</li>
+  <li>Want more relative values for things like color? See <a href="https://css-tricks.com/a-complete-guide-to-custom-properties/">css-tricks.com/a-complete-guide-to-custom-properties/</a>.</li>
+</ul>
+
+<h3 id="go-forth-and-dont-forget-to-document-your-process">Go forth! And Don’t forget to document your process</h3>
+
+<div class="alert alert-success">
+Don't forget to save periodically as you go:
+ <ul>
+   <li>as a project file</li>
+   <li>as a screenshot, showing your process</li>
+   <li>as a git commit, saying what you've just achieved</li>
+ </ul>
+</div>
+
+<h3 id="exit-note">Exit note</h3>
+
+<p>Before you leave, just as a way for me to check in, I’d like to hear more about what happened today: Did you decide on your navigation? Block out the html? Make some progress on a stylesheet? Work through a tutorial or two (and which)?</p>
+
+<p><strong>Reply to your note in the <a href="http://bit.ly/cdm2023spring-notes">google doc</a>.</strong></p>
+
+<h2 id="homework-for-next-time">Homework for next time</h2>
+
+<ul>
+  <li>Work to push a <strong>full draft to GitHub by 10:00am Eastern Time on Tuesday</strong>: a solid attempt at a complete website, ideally meeting baseline criteria. Rough edges are still welcome.
+    <ul>
+      <li>Don’t forget to update your <em>source credits and permissions</em> / license to use them. You can include these right on the website, or link from the website to a file (credits.md, or even README.md) in your repo.</li>
+    </ul>
+  </li>
+  <li>If you’re pretty sure by Monday dinnertime that you won’t be ready to turn in a draft, please let me know asap so that I can responsibly rearrange peer-review groups.
+    <ul>
+      <li>That said, remember that pretty much any start, however rough, will count here. Even <a href="http://loremipsum.io">placeholder content</a> with navigation lets us see the parts you’re thinking about, and maybe we can help you move forward from there.</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="alert alert-warning">
+<p>To double-check that your partners will see the files as you intended, please <strong>download a .zip from your GitHub.com repository to a second location on your computer</strong>. Does your site open in a browser? Does it look right, or did you forget to push the latest changes?</p>
+</div>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2022spring/lesson-20.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

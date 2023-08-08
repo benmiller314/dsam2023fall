@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Sound, Space, and Audacity</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="bottom_header container-fluid">
+
+<div id="bg" class="container-fluid">
+<div id="fg" class="container-fluid foreground col-xs-10 col-xs-offset-1">
+<a class="sr-only sr-only-focusable" href="#navbarNav">Jump to site menu</a>
+
+  <article class="col-md-8 col-md-offset-2 foreground">
+    <section id="content">
+      <h1 id="sound-space-and-audacity">Sound, Space, and Audacity</h1>
+
+<p><strong>Texts to have listened to:</strong> <a href="http://dmap.pitt.edu/node/248">“Coffee Shop Conversations”</a>, <a href="http://dmap.pitt.edu/node/177">“Day In: Day Out”</a>, <a href="http://dmap.pitt.edu/node/249">“Hello”</a>, <a href="http://dmap.pitt.edu/node/178">“Expedition to Planets Unknown”</a>, <em><a href="https://benmiller314.github.io/cdm2023spring/assets/sound/bb-pilot-opening.mp3">Breaking Bad</a></em>, <em><a href="https://benmiller314.github.io/cdm2023spring/assets/sound/bg-pilot-opening.mp3">Battlestar Galactica</a></em>.</p>
+
+<p><strong>Work to have achieved:</strong></p>
+
+<ul>
+  <li>Post <a href="https://github.com/benmiller314/cdm2023spring/issues/2">on the issue queue</a> about what you noticed while listening</li>
+  <li>Download or update <a href="https://www.audacityteam.org/download/">Audacity</a></li>
+</ul>
+
+<h2 id="plan-for-the-day">Plan for the day</h2>
+
+<ol>
+  <li>Sound and space (10-15 min)</li>
+  <li>Audacity Demo (10 min)</li>
+  <li>Audacity Play Time (20-25 min) <!-- needs at least 30 --></li>
+  <li>Share and Enjoy (10 min)</li>
+  <li>HW Preview (5 min)</li>
+  <li>Offline sketching (10 min) <!-- we ended up having only 5. 10 would, yes, be better --></li>
+</ol>
+
+<h2 id="1-sound-and-space-10-15-min">1. Sound and Space (10-15 min)</h2>
+<!--_notes from forum posts will go here in the morning_
+
+<!-- Be sure to talk about layers within the clips: how might you group the sounds you heard? -->
+<div class="alert alert-white">
+some axes of consideration:<!-- NB: these are not meant to line up -->
+<ul>
+   <li> centering human voices vs. limiting human voices</li>
+   <li> horror/darkness vs. humor/lightness</li>
+   <li> familiar/common vs. unexpected/unique</li>
+   <li> repeating/looping vs. don't-look-back</li>
+   <li> solo perspective vs. interaction</li>
+</ul>
+</div>
+
+<ul>
+  <li><a href="https://github.com/benmiller314/cdm2019fall/issues/2#issuecomment-528185721">cjc162 noted</a> the importance of background sounds:
+    <blockquote>
+      <p>The register noise informs the listener that a transaction is taking place. The background chatter illustrates that the conversation is in a public place. The background music gives the sense that the setting is more relaxed and laid back. The various sound effects and background noises in the different pieces allows me to clearly paint a picture in my head and create an image to go along with the audio, rather than just processing the audio only.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>One thing I’d like us to think about throughout this unit is the different layers of sound: how we might imagine grouping individual sounds, under what labels, and how those groups might interact.</p>
+
+<h2 id="2-audacity-demo-10-min">2. Audacity Demo (10 min)</h2>
+
+<p>I’m going to quickly walk through the basic features of Audacity, and then you’re going to try your own hand at using them.</p>
+
+<div class="alert alert-info">
+A more substantial introduction is available at the <a href="http://manual.audacityteam.org/man/audacity_tour_guide.html">Audacity Tour Guide</a>, so please review that if you find yourself stuck! (Google is also your friend, of course.)
+</div>
+
+<h3 id="import-lay-of-the-land">Import. Lay of the land.</h3>
+<p>Visual rendering of sound.</p>
+
+<h3 id="select-tool-zoom-tool">Select tool; zoom tool.</h3>
+<p>Play a loop. Zoom. Selection adjust. Add label at selection.</p>
+
+<h3 id="time-shift-tool">Time shift tool.</h3>
+<p>Split vs. split new. Mute/solo tracks.</p>
+
+<h3 id="save-vs-export">Save vs. export.</h3>
+<div class="alert alert-warning">
+<p>An Audacity project (.aup) is just an index to a folder full of sounds. <strong>You need both the project file and the folder, which has the same name but adds <em>_data</em><span class="hidden">_</span> to the end of it: they must always stay together.</strong> Together, they form a modular, easily variable file (remember Sorapure?), which you very much want!</p>
+
+<p>But in that form they'll only open in Audacity. To make your work playable in other programs (and also a lot more transportable), please <strong>also export to mp3.</strong></p>
+</div>
+
+<h2 id="3-audacity-play-time-representative-and-reprehensible-reporting">3. Audacity Play Time: Representative and Reprehensible Reporting</h2>
+
+<p>Your turn! Your mission is to produce two short clips (≤15 seconds) from the same 4ish-minute audio file, which I’m about to give you.</p>
+
+<div class="alert alert-success">
+For clip 1, imagine something a reputable journalist might produce – a snippet meant to fairly represent a public figure's actual words and platform. In this clip, you should aim to condense without distorting, to make your 15-second highlight reel as true as possible to the spirit of the original.</div>
+
+<div class="alert alert-success">
+For clip 2, catching the listener's attention is all that matters. Here, anything is fair game in terms of editing: cutting out important words or sentences, rearranging things, stitching together unrelated pieces of speech. Your goal is to explore the transformative possibilities of digital audio editing – both for knowledge and defense – so see what kind of 15-second fake news you can produce from real materials.
+</div>
+
+<p>We’ll share these among each other, but not post to GitHub – we don’t want any of our fake clips to circulate widely!</p>
+
+<div class="alert alert-info">
+Today's audio clip is from <a href="https://benmiller314.github.io/cdm2023spring/uploads/pelosi-accepts-gavel-20190103.mp3">Nancy Pelosi's address to the House of Representatives on again being elected Speaker</a>, January 3, 2019. Download it, and get going!
+</div>
+
+<aside><smaller>
+<strong>Credits</strong>
+
+The audio was captured using Audacity and <a href="https://rogueamoeba.com/freebies/soundflower/">Soundflower</a> from <a href="http://houselive.gov/MediaPlayer.php?view_id=2&amp;clip_id=12243">houselive.gov</a>, the website of the Office of the Clerk of the U.S. House of Representatives. The exercise is closely adapted from one by <a href="https://twitter.com/klynncameron/status/1039612472704069632">Kelsey Cameron</a>, who has been most kind in answering questions about audio pedagogy.
+</smaller></aside>
+
+<h2 id="4-share-and-enjoy-10-min">4. Share and Enjoy (10 min)</h2>
+
+<p>Let’s hear a few! Anybody have a clip they’re excited to share?</p>
+
+<h2 id="5-hw-preview-5-min">5. HW Preview (5 min)</h2>
+
+<h2 id="6-offline-sketching-10-min">6. Offline sketching (10 min)</h2>
+<p>As time allows, I’d like to end today’s class with some writing – some listing and looping – as a way to get your ideas flowing.</p>
+
+<ul>
+  <li>
+    <p>In what places (physical, virtual, or imaginary) could you anchor your soundscape? Make a list. Anything you’re forgetting?</p>
+  </li>
+  <li>
+    <p>Choosing one item from your list you could work with for now, ask yourself: What kinds of stories happen there, and which of them could you reasonably tell within a few minutes?</p>
+  </li>
+  <li>
+    <p>How can you represent that environment sonically?</p>
+  </li>
+  <li>
+    <p>What sounds are relatively stable, or sustained, and what is incidental?</p>
+  </li>
+  <li>
+    <p>What structures or sequences could help a listening audience follow the story?</p>
+  </li>
+</ul>
+
+<h2 id="ext-soundwalk">EXT: Soundwalk</h2>
+<p>I’m sad to say, I realized in planning today’s lesson that I had to sacrifice the walkabout I had hoped to fit in. If anyone wants to try on your own or in small groups, here’s a route:</p>
+
+<details>
+<summary>Click to expand</summary>
+<ol>
+<li>From this room, walk around to the either stairwell by the elevators. They go up. Linger for a minute or so, then go down to floor two.</li>
+<li>Circle around the second floor to the central corridor, and near the bathroom take the winding stairs down in to the Common room. Linger again.</li>
+<li>Walk out toward the Heinz Chapel, across the grass, and into the chapel itself. Sit in the pews.</li>
+<li>Exit the chapel and walk along Bellefield to Forbes Avenue. Cross and make a left, walking down to the fountain in front of the Carnegie Museum of Art.</li>
+<li>Enter the museum, and look at the menu for the cafe for a while. Order something, if you want.</li>
+<li>Step back outside, walking down Forbes toward Hillman Library, but stop at the first bus stop you meet until a bus arrives and departs.</li>
+<li>Cross the street toward the Cathedral, and go past the Stephen Foster archive to the Cathedral. You'll enter on the basement, near the Cafe.</li>
+<li>Listen near the elevators for a while. Then go home (or to another preferred destination) and write about what you heard.</li>
+</ol>
+</details>
+
+<h1 id="hw-for-next-time">HW for next time:</h1>
+<div class="alert alert-success">
+The main writing assignment for Tuesday is to <strong>post a proposal for your soundscape narrative</strong>, including a preliminary chart of sound assets you might want to include.
+</div>
+
+<ul>
+  <li>The term “asset” comes from a reading assignment from the book <em>Writer/Designer</em> (Ball, Sheppard, and Arola, eds). A scan of the relevant chapter is <a title="not posted to preserve the limited distribution that helps justify my fair use claim (as does my colorless copy and the limited amount copied, relative to the book)" href="https://pitt.box.com/s/xovvpta4x2tq1cs9ywr61d2g1udka8m5 ">posted to Box</a>; <strong>please read it before writing your proposal.</strong>
+    <ul>
+      <li><em>Optionally</em>, you can also <strong>read</strong> the Stanford Overview of Fair Use, which you can find in a series of four webpages beginning at <a href="https://fairuse.stanford.edu/overview/fair-use/">fairuse.stanford.edu/overview/fair-use/</a>. This text, despite being called an overview, will give you a more in-depth understanding of fair use than the brief introduction in <em>Writer/Designer</em>.</li>
+    </ul>
+  </li>
+  <li>As predicted last class, I’m also asking you to <strong>read</strong> the following advice on sound recording, <strong>listening to the embedded clips</strong>:
+    <ul>
+      <li>Fowkes, Stuart. “The Top 5 Things You Need to Make a Great Field Recording.” <em>Cities &amp; Memory: Field Recordings, Sound Map, Sound Art</em>, 13 Aug. 2014, <a href="https://citiesandmemory.com/2014/08/top-5-things-need-make-great-field-recording/">https://citiesandmemory.com/2014/08/top-5-things-need-make-great-field-recording/</a>.</li>
+      <li>MacAdam, Alison. “6 NPR Stories That Breathe Life into Neighborhood Scenes.” <em>NPR Training</em>, 30 Oct. 2015, <a href="https://training.npr.org/audio/six-npr-stories-that-breathe-life-into-neighborhood-scenes/">https://training.npr.org/audio/six-npr-stories-that-breathe-life-into-neighborhood-scenes/</a>. (<strong>Note the time skips she recommends</strong>: sometimes a long clip is embedded, but not meant to be listened to in full.)</li>
+    </ul>
+  </li>
+  <li>To <strong>post your proposal</strong>, go to the <a href="https://github.com/benmiller314/cdm2023spring/issues/5">issue queue</a> and reply to the relevant thread.
+    <ul>
+      <li>Note that this is an edit from the assignment: I realized last night that it makes more sense for you to be able to see each other’s ideas, and bounce them off each other, than to start out isolated.</li>
+      <li>You can still choose to list your assets only in the repo.</li>
+      <li>But please do <strong>include a link to your repository in your post</strong>!</li>
+    </ul>
+  </li>
+</ul>
+
+    </section>
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+
+<section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Back to main content</a>
+
+<script type="text/javascript">
+  if(page.url.includes("plans")) {
+    var today = page.url.substr(-2, 2);
+        today = parseInt(today);
+    var prev = today-1;
+    var next = today+1;
+
+    if (prev < 0) {
+      var prevlink = null;
+
+    } else {
+      var prevlink = "lesson-" +
+                 (prev < 10 ? "0" + prev : prev);
+    }
+    if (next > 25) {
+      var nextlink = null;
+    } else {
+      var nextlink = "lesson-" +
+                 (next < 10 ? "0" + next : next);
+    }
+
+
+  }
+</script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <ul id="lesson-nav">
+    <li><a id="prevlink-a" href="#"  class="hidden">Previous Lesson</a></li>
+    <li><a id="nextlink-a" href="#"  class="hidden">Next Lesson</a>
+  </ul>
+</nav>
+</section>
+
+
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2019fall/lesson-04.md">view page source.</a>
+</p>
+
+</footer>
+
+<!--jQuery & Twitter Bootstrap JavaScript-->
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/jquery-3.2.1.min.js"></script>
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/bootstrap.js"></script>
+
+</body>
+</html>

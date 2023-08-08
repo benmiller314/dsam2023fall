@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Intro to Markup and Web Design</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      
+<h1 id="intro-to-markup-and-web-design">Intro to Markup and Web Design</h1>
+
+<p><strong>Work to have done</strong>: Write a website proposal and post it to the <a href="https://github.com/benmiller314/cdm2023spring/issues">issue queue</a></p>
+
+<p><strong>Plan for the day</strong>:</p>
+
+<ol>
+  <li>Introduction to markup and style</li>
+  <li>Brief tour of key Atom features</li>
+  <li>Start the tutorial (with chapter 2)</li>
+  <li>EXT: Tour of unit resources</li>
+  <li>HW for next time</li>
+</ol>
+
+<aside>
+<p>A quick note about your proposals: First, I'm excited to see how many great ideas you have! If you haven't yet posted and want to talk to me, please email or come to office hours. And don't forget about those parachute prompt options...</p>
+
+<p>Second: I want to warn you about the risks of scope creep. If you're still learning HTML and CSS, <em>you probably want to limit how much new material you need to actively compose and create.</em> Instead, <strong>plan around a minimum deliverable product</strong>, with stretch goals on top of that. For example, could you create a mockup with Lorem Ipsum (placeholder) text and images, and then work on replacing it if time allows? Could you try writing a review of just one restaurant / astrological sign / clothing item at first, but build space for where more will go?</p>
+
+</aside>
+
+<h2 id="1-introduction-to-markup-and-style">1. Introduction to markup and style</h2>
+
+<h3 id="begin-in-the-garden">Begin in the garden</h3>
+<p>Before we dive in deep, <strong>come with me to the <a href="http://www.csszengarden.com">CSS Zen Garden</a></strong>.</p>
+
+<p>Some things to notice:</p>
+
+<ul>
+  <li>Responsive design: the same page can change appearance to suit the “viewscreen” (especially as the width changes).</li>
+</ul>
+
+<!-- demo Verde Moderna (the default), -->
+
+<ul>
+  <li>The visual hierarchy holds here, too – including uses of containment and alignment to form groups, and negative space to establish rhythm.</li>
+</ul>
+
+<!-- Screen Filler, -->
+
+<ul>
+  <li>So, too, are we retaining the importance of color schemes for both coherence and contrast.</li>
+</ul>
+
+<!-- Mid-Century Modern -->
+
+<ul>
+  <li>Oh, and also? Every page you’ve just seen has <em>exactly</em> the same underlying content.</li>
+</ul>
+
+<!-- Even A Robot Named Jimmy. -->
+
+<h3 id="html-vs-css-separating-content-from-display">HTML vs CSS: separating content from display</h3>
+<p>How? The key is encoding the content separately from the presentation. And that’s where our “web stack” begins: with HTML and CSS.</p>
+
+<table class="table table-bordered thead-light">
+  <thead>
+    <tr>
+      <th>acronym</th>
+      <th>stands for</th>
+      <th>used for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML</td>
+      <td>HyperText Markup Language</td>
+      <td>content, groupings</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Cascading Style Sheets</td>
+      <td>display / presentation</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In other words, per <a href="https://www.internetingishard.com/html-and-css/introduction/#html-css-and-javascript">the tutorial I’m assigning you for homework</a>,</p>
+
+<blockquote class="blockquote">
+    <ul><li>HTML is for adding meaning to raw content by marking it up.</li><li>CSS is for formatting that marked up content.</li></ul>
+</blockquote>
+
+<p>There are other languages that interact with these two, especially JavaScript, but also PHP and Python and Ruby: they can dynamically generate or change the HTML and CSS. There are also “preprocessor” languages that make it easier to write HTML and CSS in the first place by eliminating some repetition. You’ve already seen one of these: Markdown, the syntax you use in GitHub READMEs and forum posts, is essentially a shortcut form of HTML.</p>
+
+<p>But even with all that complexity, it boils down to this: HTML and CSS are the core of what gets shown on the screen.</p>
+
+<h3 id="html-gives-the-document-structure">HTML gives the document <em>structure</em></h3>
+<p>Even if you’ve never used a formal markup language, you already use symbols to highlight one part of a text document and show that it’s different from the rest. Let’s take Markdown as an example:</p>
+
+<ul>
+  <li>If you want to make something bold, you…
+    <ul>
+      <li>put <code class="language-plaintext highlighter-rouge">**asterisks**</code> on either side of it.</li>
+    </ul>
+  </li>
+  <li>If you want italics, you…
+    <ul>
+      <li>put <code class="language-plaintext highlighter-rouge">_underscore_</code> on either side (single asterisks will work, too).</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="alert alert-info">
+The basic idea is that you need to signal where the <em>marked-up text</em> begins and ends.
+</div>
+
+<p>The same is true in HTML, but it looks a little different:</p>
+
+<table class="table table-bordered thead-light">
+  <thead>
+    <tr>
+      <th>what we’re marking</th>
+      <th>Markdown syntax</th>
+      <th>HTML syntax</th>
+      <th>What you get<sup title="By default. In practice, you can use CSS to change &lt;em&gt; to red text, or a different font, etc, instead of italics – and so on for any element.">*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strong text</td>
+      <td><code class="language-plaintext highlighter-rouge">**surrounding asterisks**</code></td>
+      <td><code class="language-plaintext highlighter-rouge">&lt;strong&gt;opening and closing tags&lt;/strong&gt;</code></td>
+      <td><strong>strong text</strong></td>
+    </tr>
+    <tr>
+      <td>emphasized text</td>
+      <td><code class="language-plaintext highlighter-rouge">_surrounding underscore_</code></td>
+      <td><code class="language-plaintext highlighter-rouge">&lt;em&gt;opening and closing tags&lt;/em&gt;</code></td>
+      <td><em>emphasized text</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="alert alert-info">
+<p>Unlike in Markdown, opening and closing tags in HTML aren't exactly the same. But they're <em>almost</em> the same: a <strong>closing tag</strong> in HTML just adds the slash after the first angle bracket.</p>
+
+<p>You can think of them as being like <a href="https://xkcd.com/859/">parentheses</a>: In general, <strong>every HTML tag you open, you should close.</strong> (You can nest a complete pair of tags inside another pair (like these parentheses), but you can't close the outer pair before closing the inner pair – at least, not without causing problems.)</p>
+</div>
+
+<aside class="alert alert-white">
+Pro tip: Atom can automatically close the most recently opened tag. See Packages &gt; Bracket Matcher &gt; Close Current Tag, where you should also find a keyboard shortcut like <code>Cmd+Option+.</code>. (The shortcut's way more convenient, I find.) I like to use this also as a form of proofreading: it reassures me that any tags still open are what I expect is still open.</aside>
+
+<p>One nice thing about having the tags themselves marked by angle brackets is that you can add information to them:</p>
+
+<table class="table table-bordered thead-light">
+  <thead>
+    <tr>
+      <th>what we’re marking</th>
+      <th>Markdown syntax</th>
+      <th>HTML syntax</th>
+      <th>what you get</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>a basic hyperlink</td>
+      <td><code class="language-plaintext highlighter-rouge">[anchor text](http://destination)</code></td>
+      <td><code class="language-plaintext highlighter-rouge">&lt;a href="http://destination"&gt;anchor text&lt;/a&gt;</code></td>
+      <td><a href="http://destination">anchor text</a></td>
+    </tr>
+    <tr>
+      <td>a hyperlink with extra info</td>
+      <td><em>no default way to do it!</em></td>
+      <td><span title="title text is what you see on hover"><code class="language-plaintext highlighter-rouge">&lt;a href="http://destination" title="Explanation of where link goes"&gt;anchor text&lt;/a&gt;</code></span></td>
+      <td><a href="http://destination" title="Explanation of where link goes">anchor text</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="html-in-practice">HTML in practice</h3>
+
+<p>Armed with that information, you now know enough to go back to the <a href="http://www.csszengarden.com/">CSS Zen Garden</a> and see how it’s structured.</p>
+
+<p>Right-click anywhere on the page, and choose <strong>View Source</strong> from the context menu that pops up.</p>
+
+<p>Let’s have a look!</p>
+
+<div class="alert alert-warning"><p>NB: Chrome and Firefox have the best tools for web development, as we'll see. If you're using Safari, you won't see View Source by default. But you can <a href="https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/Web_Inspector_Tutorial/EnableWebInspector/EnableWebInspector.html">activate it under Safari &gt; Preferences &gt; Advanced</a>, down on the bottom: "Show Develop menu in menu bar."</p>
+
+<details><summary>Show me</summary>
+<figure><img src="https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/Web_Inspector_Tutorial/Art/00developmenu_2x.png" alt="screenshot of Safari advanced preferences page" /></figure>
+</details>
+
+<p>While you're there, you may want to tell the Smart Search Field to <a href="https://apple.stackexchange.com/questions/371473/always-show-full-url-in-safari-address-bar">show the full site address</a>, too.</p>
+
+</div>
+
+<details><summary>A few things to note</summary>
+<ul>
+<li><code>div</code>s are like layer groups: they wrap around content that function as a unit.</li>
+<li><code>section</code>s and <code>header</code>s and <code>footer</code>s are basically special <code>div</code>s!</li>
+<li>h1, h2, h3, p establish <em>hierarchy</em></li>
+<li>classes and ids are <em>labels</em> we can use to identify reusable content-types (classes) or unique locations (ids) within the document.</li>
+</ul>
+</details>
+
+<h3 id="css-in-practice">CSS in practice</h3>
+
+<p>CSS functions by <em>selecting</em> labeled content – HTML elements or classes, and sometimes other contextual cues – and assigning <em>rules</em> for how to display what’s been selected.</p>
+
+<p>These rules generally live in a <em>style sheet</em> that’s linked inside the <code class="language-plaintext highlighter-rouge">head</code> element of the HTML document.</p>
+
+<p>Let’s look at some of those CSS Zen Garden style sheets: head back to the top, and click the link in line 7.</p>
+
+<h3 id="you-can-play">You can play</h3>
+
+<p>You can View Source on literally any website – though some are more complicated than others.</p>
+
+<p>You can also Inspect a live website, using the same context menu (again, Safari users have this disabled by default), and see all the CSS rules currently being applied to any HTML element you want.</p>
+
+<p>What’s more, you can <em>change or add</em> CSS rules on the fly. (It’ll stay as long as you don’t refresh the page… though you can also copy the new rules before you leave.)</p>
+
+<p>You’ll want to come back to this when you’re working on your own designs!</p>
+
+<!-- If that's too much, we could go back to the [codepen](https://codepen.io/benmiller314/pen/poJROZM), using the examples from the tutorial's Introduction and modifying from there. -->
+
+<h2 id="atom-orientation-then-start-the-homework-tutorial">Atom orientation, then start the homework tutorial</h2>
+
+<p>For now, though, I suspect for many of you it’ll be most useful to get your feet back on the ground.</p>
+
+<p>I’ll be asking you to work through the tutorials at <a href="https://www.internetingishard.com">Interneting is Hard (but it doesn’t have to be)</a>, starting over break with at least the first four chapters: that will take you from “what is HTML?” through “Hello, CSS!”</p>
+
+<div class="alert alert-success"><p>Before you leave today, I want to make sure you're able to get up and running with your text editor and a browser, and seeing how they interact.</p></div>
+
+<p>The first chapter of the tutorial (“Introduction”) mostly covers what we just talked about, and – unlike every other chapter – doesn’t include any hands-on code examples that you’re supposed to copy. So for today’s class, I’d like you to <strong>start with chapter two: “<a href="https://www.internetingishard.com/html-and-css/basic-web-pages/">Basic Web Pages</a>“</strong>.</p>
+
+<h3 id="key-atom-features-that-will-make-your-life-easier">Key Atom features that will make your life easier</h3>
+<!-- NOTES FROM 2022 SPRING:
+* Demo with the webs assignment repo, not your lesson plan. *Show* the tutorials folder and its subfolders.
+* Right-click the sidebar to create a new file/folder
+* Right-click the sidebar to Show in Finder, double-click to open in your web browser. (How did you not have this?!)
+* SKIP THE REST – newbies don't need to know about the shortcuts yet, oldbies (oldbies??) don't need to be told – and you've been talking for 45 minutes already. 
+
+ -->
+<ul>
+  <li>Split Left / Split Right (right-click any filename)
+    <ul>
+      <li>View your HTML and CSS files at the same time! Or any two files. Or three, or six if you want to split top/bottom, too. It’s the best.</li>
+    </ul>
+  </li>
+  <li>Close current tag (under Packages &gt; Bracket Matcher)
+    <ul>
+      <li>Super-useful, both for speed (if you remember the keyboard shortcut) and as a form of proofreading: if Atom doesn’t know what you’re trying to close, something needs fixing.</li>
+    </ul>
+  </li>
+  <li>Comment out current line (Edit &gt; Toggle Comment)</li>
+  <li>Markdown preview
+    <ul>
+      <li>Because Markdown includes HTML, you can also use this to preview pure HTML files! But it’s no substitute for a real browser, in the end.</li>
+    </ul>
+  </li>
+  <li>If there’s something you expect Atom to do, but it doesn’t, chances are someone’s already coded a Package to make Atom do it.
+    <ul>
+      <li>To search for, install, or otherwise manage packages, go to Packages &gt; Settings View and choose the option you need.</li>
+      <li>Read the README inside an installed package for tips on how to use it.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="okay-go-ahead-and-do-chapter-2">Okay, go ahead and do chapter 2!</h3>
+
+<p>NB: I’ve already created folders for parts 1-3 in the GH repo you just forked; clone it to your local computer, and you should be able to work in those folders and push.</p>
+<ul>
+  <li>Therefore, <em>you can skip the step of creating a new folder</em> in chapters 2 and 3: you already have one.</li>
+  <li>You will, however, need to add your own folders for part 4 and thereafter.</li>
+</ul>
+
+<p>I’ll float around and help.</p>
+
+<h2 id="ext-tour-of-unit-resources">EXT: Tour of unit resources</h2>
+
+<p>If possible, I do want to give you a quick overview of the assets and advice I’ve compiled so far on <a href="https://github.com/pages/benmiller314/cdm2023spring/resources">the course site’s resources page</a>.</p>
+
+<div class="alert alert-info">
+If you're already experienced at web design and/or you find yourself breezing through the Interneting is Hard tutorial, you can find other self-paced learning opportunities here.
+</div>
+
+<h2 id="homework-for-next-time">Homework for Next Time</h2>
+
+<ul>
+  <li><strong>Do</strong> as much of the <a href="https://internetingishard.com/html-and-css/">Interneting is Hard (but it doesn’t have to be)</a> tutorial as time and interest allow – but <em>at least parts 1-4</em> (from “Introduction” through “Hello, CSS”)
+    <ul>
+      <li>Heads up to fast workers: “float” layouts used to be a big deal, but aren’t as widely recommended any more: modern techniques like grid and flex are more flexible, and easier to get right. You can probably skip that chapter, at least for now; the <a href="../resources">Resources</a> page has links to some Grid tutorials.</li>
+    </ul>
+  </li>
+  <li><strong>Show your work</strong> by pushing your tutorial code to GitHub.</li>
+</ul>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2022spring/lesson-16.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

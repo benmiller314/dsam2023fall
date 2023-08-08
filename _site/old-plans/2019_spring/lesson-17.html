@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Web Unit Studio / Deployment</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      <h1 id="web-unit-studio--deployment">Web Unit Studio / Deployment</h1>
+
+<p><strong>Work to have done</strong>:</p>
+
+<ul>
+  <li><a href="http://web.archive.org/web/20190213013947/https://internetingishard.com/html-and-css/">HTML/CSS tutorial</a> parts 1-6 or beyond</li>
+  <li>Read up on <a href="https://css-tricks.com/how-css-selectors-work/">CSS selectors</a> and relative specificity/priority</li>
+  <li>Website proposal, posted to the <a href="https://github.com/pitt-cdm/miller2019spring/issues/12">issue queue</a></li>
+</ul>
+
+<p><strong>Plan for the Day</strong>:</p>
+
+<ol>
+  <li>Key steps (and a few options) in deploying via GitHub Pages (10 min)</li>
+  <li>In-browser testing: developer tools (10 min)</li>
+  <li>General notes re: proposals (5 min)</li>
+  <li>Studio (40-45 min)</li>
+  <li>HW Preview</li>
+</ol>
+
+<h2 id="1-key-steps-and-a-few-options-in-deploying-via-github-pages-10-min">1. Key steps (and a few options) in deploying via GitHub Pages (10 min)</h2>
+
+<ul>
+  <li>The most important file: index.html (or index.md)</li>
+  <li>Three possible locations (root, branch, docs)</li>
+  <li>Jekyll? Or hide?</li>
+</ul>
+
+<h2 id="2-in-browser-testing-developer-tools-10-min">2. In-browser testing: developer tools (10 min)</h2>
+
+<p>You can, in general, do worse than finding websites that you like and trying to figure out what they’re doing that works.</p>
+
+<p>But:</p>
+<ul>
+  <li>minimalist designs don’t always mean minimal markup</li>
+  <li><em>inspect</em>-ing a whole page can be daunting</li>
+</ul>
+
+<p>Luckily, we have ways of dealing with that. First, most of the time we don’t have to inspect a whole page – just the part of it we want to inspect more closely, whether to imitate or to adjust.</p>
+
+<p>Yes, adjust. The inspector is especially helpful for testing new CSS rules. I’ll just demo this briefly; you can play with it more as you work on your sites.</p>
+
+<h3 id="labeling-invisible-layout">Labeling invisible layout</h3>
+<p>For instance: if I wanted to see where all the divs on the site were, I could temporarily put a border on them all:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+    <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="m">#333</span> <span class="nb">solid</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>I could go further and see how they drill down. This will highlight all divs that are the direct child of another div:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="o">&gt;</span> <span class="nt">div</span>  <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="no">greenyellow</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>And so on. (And then, when you see something positioned without using a div, you can inspect just that thing, and level up on layout.)</p>
+
+<h3 id="finding-the-perfect-color">Finding the perfect color</h3>
+<p>Not sure what color name (or hex) to use? Good thing there’s a <strong>color picker</strong>! (Pro tip: to create high contrast, you can switch to HSL mode: that’s Hue / Saturation / Luminosity. <a href="http://www.eyequant.com/blog/hacking-web-design-with-neuroscience">Varying luminosity is the best way to get the contrast you want</a>, most of the time.)</p>
+
+<h3 id="become-a-power-surfer">Become a power-surfer</h3>
+<p>You can also use the inspector to hide something that’s in my way (I do this all the time on websites that don’t handle narrow widths well):</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">nav</span> <span class="p">{</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="or-just-test-your-designs---across-devices">Or just test your designs - across devices</h3>
+<p>But it’s also useful for testing out more permanent tweaks. Let’s say I want to better differentiate headers on this site.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">h3</span> <span class="p">{</span>
+    <span class="nl">font-style</span><span class="p">:</span> <span class="nb">italic</span><span class="p">;</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="m">#00590c</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Or if I want to have something happen on hover, which a lot of you mentioned in your proposals.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="m">#2ef96f</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="3-general-notes-re-proposals-5-min">3. General notes re: proposals (5 min)</h2>
+
+<ul>
+  <li>Hover will not work on a touch-screen-only interface, like a phone or tablet. <!-- Demo emulation mode --></li>
+</ul>
+
+<p>As a work-around, modify the rule to allow the same behavior on sustained click:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">a</span><span class="nd">:hover</span><span class="o">,</span> <span class="nt">a</span><span class="nd">:active</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="m">#2ef96f</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>If you’re planning to include a lot of research, prepare a fallback possibility.</li>
+</ul>
+
+<p>In designing this exercise, I’d been assuming that <strong>the bulk of the work should be in the design and markup/coding</strong>, and that you’d therefore be working primarily with pre-existing content. (This is why I called it a “website portfolio” in the original prompt.)</p>
+
+<p>That said, I do want you to pursue your excitement. But be prepared for the possibility that you don’t finish writing all your new content, if new content is what you’re after. In that case, <strong>it’s good to know you have <a href="https://loremipsum.io">lorem ipsum</a> available as a placeholder.</strong> (And don’t forget the <a href="https://loremipsum.io/#lorem-ipsum-all-the-things">variants</a>…)</p>
+
+<h2 id="okay-now-go-to">Okay, now go to!</h2>
+
+<div style="height:500px; height:50vh;">
+<!-- This div left intentionally blank, for spacing -->
+</div>
+
+<h2 id="homework-for-next-time">Homework for Next Time</h2>
+
+<ul>
+  <li><strong>Do</strong> more of the <a href="http://web.archive.org/web/20190213013947/https://internetingishard.com/html-and-css/">tutorial</a>, including at least Flexbox (8) and Responsive Design (10), if you haven’t yet.</li>
+  <li><strong>Compose and push</strong> a website preview: a beginning.
+    <ul>
+      <li>If you’re opting not to make this site public, make sure you can open it in a web browser from your Box… and that I have a link to the Box folder.</li>
+    </ul>
+  </li>
+  <li>Next class, we’ll do our criteria generation. Consider: What shared baseline do you want to hold yourself to? What beyond that do you aspire to do, even if you don’t quite succeed?</li>
+</ul>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2019_spring/lesson-17.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

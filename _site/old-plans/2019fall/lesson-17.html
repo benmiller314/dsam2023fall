@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Generative Studio</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="bottom_header container-fluid">
+
+<div id="bg" class="container-fluid">
+<div id="fg" class="container-fluid foreground col-xs-10 col-xs-offset-1">
+<a class="sr-only sr-only-focusable" href="#navbarNav">Jump to site menu</a>
+
+  <article class="col-md-8 col-md-offset-2 foreground">
+    <section id="content">
+      <h1 id="generative-studio">Generative Studio</h1>
+
+<p><strong>Work to have done</strong>:</p>
+<ul>
+  <li>As much of the <a href="http://web.archive.org/web/20190213013947/https://internetingishard.com/html-and-css/">Interneting is Hard (but it doesn’t have to be)</a> tutorial as you can – at least parts 1-4 (from “Introduction” through “Hello, CSS”)</li>
+</ul>
+
+<p><strong>Plan for the day</strong>:</p>
+
+<ol>
+  <li>Key Concepts and Practical Takeaways (10-15 min)</li>
+  <li>Homework preview and parachute prompts (5 min)</li>
+  <li>Loop writing (10 min)</li>
+  <li>Offline sketching (10 min)</li>
+  <li>Studio (30 min)</li>
+</ol>
+
+<h2 id="1-key-concepts-and-practical-takeaways-10-15-min">1. Key Concepts and Practical Takeaways (10-15 min)</h2>
+
+<p>At your tables, work through the following questions, and be ready to discuss with the whole class if time allows. Some you should be able to go through rather quickly, while others may require more discussion.</p>
+
+<p>Ask if you can’t come to a resolution!</p>
+
+<p>EXT: If your group finishes early, (a) let me know you’re done, and (b) check out these <a href="http://designbeep.com/2012/05/17/33-great-examples-of-web-design-sketches/">example web-design sketches</a>. What design patterns do you notice? What drawing conventions?</p>
+
+<p>EXT: Want to see some sites from past years? Here are a few (more to follow):</p>
+<ul>
+  <li><a href="https://pitt-cdm.github.io/website--eaj34/index.html">https://pitt-cdm.github.io/website–eaj34/index.html</a></li>
+  <li><a href="https://pitt-cdm.github.io/website--eaj34/index.html">https://pitt-cdm.github.io/website–jfrank1120/index.html</a></li>
+  <li><a href="https://pitt-cdm.github.io/website--mpalko/">https://pitt-cdm.github.io/website–mpalko/</a></li>
+</ul>
+
+<h3 id="organizing-files">Organizing files</h3>
+
+<ul>
+  <li>True or False: filenames are not case sensitive, so it doesn’t matter if something is uppercase or lowercase.</li>
+  <li>T / F: web browsers know how to handle spaces in filenames, so it doesn’t matter if you have spaces in a filename or not.</li>
+  <li>T / F: all files referred to in an html document have to be in the same folder as that html document.</li>
+  <li>What are some html elements can you use to refer to an external file? (Hint: you should know at least three already.) Where would you put the filename within each of those elements? <!-- <a href="">, <img src="">, <link href=""> --></li>
+  <li>What’s one advantage of using a relative link? <!-- easier to change folder names / servers --> What’s one risk? <!-- link could break --></li>
+</ul>
+
+<h3 id="html-basics">HTML basics</h3>
+<ul>
+  <li>What kind of information goes in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>?</li>
+  <li>How do you mark up comments in HTML?</li>
+  <li>T / F: every HTML element has an opening tag, some element content, and a closing tag.</li>
+  <li>T / F: in rendering an HTML file, there’s no difference between a space, a blank line, or five blank lines.</li>
+  <li>EXT: What information should pretty much every page’s <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> include? <!-- <title>, <meta charset='UTF-8'/>, <link rel="stylesheet"> --></li>
+</ul>
+
+<h3 id="image-basics">Image basics</h3>
+<ul>
+  <li>T / F: every <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tag should specify a source file.</li>
+  <li>T / F: every <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tag should specify a width and a height.</li>
+  <li>EXT: what happens if you only set one?</li>
+  <li>T / F: every <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tag should specify alternative text with <code class="language-plaintext highlighter-rouge">alt</code>.</li>
+  <li>What makes .jpg files better for photographs than .png files? What makes .png files better for simple diagrams?</li>
+</ul>
+
+<h3 id="css-basics">CSS basics</h3>
+<ul>
+  <li>Name three different places you could store CSS rules. <!-- external stylesheet, page-specific <style> in the <head>, inline style in the attributes of an html element --></li>
+  <li>What do the curly brackets in CSS rules do?</li>
+  <li>What do the semicolons in CSS rules do?</li>
+  <li>How do you mark up comments in CSS?</li>
+  <li>How can you apply a single CSS rule to multiple HTML elements?</li>
+  <li>What happens if you have multiple CSS rules for the same selected HTML element?</li>
+  <li>Why is using inline styles generally a bad idea?</li>
+  <li>EXT: What’s one advantage of using <code class="language-plaintext highlighter-rouge">em</code> as a unit rather than <code class="language-plaintext highlighter-rouge">px</code>?</li>
+</ul>
+
+<h2 id="1b-lets-discuss">1b. Let’s discuss!</h2>
+
+<h2 id="2-homework-preview-and-parachute-prompts-5-min">2. Homework preview and parachute prompts (5 min)</h2>
+
+<p>The assignment for Tuesday includes another two chapters in the tutorial, and a proposal for your website project. In a moment, I’ll lead you through a generative writing exercise designed to help you come up with an idea to propose.</p>
+
+<p>But if you’re looking for more direction, I’ve added these two more guided suggestions to the assignment repo:</p>
+
+<ol>
+  <li>
+    <p><em>Showcase your classwork</em>. Make a landing page that links to a page containing your soundscape narrative, and another page containing your rhetorical collage. Find a way to make the media files directly accessible to site visitors (i.e. they shouldn’t need to download them). As an extension, you might want to showcase work you’ve produced for other courses, in which case I encourage you to look for (and write about) a learning trajectory or insights that cross your courses.</p>
+  </li>
+  <li>
+    <p><em>Site redesign</em>. Choose an existing website that you think is kinda boring, or busy, or otherwise in need of a fresh start.<sup>a</sup> After thinking about why someone would be coming to the site, and what they might want to do once there, build a mock-up of a new design that better meets those needs and goals. NB: I say “mock-up” advisedly: many live sites on the open web can be fiendishly complicated. While it’s a good idea to “View Page Source” to look at the underlying html, you may well want to create your own simplified version from scratch, with just the major block elements you’ll use for layout and navigation, and write your stylesheet just for that.</p>
+    <ul>
+      <li><sup>a</sup> Two sites I’m involved with that I know I’d like to redesign, but just haven’t had time, are for the <a href="https://jitp.commons.gc.cuny.edu">Journal of Interactive Technology and Pedagogy</a> and for our very own <a href="https://benmiller314.github.io/cdm2019fall">Composing Digital Media</a>. And there’s always the <a href="http://www.csszengarden.com/">CSS Zen Garden…</a></li>
+    </ul>
+  </li>
+</ol>
+
+<div class="alert alert-info">
+If you're feeling stuck during the loop writing, you can turn to one of these options.
+</div>
+
+<h2 id="3-loop-writing-10-min">3. Loop writing (10 min)</h2>
+
+<p>Take a few minutes to think in writing about the websites you might want to make. I’ll read a series of questions aloud. Repeat them silently to yourself, and when you feel yourself answering, make a list.</p>
+
+<p>These lists will remain private, unless you choose to share. I won’t ask for them.</p>
+
+<ol>
+  <li>What have you been working on, in or out of this class, that you’d like to show the world? What have you made, or done, or pursued?
+    <ul>
+      <li>Or: if you’d rather the site not focus on <em>you</em>, what groups, things, or events might you represent?</li>
+    </ul>
+  </li>
+  <li>Is there anything else you might add to the list? A wider context for one of the projects already there, or a related next step?</li>
+  <li>Is there anything you’re forgetting? Something you were recently talking about, or planning for? Add it to the list.
+    <ul>
+      <li>If you haven’t yet included your work for this class, be sure to add it now.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Take a moment now to read back over your lists. <strong>How might you <em>group</em> or <em>divide</em> these items? What clusters do they form?</strong> Mark these in some way.</p>
+
+<p>Is there one cluster that stands out, that says, <em>me, pick me</em>? Choose one group to work with, at least for today, and name it in some way. Then copy the name into a clean page.</p>
+
+<p>With that chosen subject, write again:</p>
+
+<ol>
+  <li>What terms or images come to mind when you think of this subject? … Think about actions… things… descriptors.</li>
+  <li>I’m going to interrupt you now and ask you to set aside the list, just for now, and ask: <strong>What’s the heart of this?</strong> What’s the essential component for this cluster of things? What ties them together? <br /><br />See if you can summon up the whole of this idea, like it’s right here in the room with you. Where does it live? Is it above you? Inside you? In the palm of your hand? Just sit with your idea for a moment, feeling where you connect to it.</li>
+</ol>
+
+<h2 id="4-offline-sketching-10-min">4. Offline sketching (10 min)</h2>
+<p>And now, draw. Given what’s essential, given your knowledge of how websites work, and given the principles of designing for attention we learned last unit, <strong>make a few quick sketches of your possible website’s landing page.</strong></p>
+
+<p>Consider: How will it look on a phone? On a laptop? What might you add to the layout for a full-sized desktop monitor?</p>
+
+<p>Not sure what that should look like? Here are <a href="http://designbeep.com/2012/05/17/33-great-examples-of-web-design-sketches/">33 examples</a> (but no one is asking you to be as elaborate as the most elaborate of these)</p>
+
+<ul>
+  <li>EXT: Will “inner” pages look the same as the landing page? Sketch out the possible differences. Consider the possibility that someone jumps directly to an inner page (e.g. from Google). What would they need to feel oriented?</li>
+  <li>EXT: Finished one drawing? Make another, using a different system of visually organizing your information.</li>
+</ul>
+
+<h2 id="5-studio--practice-30-min">5. Studio / Practice (30 min)</h2>
+
+<p>Options!</p>
+
+<ul>
+  <li>Start gathering materials toward your website, to check feasibility.</li>
+  <li>If you haven’t yet done so, why not start the tutorial sections from the homework?
+    <ul>
+      <li>I won’t assign <em>all</em> the sections of the tutorial; you can look ahead in the <a href="https://benmiller314.github.io/cdm2023spring/schedule">schedule</a> to see which parts I expect you to read and do, and what’s beyond baseline.</li>
+    </ul>
+  </li>
+  <li>Above all, <strong>call me over for help as needed</strong>.</li>
+</ul>
+
+<p>NB: I’m not sure if the lab computers will have Atom (I think so), but they should at least have SublimeText, which is very similar.</p>
+
+<p>EXT: If you’re good on what a CSS class is, and how to add it to an HTML element, read up on <a href="https://getbootstrap.com/">Bootstrap</a>, a very widely used CSS framework. What that essentially means is that they’ve pre-created a bunch of CSS classes for you, so you can start using them to design your own layout from scratch. It’s a little like Lego for web design, only free.</p>
+
+<h2 id="homework-for-next-time">Homework for Next Time</h2>
+
+<ul>
+  <li><strong>Do</strong> more of the <a href="http://web.archive.org/web/20190213013947/https://internetingishard.com/html-and-css/">tutorial</a>, getting through at least The Box Model (5) and CSS Selectors (6), if you haven’t yet.</li>
+  <li><strong>Read</strong> more about <a href="https://css-tricks.com/how-css-selectors-work/">how CSS selectors work</a></li>
+  <li><strong>Write</strong> a website proposal, posted to the <a href="https://github.com/benmiller314/cdm2023spring/issues/">Issue Queue</a>, including:
+    <ul>
+      <li>some text about the idea or appeal you’re hoping to make;</li>
+      <li>some sense of what pages and page sections you expect to include;</li>
+      <li>a prospective assets chart (what you’ll need, where you might get it);</li>
+      <li>at least one design sketch, showing possible layouts; and</li>
+      <li>a link to your repository.</li>
+    </ul>
+  </li>
+  <li>When you’ve finished that, <strong>View/Read</strong> documentation on using GitHub Pages at <a href="https://pages.github.com/">pages.github.com</a>.</li>
+</ul>
+
+    </section>
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+
+<section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Back to main content</a>
+
+<script type="text/javascript">
+  if(page.url.includes("plans")) {
+    var today = page.url.substr(-2, 2);
+        today = parseInt(today);
+    var prev = today-1;
+    var next = today+1;
+
+    if (prev < 0) {
+      var prevlink = null;
+
+    } else {
+      var prevlink = "lesson-" +
+                 (prev < 10 ? "0" + prev : prev);
+    }
+    if (next > 25) {
+      var nextlink = null;
+    } else {
+      var nextlink = "lesson-" +
+                 (next < 10 ? "0" + next : next);
+    }
+
+
+  }
+</script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <ul id="lesson-nav">
+    <li><a id="prevlink-a" href="#"  class="hidden">Previous Lesson</a></li>
+    <li><a id="nextlink-a" href="#"  class="hidden">Next Lesson</a>
+  </ul>
+</nav>
+</section>
+
+
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2019fall/lesson-17.md">view page source.</a>
+</p>
+
+</footer>
+
+<!--jQuery & Twitter Bootstrap JavaScript-->
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/jquery-3.2.1.min.js"></script>
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/bootstrap.js"></script>
+
+</body>
+</html>

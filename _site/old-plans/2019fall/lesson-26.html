@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Introduction to Finality</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="bottom_header container-fluid">
+
+<div id="bg" class="container-fluid">
+<div id="fg" class="container-fluid foreground col-xs-10 col-xs-offset-1">
+<a class="sr-only sr-only-focusable" href="#navbarNav">Jump to site menu</a>
+
+  <article class="col-md-8 col-md-offset-2 foreground">
+    <section id="content">
+      <h1 id="introduction-to-finality">Introduction to Finality</h1>
+
+<p><strong>Work to have done</strong>: Submit final-for-now group project, with source files</p>
+
+<p><strong>Plan for the Day</strong>:</p>
+<ol>
+  <li>Reorient; reflect. (5-10 min)<!-- metaphors for learning --></li>
+  <li>Transferring ownership of large file storage</li>
+  <li>Review: course goals and final portfolios (10-15 min)</li>
+  <li>Studio: make plans for final portfolio, introduction</li>
+  <li>EXT: Start homework</li>
+</ol>
+
+<h2 id="1-reorient-reflect-5-10-min">1. Reorient; reflect. (5-10 min)</h2>
+
+<p>Congratulations on reaching the final week of classes! Over the last fourteen weeks, you’ve composed with sound, with image, with code, and with each other.</p>
+
+<p>As I’ve said before, one of my biggest goals is to help you feel more empowered to learn digital skills <em>across contexts</em>, not just for particular applications or tools. And, as I’ve also said before, one way to think about that is through <strong>metaphor</strong> (or, more specifically, simile).</p>
+
+<div class="alert alert-success">
+   <ol>
+      <li>What was it <em>like</em> to compose as a team? To what other activities might you compare it? <!-- If it's like team sports, for example, was it more like volleyball or gymnastics – or relay racing? Was it like a dance? A bus ride? A group run? Were you and your teammates a construction crew? A family? The United Nations? --> Let your mind wander for a minute, and see what comes to mind when you start off thinking about the <em>process</em> of working collaboratively on your proposal, managing the project through interim plans and check-ins, and building or revising the product itself.</li>
+      <li>Would you use the same metaphor for the other kinds of digital composing you've used this semester? If not, what other metaphor would you propose?</li>
+      <li><em>Within the metaphors</em> you've come up with, what strategies would help you continue improving? What strategies might that suggest in real life, i.e. outside of the metaphor?</li>
+   </ol>
+</div>
+
+<p>Take 5ish minutes to think on the page. I won’t collect this, but I will suggest that you return to these when writing your end-of-semester reflection – over the next week! – and I will ask for some volunteers to share in a few minutes.</p>
+
+<p>EXT: What personal skillsets do you feel like you now possess, that you might offer to a team of digital media composers? Has this changed over the course of the project? The semester?</p>
+
+<p>Let’s hear at least 2-3 of these before we move on; they might spark some ideas for others!</p>
+
+<h2 id="2-transferring-ownership-of-large-file-storage">2. Transferring ownership of large file storage</h2>
+
+<p>The main thing to work on today is preparing for the final portfolio, but there is one more thing I’d like to accomplish by the end of the semester – and today’s as good as any to start.</p>
+
+<p>Apparently when you fork a project on GitHub that uses Git-LFS for large file storage, the data stored by every downstream fork counts against the storage quota of the owner of the original repository. <em>In other words, I’m currently storing <strong>all</strong> the large files for your soundscapes and visual arguments.</em> I’m fine doing that for one semester, but I can’t maintain it in perpetuity, because it starts to add up to real money.</p>
+
+<p>So I’m asking you to <strong>“detach” your repositories from the fork tree</strong> before the end of the semester. Here’s how:</p>
+
+<div class="alert alert-success">
+<ol>
+   <li>Open each project repo you forked from an assignment and copy its URL.</li>
+   <li>In the GitHub taskbar, at the top right, click the <strong>+</strong> menu and choose the "Import repository" option. <br />
+
+   <img src="../assets/img/screenshot--import-repository.png" alt="plus menu, between alert and profile menus, with import repository as the second option" />
+   </li>
+   <li>Paste in the URL from step 1, give the project a name, and begin import. It'll take at least a few minutes.</li>
+   <li>When you're notified that the import is successful, <!-- FOR NEXT TIME: CLONE AND LFS PULL!! You have to make sure the files come along for the ride! And if not... if not, have instructions for pushing a local branch to remote ready to go. In fact, you may want to just go that route to begin with. Instructions using [command line](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line) or [GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/adding-an-existing-project-to-github-using-github-desktop) --> open it up to confirm that you still have your full project history.</li>
+   <li>Finally, delete the forked repository you started with in step 1, confident that you're not losing any of your work. To delete, go to the Settings tab, and head all the way to the "Danger Zone" at the very bottom.</li>
+</ol>
+</div>
+
+<h2 id="3-review-course-goals-and-final-portfolios-10-15-min">3. Review: course goals and final portfolios (10-15 min)</h2>
+
+<p>The <a href="https://github.com/benmiller314/cdm2019fall/blob/gh-pages/uploads/handout--final-portfolio-prompt.docx?raw=true">final reflection prompt</a>, which we discussed last time, asks you to do two related things:</p>
+
+<ol>
+  <li>
+    <p><strong>articulate your learning in the class</strong>, focused more on transferable skills than individual tools; and</p>
+  </li>
+  <li>
+    <p><strong>introduce</strong> the specific projects in your portfolio, in the process illustrating or providing evidence for the first part’s claims.</p>
+  </li>
+</ol>
+
+<p>In the interest of helping you connect that challenge to my own goals for the course, I’m re-copying here the major goals for each unit:</p>
+
+<table class="table table-striped">
+<tbody>
+<tr><td>1. to learn how to capture sound and edit it using digital tools, and</td></tr>
+<tr><td>2. to explore the affordances of sound as a medium, with particular attention to its ability to communicate immersive environment and narrative pacing and change;</td></tr>
+<tr><td>3. to learn how to ethically obtain images and edit them using digital tools, and</td></tr>
+<tr><td>4. to explore the affordances of still images as a medium, and especially their ability to direct attention and help make ideas memorable;</td></tr>
+<tr><td>5. to learn how to manage a composite project made up of multiple interlinking files, and</td></tr>
+<tr><td>6. to explore the affordances of the web design stack as a medium, and especially its ability to flexibly render content for multiple audiences or reading priorities;</td></tr>
+<tr><td>7. to practice managing a complex project involving multiple team members, and</td></tr>
+<tr><td>8. to assess your own skills as a digital media composer, to find ways you in particular can best contribute to a joint project</td></tr>
+</tbody>
+</table>
+
+<div class="alert alert-info">
+The main goal of the final portfolio is to help you integrate and consolidate the skills you've practiced across the semester.
+</div>
+
+<p>I’m hoping that putting those goals in juxtaposition will help you find some throughlines and some axes of difference you can draw on as you reflect on the course as a whole.</p>
+
+<h2 id="4-studio-make-plans-for-final-portfolio-introduction">4. Studio: make plans for final portfolio, introduction</h2>
+
+<p>Go to! If you have revisions of earlier projects to work on, now’s a good time.</p>
+
+<p>Or if you want to start the reflection, get started!</p>
+
+<p>And if you’re not sure what else to work on, you can get started on the homework below.</p>
+
+<h1 id="hw-for-next-time">HW for next time</h1>
+
+<ul>
+  <li><strong>Read</strong> Paul Ford’s brief <a href="https://www.nytimes.com/2019/06/11/magazine/letter-of-recommendation-bug-fixes-git.html">“Letter of Recommendation: Bug Fixes”</a> from <em>The New York Times Magazine</em> (June 11, 2019).</li>
+  <li>Ford writes, “I read the change logs, and I think: <em>Humans can do things.</em>” <strong>Read back</strong> through your own change logs, i.e. the commit histories of your projects; skim through the lesson plans. What things have you done this semester?</li>
+  <li><strong>Choose</strong> something from the course that you want to remember beyond this semester: a thing you or someone else made, or said, that struck a chord with you. Write this down somewhere; we’ll briefly share these next time.</li>
+</ul>
+
+    </section>
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+
+<section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Back to main content</a>
+
+<script type="text/javascript">
+  if(page.url.includes("plans")) {
+    var today = page.url.substr(-2, 2);
+        today = parseInt(today);
+    var prev = today-1;
+    var next = today+1;
+
+    if (prev < 0) {
+      var prevlink = null;
+
+    } else {
+      var prevlink = "lesson-" +
+                 (prev < 10 ? "0" + prev : prev);
+    }
+    if (next > 25) {
+      var nextlink = null;
+    } else {
+      var nextlink = "lesson-" +
+                 (next < 10 ? "0" + next : next);
+    }
+
+
+  }
+</script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <ul id="lesson-nav">
+    <li><a id="prevlink-a" href="#"  class="hidden">Previous Lesson</a></li>
+    <li><a id="nextlink-a" href="#"  class="hidden">Next Lesson</a>
+  </ul>
+</nav>
+</section>
+
+
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2019fall/lesson-26.md">view page source.</a>
+</p>
+
+</footer>
+
+<!--jQuery & Twitter Bootstrap JavaScript-->
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/jquery-3.2.1.min.js"></script>
+<script type="javascript" src="https://benmiller314.github.io/cdm2023spring/assets/js/bootstrap.js"></script>
+
+</body>
+</html>

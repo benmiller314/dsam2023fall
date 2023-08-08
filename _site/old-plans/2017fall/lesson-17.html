@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Web Design Studio and/or Small-Group Workshop</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      <h2 id="web-design-studio-andor-small-group-workshop">Web Design Studio and/or Small-Group Workshop</h2>
+
+<p><strong>Texts to have read / found / watched</strong></p>
+
+<ul>
+  <li>any tutorials or materials needed to achieve your web design goals</li>
+</ul>
+
+<p><strong>Work to have done</strong></p>
+
+<ul>
+  <li>A second draft or further revisions of your pitch website, presumably now with CSS if it wasn’t there before</li>
+</ul>
+
+<!--
+[toc tag="h2" title="Plan for the Day"]
+-->
+
+<h3 id="webslinging-advice-for-the-whole-class-10-15-min">Webslinging advice for the whole class (10-15 min)</h3>
+
+<p>With the official end of the web unit only one class away, I wanted to make sure I gave you some feedback before it’s over – but time prevents me from doing so individually. Here’s some collective advice.</p>
+
+<ul>
+  <li><strong>Do use headers</strong>. I’m happy to say that these look great, from what I can see! Thanks for thinking about hierarchies of information and how your visuals (size, alignment, spacing) can help readers find the emphasis you want them to find.</li>
+  <li><strong>Do share a link, if you haven’t yet</strong>. There are 17 students in the class, but I’m only seeing 13 links on WordPress.</li>
+  <li><strong>Push your local changes</strong>. In looking over the sites, I’m seeing a lot of html, but not a lot of CSS. If you’ve been working locally, but haven’t yet added your latest draft to GitHub, please do!</li>
+  <li><strong>Do add CSS</strong>. As a minimalist approach, you can do worse than the rules in <a href="http://jgthms.com/web-design-in-4-minutes">Web Design in 4 Minutes</a>, which we looked at on the <a href="lesson-13">first day of this unit</a>. I’ve added this link on the Resources page now, too.</li>
+  <li>NB: If you are copying his rules, take them from the front end, i.e. what you see on the website without using the Inspector. His actual CSS file is way more complicated than the rules on-screen, because he’s using CSS to create his magically appearing style effects.</li>
+  <li><strong>Design classes to be reusable</strong>. One of the aims of elegant code is to avoid repeating yourself. If you find yourself repeating the same CSS rules for multiple uniquely identified boxes, chances are you can make a single class for the common attributes and apply it to <em>all</em> those boxes.</li>
+  <li><strong>Mix and match classes</strong>. This works in tandem with the one above. If you haven’t realized it yet, html elements can take any number of classes; you just have to separate them with spaces, like this: <code class="language-plaintext highlighter-rouge">&lt;div class="myclass1 myclass2 myclass3"&gt;...&lt;/div&gt;</code>. This also lets you define CSS rules that only apply when a particular <em>combination</em> of classes appears.</li>
+  <li>For more on how to match CSS rules to html elements (plus some details on how multiple matching selectors interact), I highly recommend <a href="https://css-tricks.com/how-css-selectors-work/" title="How CSS Selectors Work">this article on CSS-Tricks</a>. I’ve also added a link to this on the Resources page.</li>
+</ul>
+
+<h3 id="studio-time-work-individually-or-in-groups-50-min">Studio Time: work individually or in groups (50 min)</h3>
+
+<div class="alert alert-success">
+Spend the rest of the time working on your projects.
+
+<strong>Start in groups, dividing the remaining time among you, and each decide on a strategy to use during your allotted time</strong>:
+<ul>
+<li>Do you want help assessing what you have so far? Share your site and its codebase, and ask your groupmates to take notes that <strong>describe, evaluate, and suggest</strong>, with reference to the <a href="http://bit.ly/cdm2017fall##heading=h.vz5jq9usb1l0">unit criteria</a>.</li>
+<li>Or would you prefer to donate your chunk of time to directly editing, reflecting, and revising?</li>
+</ul>
+
+I'll float around.
+</div>
+
+<p>EXT: If you finish early, &lt;ul style="list-style-type:lower-alpha"&gt;</p>
+<li>Have you also drafted your reflection / artists' statement? Does it reference the shared criteria and your goals? Have you made the case that you're meeting any of the aspirational goals? Have you explained what was new or hard, and how you dealt with that?</li>
+<li>Go to our WordPress site and start looking through the <a href="https://cdm2017.majoringinmeta.net/category/projects/markup/">links to other classmates' pitch websites</a>, looking for projects that speak to you or designs you can learn from.</li>
+<li>Still looking for more? Call me over; maybe there's another level of ambition you can unlock, perhaps on a new git branch. Perhaps branching <em>is</em> the new level of ambition.</li>
+<li>Done with all of that? You seem to be good at this – see if you can help anyone else! At the very least, if two people finish early, you can exchange ideas and get fresh feedback on your draft.</li>
+<p>&lt;/ul&gt;</p>
+
+<h2 id="for-next-time">For Next Time</h2>
+
+<p><strong>Outputs</strong></p>
+
+<ul>
+  <li>According to the course calendar, the “final” copy of the website project – including a prose reflection – is due to GitHub before the start of class on Thursday, November 2, i.e. next class.</li>
+  <li>The idea is that <strong>we’ll do lightning presentations of the project pitches on Thursday</strong>, accompanied by the websites, and then vote after class on your top four projects to join. I’ll then sort the groups out over the weekend.</li>
+  <li>Because you won’t be meeting in the new groups until Tuesday, this coming weekend is a bit of a flexible time, homework-wise. (I do have a reading assignment planned.)</li>
+  <li>Therefore, <strong>I’m extending the deadline for the reflection and “final” revisions</strong>: you’ll still need to have your project pitches ready to present in class on Thursday – ideally by the night before – but you can continue reflecting and refining and turn in a “Web unit final” repo by the night before next Tuesday’s class (11/7).</li>
+</ul>
+
+<p><strong>Inputs</strong>:</p>
+
+<ul>
+  <li><strong>Find and read or watch</strong> any tutorials or materials you need to achieve your web design goals. Use the <a href="http://cdm2017.majoringinmeta.net/resources">resources</a> page as well as your own search engines or Lynda.</li>
+  <li><strong>Cite while you’re downloading</strong>: don’t trust that you’ll be able to find your source materials again if you don’t. Save time and energy and copy out the specific URL – for the page that includes the CC license, if applicable.</li>
+  <li><strong>Review the unit criteria</strong> to make sure you’re at least at baseline, and to get some ideas for aspirational goals.</li>
+  <li>As time allows, have a look through <a href="https://cdm2017.majoringinmeta.net/category/projects/markup/">your classmates’ proposals</a>, looking for projects that speak to you or designs you can learn from.</li>
+</ul>
+
+<p><strong>Administrative</strong>:</p>
+
+<ul>
+  <li>If you haven’t yet, sign up for a midterm conference with Ben over the next two weeks (deadline: 11/9)</li>
+</ul>
+
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2017fall/lesson-17.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

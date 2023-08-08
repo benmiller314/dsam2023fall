@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Final Web Unit Studio / Polishing and Publishing</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      
+<h1 id="final-web-unit-studio--polishing-and-publishing">Final Web Unit Studio / Polishing and Publishing</h1>
+
+<p><strong>Work to have done</strong>: keep building out your web portfolio, working toward baseline and aspirational goals</p>
+
+<p><strong>Plan for the day</strong>:</p>
+
+<ul>
+  <li>Intro to GitHub Pages</li>
+  <li>Thoughts for studio</li>
+  <li>Studio time</li>
+  <li>Homework: finish your website portfolio and reflection</li>
+</ul>
+
+<h2 id="brief-intro-to-github-pages">Brief intro to GitHub Pages</h2>
+
+<h3 id="what-it-is">What it is</h3>
+<p>In addition to the wonderful things we’ve already used GitHub for, like forking, cloud storage, and peer comments on commits, GH also lets you make a fully functional basic website <strong>live and open to the public</strong> – for free. They call it GitHub Pages.</p>
+
+<p>Here’s how it works: you store your files in a GitHub repository (in a branch called “gh-pages,” like I do for this site, or a subdirectory – look in your own repos!), and GH knows where to find your stuff.</p>
+
+<h3 id="how-to-do-it">How to do it</h3>
+
+<p>To activate GH Pages,</p>
+<ol>
+  <li>Go to your repository Settings</li>
+  <li>In the sidebar navigation, select “Pages”</li>
+  <li>Change the source from “none” to your preferred branch (probably “main”)</li>
+  <li>Change the folder from “/ (root)” to “/docs” (or whichever folder you prefer)</li>
+  <li>Click “save.”</li>
+</ol>
+
+<p>And that’s it! The settings should now show you the URL where your rendered HTML will appear. If it doesn’t, just wait and/or try again; sometimes it takes a minute or two to refresh.</p>
+
+<figure role="figure">
+<figcaption>Here’s a visual representation of those instructions.</figcaption>
+<img src="../assets/img/github--activate-gh-pages-1.png" alt="step 3 from list above: select branch" />
+<img src="../assets/img/github--activate-gh-pages-2.png" alt="step 4 from list above: select folder" />
+
+</figure>
+
+<h3 id="gh-pages-tips-and-tricks">GH Pages Tips and tricks</h3>
+<p>The most important caveat: <em>By default, it’ll show your README.md file as the home page</em>, unless it finds a file called index.html or index.md.</p>
+
+<p>This is why (as I’ve said before), rather than call your landing page myproject.html, landing.html, or home.html, you’re better off if you <strong>name your homepage <em>index.html</em></strong>. You can always change the <code>&lt;title&gt;</code> to give it a more accurate name in the browser tab. : )</p>
+
+<p>Second, you should be aware that <em>GH Pages takes a little time to render your latest changes</em>. For faster feedback on the changes you make, you’ll want to <strong>view the <em>local</em> file in your browser</strong>, rather than always waiting for the live site to load.</p>
+
+<p>Third, if you’re feeling confident about your code and want to make it less repetitive, GH Pages comes with the Jekyll templating engine built in. Setup for local development with Jekyll is a little more involved (it requires a little command line and Ruby has to be installed), but the documentation is pretty good. You can read more about it, and find a series of relevant links, on our <a href="https://benmiller314.github.io/cdm2023spring/resources#web-frameworks:~:text=Jekyll%20step%2Dby%2Dstep">Resources page</a>, at the end of the section on <a href="https://benmiller314.github.io/cdm2023spring/resources#web-frameworks">Web Frameworks</a>.</p>
+
+<p>I recommend experimenting with Jekyll in a new branch, though, so you don’t lose what you already have. <!-- (If that instruction is confusing, maybe hold off for now; there's always the upcoming consolidation/integration unit for stretching your skills!) --></p>
+
+<h3 id="in-conclusion">In conclusion</h3>
+<div class="alert alert-success">
+I'm going to recommend that everyone use GitHub Pages to publish your sites unless you have a good reason not to.</div>
+
+<p>And you might! At least one person’s using their Pitt domain, for example, and some people may prefer not to take their site live because of copyright or search-result management concerns. But I do want all of you to know that if you want to host a basic website, you don’t have to pay a monthly fee for it.</p>
+
+<h2 id="thoughts-for-studio">Thoughts for studio</h2>
+
+<h3 id="water-seeds-that-still-need-to-grow">Water seeds that still need to grow</h3>
+
+<p><a href="lesson-22#planting-seeds">Last class</a> included a bunch of advice derived from the developing drafts; if you haven’t yet worked through those suggestions, they’re still worth checking.</p>
+
+<p>Hopefully everyone has by now received at least 2 (ideally 3) comments from members of your workshop groups! <strong>If you have not, please let me know</strong>, so I can make sure you’ve got a diverse set of perspectives on your work in progress.</p>
+
+<h3 id="finishing-touches">Finishing touches</h3>
+<p>Today’s new advice is more focused on sites that have essentially come together, and which you now want to refine – or, ideally, take out into the wider world of the web.</p>
+
+<details>
+<summary>Articulate permissions.</summary>
+
+<p>If you're using resources you didn't make yourself, be sure to include enough information to recover where it came from: a direct link to the image and to the specific license (if there is one) is ideal. Creative Commons sources often provide that HTML for you!</p>
+
+<p>Where to put this information? Ideally, somewhere small near the image itself. There's a semantic html way of doing this with <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code>, which you may remember from <a href="https://www.internetingishard.com/html-and-css/semantic-html/#figures-and-captions">the Semantic HTML</a> section of the tutorial; this is what I used for the screencapture images above. (See also <a href="https://www.scottohara.me/blog/2019/01/21/how-do-you-figure.html">this extended discussion of figures, figcaptions, and alt text</a>.)</p>
+
+<p>Alternately, you can have a rights page somewhere, or use the site footer – or have a live hyperlink from your site to an external credits.md file in your repo.</p>
+
+<div class="alert alert-info"><em>NB: If an image is under copyright, you can still use it if you can make a good case that it's a Fair Use.</em>  See the homework reading after <a href="lesson-04">Lesson 4</a> to review the Four Factors you need to consider.</div>
+</details>
+
+<details> <!-- titles -->
+<summary>Consider titles.</summary>
+
+A title can provide a context, a clue, a genre, a commentary; it can add an extra layer to viewer expectations. In previous units, you were titling your entire project; for a website, every page has its own <code>&lt;title&gt;</code> element in the <code>&lt;head&gt;</code>, which will show up in the browser's tab. These titles <em>could</em> be the same for all your pages, but they could also vary. What text do you want on top of the window, to show users where they are?
+</details>
+
+<details> <!-- lowest line-count -->
+<summary>When revising, take the lowest line-count challenge.</summary>
+
+<p>Programmers often strive for DRY code: that is, they follow the principle of Don't Repeat Yourself. You can use this as a polishing step after all your content and style is pretty much set – but it may also help you clarify what your HTML is really doing, which can in turn make it easier to style.</p>
+
+<p>Consider the following:</p>
+
+<p><strong>Do your CSS rules repeat each other? Maybe they can be combined.</strong></p>
+<ul>
+  <li>Look for elements that all behave the same way, and give them a shared class. <details><summary>show me</summary>
+  <pre><code class="css">
+  /* instead of this... */
+  #intro-paragraph {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: bisque;
+  }
+  #about-me {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: bisque;
+  }
+  /* you could do this... */
+  p.featured {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: bisque;
+  }
+  </code></pre></details>
+  </li>
+  <li>Remember that you can apply more than one class to the same html element – they're just space-delimited – so you can make rules for shared attributes in one class and special cases in another.
+  <details><summary>show me</summary>
+  <pre><code class="css">
+  .narrow {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .featured {
+    background-color: bisque;
+  }
+
+  </code></pre>
+  </details>
+  </li>
+  <li>You can also combine rules declarations for shared styles and override only the exceptions to those styles:
+  <details><summary>show me</summary><pre><code class="css">
+  /* instead of this... */
+  h1 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: maroon;  
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: maroon;  
+  }
+
+  /* you can do this... */
+  h1, h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: maroon;  
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }  
+  </code></pre></details></li>
+</ul>
+
+<p><strong>Does your HTML have lots of containers with only one element in them?</strong></p>
+<ul>
+  <li>Some containers are important for positioning, e.g. centering with a flexbox.</li>
+  <li>Others, though, are unnecessary clutter: if you can "unwrap" the element and apply CSS rules directly to it, with no loss in function, go ahead and unwrap it. You can often move classes from an outer element straight onto the inner one. See my <a href="https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9171fa85-be27-437d-99b9-acfa00f44a4f">demo video from last week</a> for an example.</li>
+</ul>
+
+</details>
+
+<details>
+<summary>Remember to update your README.</summary>
+It should have a brief description of the project, rather than just my assignment. And may I also suggest an active link to your live website, if you have one?
+</details>
+
+<h2 id="gathering-questions">Gathering questions</h2>
+
+<p>As in the last class, I’ve opened a space for anonymous questions in <a href="http://bit.ly/cdm2023spring-notes#heading=h.kj9mb0xjbj2z">the google doc</a>.</p>
+
+<p>I’ll work through these during in-class down time or office hours, as needed, and I’ll let you all know when replies are posted.</p>
+
+<!-- Note to self: don't answer out loud while they're still thinking! Put the answer in writing, *then* let them know it's there. -->
+
+<h2 id="studio-time">Studio Time!</h2>
+
+<h3 id="set-an-intention">Set an intention</h3>
+<p>As usual, before you start, <a href="http://bit.ly/cdm2023spring-notes#heading=h.d0i4xjvw86kx">go to the next section of the google doc</a> and write a quick line about what you hope to accomplish with your remaining time. e.g. Will you…</p>
+<ul>
+    <li>Work on responsive layout?</li>
+    <li>Work on replacing placeholder content with real content?</li>
+    <li>Work on streamlining your code?</li>
+    <li>Work on one of your stretch goals?</li>
+    <li>etc etc</li>
+  </ul>
+<p>Just a sentence or two as a guidepost will give you something to come back to, to reorient, if you find yourself walking in circles or caught in a thicket.</p>
+
+<div class="alert alert-warning">
+Don't forget to save periodically as you go:
+ <ul>
+   <li>as an html / css / js file</li>
+   <li>as a git commit, saying what you've just achieved</li>
+   <li>as a screenshot</li>
+ </ul>
+</div>
+
+<h3 id="work-time">Work Time</h3>
+<p>Please ask questions as they come up. Otherwise, I’ll try to work through the questions from the doc.</p>
+
+<p>EXT: Already done? Head over to the issue queue and read through the <a href="https://github.com/benmiller314/cdm2023spring/labels/paying%20forward">“paying forward”</a> proposals for the final unit. Anything you want to collaborate on? (NB: Collaboration is not required for the final unit.)</p>
+
+<h3 id="exit-note">Exit Note</h3>
+<p>Before you leave, just as a way for me to check in, I’d like to hear more about what happened today: did you find images? Level up on a particular CSS skill? Activate your GitHub Pages url? Start drafting a reflection? Raise a question in a new way that you’d like some help with?</p>
+
+<h1 id="homework-for-next-time">Homework for next time</h1>
+
+<ul>
+  <li>Before Thursday’s class, <strong>complete – at least for now – your website.</strong> Your repository (on GitHub or in a shared Box folder) should include:
+    <ul>
+      <li>A multifile <strong>project folder</strong> (probably called “docs”), containing a combination of html and css files</li>
+      <li>At least two static <strong><a href="https://www.take-a-screenshot.org/">screenshots</a> (.png or .jpg)</strong> of your web pages or source files in progress.
+        <ul>
+          <li>Think about what moments are worth remembering as you go: where did you level up, or realize something, or get stuck?</li>
+          <li>If you need to, you can go back in time using git history!</li>
+        </ul>
+      </li>
+      <li>An <strong>updated README.md file</strong>, introducing the Website source code to a new audience. Make the project something to live beyond this assignment, if you can. :¬)</li>
+      <li>Updated credits reflecting what assets you actually used, including documentation of any outside sources and your permission to use them (e.g. explicit licenses like CC, or rationales for claiming fair use)
+        <ul>
+          <li>This can be in its own file or as part of your README.</li>
+          <li>If you want, this can (also) be a live page (or a footer) on your website.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Also before Thursday’s class, and ideally by noon, write a prose reflection</strong> that incorporates images from your feedback and screenshots of your Atom project and the website itself. As explained in the <a href="https://github.com/benmiller314/webs2023spring#deadlines-and-products">prompt for the assignment</a>, this should include:
+    <ul>
+      <li>At least 500 words</li>
+      <li>Your own assessment of how you met the baseline criteria and goals for the unit, as well as any aspirational criteria as appropriate</li>
+      <li>At least one photograph of feedback you used to revise (and please say how)</li>
+      <li>At least one or two screenshots of your work in progress (ideally, related to the discussion in the previous two bullets)</li>
+    </ul>
+  </li>
+  <li><strong>Post your reflection</strong> to the course site’s <a href="https://github.com/benmiller314/cdm2023spring/issues">Issue queue</a>, to make it easier to embed images.
+    <ul>
+      <li>If you want to then copy the source code into a file in your repo called reflections.md, I won’t stop you!</li>
+      <li>If you feel strongly that you’d rather keep your reflection private, you can email it to me instead. But my default assumption is that we learn from each other as much as from ourselves, so I hope you can find a way to write publicly about your experience with this project.</li>
+    </ul>
+  </li>
+  <li>If you need more time, let me know, but also be aware that it’s entirely possible to use the Consolidation/Integration unit as an opportunity to keep working, e.g. to take your site from baseline closer to your aspirations.</li>
+</ul>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2022spring/lesson-23.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>

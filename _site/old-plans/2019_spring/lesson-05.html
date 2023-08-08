@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Composing Digital Media: Forward the Soundscape Foundation (Intro to Audacity)</title>
+
+  <!--Set the viewport to handle responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Benjamin Miller">
+  <meta name="description" content="Making the most of multiple modes">
+
+  <!-- Stylesheets. Note that screen.css imports Bootstrap. -->
+  <link rel="stylesheet" media="screen" href="https://benmiller314.github.io/cdm2023spring/assets/css/screen.css">
+  <link rel="stylesheet" media="print" href="https://benmiller314.github.io/cdm2023spring/assets/css/print.css">
+  <link rel="stylesheet" media="screen" href="/assets/css/screen.css"> <!-- for local development -->
+
+  <!--jQuery & Twitter Bootstrap JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://benmiller314.github.io/cdm2023spring/assets/js/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="thin_header container-fluid">
+<div id="bg" class="container-fluid">
+  <section class="w-100">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">  <!-- removing fixed-top -->
+      <a class="navbar-brand" href="https://benmiller314.github.io/cdm2023spring/">Composing Digital Media</a>
+
+<!-- The button to expand the menu on small screens -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- The menu to expand (or show on large screens) -->
+<div class="collapse navbar-collapse navbar-toggleable" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/index">Home</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/schedule" title="lesson plans and homeworks">Schedule</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/projects" title="major assignments for the course">Projects</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/resources" title="useful links">Resources</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/office" title="one-on-one is most hands-on">Office Hours</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://benmiller314.github.io/cdm2023spring/uploads" title="files and handouts">Uploads</a></li>
+      <li class="nav-item" role="navigation"><a class="nav-link" href="https://github.com/benmiller314/cdm2023spring/issues" title="discuss readings, post responses">Forum</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+    </nav>
+    
+  </div>
+</section>
+
+
+<div id="fg" class="container-fluid foreground px-lg-5 px-md-2 px-sm-1">
+
+  <article class="col-md-8 col-md-offset-2" id="content">
+
+      <h1 id="forward-the-soundscape-foundation-intro-to-audacity">Forward the Soundscape Foundation (Intro to Audacity)</h1>
+
+<ol>
+  <li>Welcome back, and thanks for posting! (5 min)</li>
+  <li>Audacity Demo (10 min)</li>
+  <li>Audacity Play Time (20 min)</li>
+  <li>Command line redux: Versioning beyond GitHub (10 min)</li>
+  <li>Share and Enjoy (15 min)</li>
+  <li>HW Preview</li>
+  <li>EXT: Studio time and microconferences</li>
+</ol>
+
+<h2 id="1-welcome-back-and-thanks-for-posting">1. Welcome back, and thanks for posting!</h2>
+
+<p>Many thanks to everyone for keeping the conversation going online, even when we weren’t meeting face-to-face. I’ve read through all the posts as of 9pm last night, on both threads: the <a href="https://github.com/pitt-cdm/miller2019spring/issues/3">blog post on listening to soundscapes</a> and your <a href="https://github.com/pitt-cdm/miller2019spring/issues/4">soundscape narrative proposals</a>.</p>
+
+<p>Lots of overlap <em>and</em> plenty of difference in the proposals, which is always a good thing. A bunch of you are working on days-in-the-life-of; you might find that you’re able to divide and conquer some of the standard sounds, like pouring coffee or turning on a shower. Have a look through the queue and reach out to each other if you want to trade!</p>
+
+<p>This is also, of course, a good reminder to try to find ways of making your story <em>your</em> story, even as it takes on the conventions of a particular genre. If your proposal is focused on routine, what stories does your routine allow you to tell? If it’s a game or a performance, what will draw listeners to this particular game or performance?</p>
+
+<p>Remember, as well, that one tool you have in your toolkit is music, especially open-licensed music. <strong>The <a href="https://benmiller314.github.io/cdm2023spring/resources">resources</a> page of our website has lots of links and suggestions; please do make use of them!</strong></p>
+
+<!-- If by some miracle it's still 9:35, spend 5 minutes on Fair Use: purpose of copy, nature of original, substantiality of amount copied, market impact. -->
+
+<h2 id="2-audacity-demo-10-min">2. Audacity Demo (10 min)</h2>
+
+<p>I’m going to quickly walk through the basic features of Audacity, and then you’re going to try your own hand at using them.</p>
+
+<div class="alert alert-info">
+A more substantial introduction is available at the <a href="http://manual.audacityteam.org/man/audacity_tour_guide.html">Audacity Tour Guide</a>, so please review that if you find yourself stuck! (Google is also your friend, of course.)
+</div>
+
+<h3 id="import-lay-of-the-land">Import. Lay of the land.</h3>
+<p>Visual rendering of sound.</p>
+
+<h3 id="select-tool-zoom-tool">Select tool; zoom tool.</h3>
+<p>Play a loop. Zoom. Selection adjust. Add label at selection.</p>
+
+<h3 id="time-shift-tool">Time shift tool.</h3>
+<p>Split vs. split new. Mute/solo tracks.</p>
+
+<h3 id="save-vs-export">Save vs. export.</h3>
+<p>A project is an index to a folder full of sounds. You definitely want to save this! But to make it playable outside Audacity (and also a lot more transportable), export to mp3.</p>
+
+<div class="alert alert-danger">
+To submit your full project in such a way that I can open it, you'll want to use the Git-LFS extension; more on that after playtime. For now, just know to always also export an mp3.
+</div>
+
+<h2 id="3-audacity-play-time-representative-and-reprehensible-reporting">3. Audacity Play Time: Representative and Reprehensible Reporting</h2>
+
+<p>Your turn! Your mission is to produce two short clips (≤15 seconds) from the same 4ish-minute audio file, which I’m about to give you.</p>
+
+<div class="alert alert-info">
+For clip 1, imagine something a reputable journalist might produce – a snippet meant to fairly represent a public figure's actual words and platform. In this clip, you should aim to condense without distorting, to make your 15-second highlight reel as true as possible to the spirit of the original.</div>
+
+<div class="alert alert-info">
+For clip 2, catching the listener's attention is all that matters. Here, anything is fair game in terms of editing: cutting out important words or sentences, rearranging things, stitching together unrelated pieces of speech. Your goal is to explore the transformative possibilities of digital audio editing – both for knowledge and defense – so see what kind of 15-second fake news you can produce from real materials.
+</div>
+
+<p>We’ll share these among each other, but not post to GitHub – we don’t want any of our fake clips to circulate widely!</p>
+
+<div class="alert alert-success">
+Today's audio clip is from <a href="https://benmiller314.github.io/cdm2023spring/uploads/pelosi-accepts-gavel-20190103.mp3">Nancy Pelosi's address to the House of Representatives on again being elected Speaker</a>, January 3, 2019. Download it, and get going!
+</div>
+
+<aside><smaller>
+<strong>Credits</strong>
+
+The audio was captured using Audacity and <a href="https://rogueamoeba.com/freebies/soundflower/">Soundflower</a> from <a href="http://houselive.gov/MediaPlayer.php?view_id=2&amp;clip_id=12243">houselive.gov</a>, the website of the Office of the Clerk of the U.S. House of Representatives. The exercise is closely adapted from one by <a href="https://twitter.com/klynncameron/status/1039612472704069632">Kelsey Cameron</a>, who has been most kind in answering questions about audio pedagogy.
+</smaller></aside>
+
+<div class="alert alert-white">
+<strong>EXT:</strong> If you've already finished both clips to your satisfaction, move on to extending git!
+</div>
+
+<h2 id="4-command-line-redux-versioning-beyond-github-10-min">4. Command line redux: Versioning beyond GitHub (10 min)</h2>
+
+<p>Have a look at the project files you’re saving. There’s a single file with the .aup extension, and a folder ending in <code class="language-plaintext highlighter-rouge">_data</code> with dozens of little .au audio clips. Trust me when I say that <strong>you do not want to upload this folder through the GitHub website</strong>. It might not even work.</p>
+
+<p>Last week, we ran out of time to talk about what we get by running git from the command line. Well, here are three things:</p>
+
+<ol>
+  <li>extended functionality</li>
+  <li>multi-file commits</li>
+  <li>time to problem-solve before sharing</li>
+</ol>
+
+<p>I’ll explain in more depth:</p>
+
+<h3 id="extended-functionality">Extended functionality</h3>
+
+<p>Git, like many other applications, supports plugins and add-ons. One that we need for this class is Git Large File Storage, or git-lfs. This extension allows us to store files “offsite” (i.e. not on GitHub) that would otherwise slow down our repositories to a crawl – while still having full access to those files locally <em>and</em> using our normal git workflow.</p>
+
+<p>To install:</p>
+
+<ol>
+  <li><strong>If you’re on a Mac with Homebrew,</strong> type <code class="language-plaintext highlighter-rouge">brew install git-lfs</code> from any terminal window. (And if you’re on a Mac without Homebrew, <a href="https://brew.sh/">get Homebrew</a>! It makes life so much easier.)</li>
+  <li><strong>If you’re on a PC with Git for Windows,</strong> congratulations! It comes pre-installed with git-lfs.</li>
+  <li><strong>If you’re on Chromebook</strong>, try <code class="language-plaintext highlighter-rouge">crew install git-lfs</code>, but I don’t know that it’s been ported yet. :\ You can also try the direct download at <a href="https://git-lfs.github.com/">git-lfs.github.com/</a>.</li>
+</ol>
+
+<p>To activate:</p>
+
+<ol>
+  <li>All systems: at a command line, type <code class="language-plaintext highlighter-rouge">git lfs install</code></li>
+</ol>
+
+<p>To set up to use with .au files:</p>
+
+<ol>
+  <li>In the folder with your soundscape repository, enter the following, one line at a time (i.e. press enter after each line):
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull
+git lfs track <span class="k">*</span>.au
+git add .gitattributes
+git commit <span class="nt">-m</span> <span class="s2">"track .au files with git lfs"</span>
+git push
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<div class="alert alert-success">
+If possible on your system, I want everyone to have done the Git LFS setup before you leave today!
+</div>
+
+<h3 id="multi-file-commits">Multi-file commits</h3>
+<p>As you’re saving your Audacity projects, your <code class="language-plaintext highlighter-rouge">_data</code> folder is going to be morphing and shifting, creating and deleting .au files all over the place.</p>
+
+<p>When you’re ready to record a commit message – that is, when you’re ready to mark a save spot in your composing process, naming what actions you’ve just taken in your project – you can scoop up the entire folder in one go.</p>
+
+<p>In the folder with your soundscape repository, enter the following, one line at a time:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="k">*</span>
+git commit <span class="nt">-m</span> <span class="s2">"your headline commit message"</span> <span class="nt">-m</span> <span class="s2">"your optional extra details"</span>
+</code></pre></div></div>
+
+<p>Now everything in the folder is labeled with that single commit. (If you want to see what’s happening, add in a <code class="language-plaintext highlighter-rouge">git status</code> around each of those lines.) Keep editing, and repeat the process at your next save spot!</p>
+
+<aside class="alert alert-info">
+Note that the asterisk is a wildcard matching everything – or, rather, every file that's changed since it was last committed. If you prefer, you can `git add %filename%` for any filename one at a time, or use the asterisk to perform partial wildcard matching.
+</aside>
+
+<h3 id="time-to-problem-solve-before-sharing">Time to problem-solve before Sharing</h3>
+
+<p>All those commits you just made are <em>local to your computer</em>: they’re not shared yet. So you can try things out, make mistakes, and fix them before anyone stumbles onto your project and starts making judgments about quality.</p>
+
+<p>When you’re ready to push your projects to GitHub, type this in your command line (again, from the repository you want to share):</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push
+</code></pre></div></div>
+
+<p>Not only will that sync to GitHub, it’ll also know which files you want to sync using Git Large File Storage, and make the transfer accordingly!</p>
+
+<h2 id="5-share-and-enjoy-15-min">5. Share and Enjoy (15 min)</h2>
+<p>Before we have to go, let’s hear at least a few of the 15-second clips you were able to produce from our Speaker of the House!</p>
+
+<h1 id="homework-for-next-time">Homework for next time:</h1>
+<ul>
+<li>If you didn't yet, please finish the work above!</li>
+<li><strong>Work</strong> on your soundscape narratives, including making at least two recordings and putting them into conversation in Audacity. If you have time, do more!</li>
+<li><strong>Push a soundscape preview</strong> to your GitHub repository, using the steps above. As per the assignment prompt, this should include:
+  <ul>
+  <li> A layered <strong>Audacity project file (.aup)</strong>, showing the arrangement of your sounds so far (need not be a complete soundscape or narrative yet).</li>
+  <li> A static <strong><a href="https://www.take-a-screenshot.org/">screenshot</a></strong> (.png or .jpg) of your Audacity file in progress (for comparison later to subsequent drafts).</li>
+  <li>The <strong>\_data folder</strong> associated with your Audacity file, which should contain at least two recorded sounds.</li>
+  <li> A plain text (.txt) or markdown (.md) file, explaining in at least 300 words <strong>what you're showing us</strong> in this preview. Feel free also to ask questions or lay out next steps for yourself!</li>
+  <li> An updated <strong>ASSETS.md</strong>, indicating which the files you've actually recorded or otherwise obtained. Add source documentation for any outside sources – and your permission to use them (e.g. licenses, fair use; see <em>Writer/Designer</em> p. 160-165).</li>
+  </ul>
+</li>
+</ul>
+
+<h2 id="ext-studio-time-and-microconferences">EXT: Studio time and microconferences</h2>
+
+<p>If we have time left, I’ll be pleasantly surprised, but let’s use it to get working on your proposed soundscape narratives!</p>
+
+
+  </article>
+</div> <!-- /#fg -->
+</div> <!-- /#bg -->
+<footer>
+  <p>
+  Content by Benjamin Miller.
+  Licensed under
+  <a href="http://creativecommons.org/licenses/by-nc/2.0/" rel="licence">Creative Commons BY-NC 2.0</a>.
+  Created with <a href="https://jekyllrb.com/docs/github-pages/">Jekyll</a>
+  and <a href="https://getbootstrap.com/">Bootstrap CSS</a>.
+  Hosted on <a href="https://github.com/benmiller314/cdm2023spring">GitHub</a>. Click here to <a href="https://github.com/benmiller314/cdm2023spring/blob/gh-pages/old-plans/2019_spring/lesson-05.md">view page source.</a>
+</p>
+
+</footer>
+
+
+<!-- <script>
+$(document).ready(function(){
+  $(".navbar-toggler").click(function(){
+    $(".navbar-toggleable").collapse('toggle');
+  });
+});
+</script> -->
+
+</body>
+</html>
