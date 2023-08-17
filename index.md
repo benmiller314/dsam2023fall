@@ -3,7 +3,7 @@ layout: front
 ---
 
 <p id="description">
-This course requires students to compose digital media while exploring the rhetorical, poetic, and political implications of multiple writing platforms. Students will learn how to compose a range of critical media objects using web-authoring languages, text, sound, and images, primarily in open-source software. Classes will focus on theories of writing, composing, design, critique, delivery, and networked distributions; critique and analysis of digital media produced by professional and amateur digital media practitioners; and analysis and revisions of digital media composed by the students themselves.
+The DSAM Seminar is designed to prepare students to undertake independent digital projects in scholarly or creative modes, with applications to each student's own home fields in the humanities and allied social sciences. Each week, we'll divide time between reflective discussion informed by assigned readings and hands-on practice with digital tools and platforms. In addition to smaller skill-building exercises, students will iteratively develop a more sustained project of their own choosing – with feedback from the professor and peers to help keep the scope both tractable and compelling. No prior experience in digital research is necessary.
 </p>
 
 <nav id="front-nav" class="nav nav-pills center-pills my-3">
