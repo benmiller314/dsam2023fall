@@ -1,4 +1,34 @@
-# Composing digital media for *Composing Digital Media*
-Files toward a Jekyll-based course website for Ben Miller's Spring 2023 Composing Digital Media course.
+# Codebase for *Digital Studies and Methods: Seminar*
+Files toward a Jekyll-based course website for an interdisciplinary graduate-level Seminar in Digital Studies and Methods, prepared by Ben Miller at the University of Pittsburgh.
 
-NB: This is just source code! For the live site, with better formatting, please go to https://benmiller314.github.io/cdm2022spring.
+Many other syllabi were consulted in the construction of this one, but an especially heavy debt goes to Alison Langmead.
+
+NB: This is just source code! For the live site, with better formatting, please go to https://benmiller314.github.io/dsam2023fall.
+
+
+
+## Tasks before launch
+
+- [x] Finish projects page
+- [ ] Update resources page
+    * [ ] DSS Workshops
+    * [ ] Programming Historian
+    * [ ] Journals
+    * [ ] TaDiRaH / DIRT
+    * [ ] Command Line Crash Course
+    * [ ] [Dangit, Git](https://dangitgit.com)
+- [ ] Add policies page
+    * [ ] Working with AI
+    * [ ] Readings calendar subject to change with student input
+    * [ ] Grading and assessment
+- [ ] Finalize initial assignment calendar
+- [ ] Prep first-day materials
+    * [ ] lesson plan
+    * [ ] activate discussion board
+    * [ ] update text-demo repository
+    * [ ] update digital affordances repository
+    * [ ] create fork-able project directory
+        - [ ] include subdirectory for private notes
+        - [ ] show students how to make that subdirectory private with .gitignore
+- [ ] Email students with hardware recommendations and software to download before the first class
+    * [ ] also add reading from Hayles or J. Murray??
