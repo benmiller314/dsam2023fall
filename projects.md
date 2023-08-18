@@ -1,10 +1,17 @@
 # Projects
 
-In addition to shared assignments, everyone in the class will be expected to work on an independent project for several hours a week [outside of class](#mindful-practice-journal), and to update a [public archive](#iteration) of your progress as you go. You will [present your project to the class](#presentations-and-peer-review) three times over the semester for generous, formative review by your professor (me) and each other.
+In addition to shared in-class assignments and weekly [reading responses](#readings-and-responses), everyone in the class will be expected to work on an independent project for several hours a week [outside of class](#mindful-practice-journal), and to update a [public archive](#iteration) of your progress as you go. You will [present your project to the class](#presentations-and-peer-review) three times over the semester for generous, formative review by your professor (me) and each other (writing two letters each).
 
 These projects can vary as much as your interests do, and should incorporate tools and theories appropriate to the questions each person is asking. I'll expect everyone to **[meet with me](office.md) before the end of week 3** (in 2023, that would be by Friday, September 15th) – and ideally before the end of week 2 (September 8th) – so I can help point you in productive directions.
 
 We'll have some time in class to collectively troubleshoot your independent projects-in-progress, which will surely help everyone to learn both about a wider range of tools and about the process of finding paths forward! But you can also always ask me for follow-up advice during office hours.
+
+## Readings and Responses
+In most weeks, I will assign several texts or videos to review as preparation for the subsequent class. I've tried to keep these relatively light – they peak at about 81 pages – but I will suggest some optional extended readings for those of you who want to dig in deeper. (Some of these are already in the [schedule](schedule), marked with EXT.)
+
+To help you process what you're reading, and to seed our in-class conversation, each week I'll ask you to post a _reader response_ on a shared [discussion forum]({{site.github_url}}/discussion). These should be grounded, where possible, in at least one quoted passage from the text, and can include questions, confusions, connections, excitements, or incitements. If you aim to write at least 100 of your own words, that should give us a place to begin.
+
+Direct responses to other students' posts are optional but encouraged; to make that more possible, please try to post by Friday evening when you can.
 
 
 ## Mindful Practice Journal
