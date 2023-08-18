@@ -11,12 +11,17 @@ bannertitle: "image modified from still of *The Legend of Zelda* by Shigeru Miya
 # Resources
 
 Table of contents:
+
 - [Services at Pitt](#services-at-pitt)
 - [Help with Git and GitHub](#help-with-git-and-github)
+    - [Dealing with Large Files](#dealing-with-large-files)
 - [Text Editors](#text-editors)
-- [File Compression](#file-compression)
-- [Academic Journals and Publications](#academic-journals)
+- [Options for publishing to the web](#options-for-publishing-to-the-web)
+    - [How to hide your website from search engines](#how-to-hide-your-website-from-search-engines)
+- [Academic Journals](#academic-journals)
 - [Other Resource Roundups](#other-resource-roundups)
+
+<!-- /TOC -->
 
 
 ## Services at Pitt
@@ -38,6 +43,7 @@ Table of contents:
 
 </dl>
 
+<a href="#top"><em>Back to top</em></a>
 
 ## Help with Git and GitHub
 <dl>
@@ -55,16 +61,6 @@ Table of contents:
 <dt><a href="https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV">Git and GitHub for Poets</a></dt>
 <dd>A delightfully nerdy, yet strangely accessible, playlist of tutorial videos on using GitHub and Git (in that order) to keep track of changes to a text file. A great way to learn more about the features that make these tools appealing to coders and non-coders alike. Made by one of the evangelists of the Processing programming language for dynamic drawings.</dd>
 
-<dt>What to do if your files are too large for GitHub</dt>
-<dd><p>If you get an error message telling you that you can't push to GitHub because your files are too large, try <a href="https://git-lfs.github.com/">Git Large File Storage</a> (git-lfs): it stores large files on a separate server, and converts the file in your GH repo into a tiny pointer file. The <a href="https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/versioning-large-files">documentation</a> is pretty clear, though it does involve a little command-line fu at times. (Nothing major: you can just follow the steps.) And when it's all set up, it works in GitHub Desktop pretty seamlessly.</p>
-
-<p>The one catch is that if you're using git-lfs on a forked repo, the extra storage you get counts against the quota of the <em>upstream</em> fork, so if everyone uses it for class assignments, eventually I run out of data and *nothing* can be pushed. So at the end of the semester, I'll ask you to re-clone your repo and add a new remote branch that's not on my fork tree. But we'll cross that bridge if/when we come to it!</p>
-
-<p>Oh! And if you discover that you have large files you can't push after they're already in your commit history, you'll need to start managing *those* large files with git-lfs, too. Luckily there's now [a (simple command line) tool to help you do that](https://github.blog/2017-06-27-git-lfs-2-2-0-released/)!</p>
-
-<p>If all else fails, fear not! You can always (1) start an empty new repository on GitHub, (2) point your local repository to that new one by <a href="https://docs.github.com/en/github/using-git/changing-a-remotes-url">changing the remote URL at the command line</a>, and (3) pushing your now-correctly-configured files to the new repository. The new repo should now inherit the entire history of your local one, including all your messages. Just be sure to (4) add a link to the new repository in the README.md file of your old one, so we can find it easily.</p>
-</dd>
-
 <dt><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheat Sheet</a></dt>
 <dd>Two pages containing everything you need to know for everyday version-tracking, from how to set up your local repository to how to recover past versions, with your normal status->add->commit->push-> workflow prominently placed. This is all for the command line; if that makes you uncomfortable, you might enjoy this somewhat irreverent <a href="https://learning.oreilly.com/library/view/learn-python-the/9780133124316/app03.html">Command Line Crash Course</a>. Or, you know, just go with the GitHub Desktop GUI.</dd>
 
@@ -73,27 +69,60 @@ Table of contents:
 
 </dl>
 
+<a href="#top"><em>Back to top</em></a>
+
+### Dealing with Large Files
+
+<dl><dt>Option 1: Git LFS</dt>
+<dd>
+<p>If you get an error message telling you that you can't push to GitHub because your files are too large, you can try <a href="https://git-lfs.github.com/">Git Large File Storage</a> (git-lfs): it stores large files on a separate server, and converts the file in your GH repo into a tiny pointer file. The <a href="https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/versioning-large-files">documentation</a> is pretty clear, though it does involve a little command-line fu at times. (Nothing major: you can just follow the steps.) And when it's all set up, it works in GitHub Desktop pretty seamlessly.</p>
+
+<p>The one catch is that if you're using git-lfs on a forked repo, the extra storage you get counts against the quota of the <em>upstream</em> fork, so if everyone uses it for class assignments, eventually I run out of data and *nothing* can be pushed. So if that's where you need the LFS, at the end of the semester, I'll ask you to re-clone your repo and add a new remote branch that's not on my fork tree. But we'll cross that bridge if/when we come to it!</p>
+
+<p>Oh! And if you discover that you have large files you can't push after they're already in your commit history, you'll need to start managing *those* large files with git-lfs, too. Luckily there's now <a href="https://github.blog/2017-06-27-git-lfs-2-2-0-released/">a (simple command line) tool to help you do that</a>!</p>
+
+<p>If all else fails, fear not! You can always (1) start an empty new repository on GitHub, (2) point your local repository to that new one by <a href="https://docs.github.com/en/github/using-git/changing-a-remotes-url">changing the remote URL at the command line</a>, and (3) push your now-correctly-configured files to the new repository. The new repo should now inherit the entire history of your local one, including all your messages. Just be sure to (4) add a link to the new repository in the README.md file of your old one, so we can find it easily.</p>
+</dd>
+
+<dt>Option 2: File Compression</dt>
+<dd>
+    <p>Alternately, depending on what you're pushing (or if even LFS is complaining), you can try <em>compressing</em> the files. But while most computers come with built-in compression algorithms, they tend not to be very good. Luckily, there are several excellent and free applications that will happily shrink your file sizes. Here are some recent roundups:</p>
+
+    <ul>
+        <li>For any file/folder on <strong>Windows:</strong> <a href="http://www.makeuseof.com/tag/the-top-3-file-compression-extraction-softwares/">www.makeuseof.com/tag/the-top-3-file-compression-extraction-softwares/</a></li>
+        <li>For any file/folder on <strong>Mac:</strong> <a href="https://mac.eltima.com/best-archiver-mac.html">mac.eltima.com/best-archiver-mac.html</a></li>
+        <li><strong>For JPEG files</strong>, specifically: <a href="http://www.jpegmini.com/app">www.jpegmini.com/app</a>
+            <ul><li>For more on .png vs .jpg file formats, see this <a href="https://www.techsmith.com/blog/jpg-vs-png/">overview</a> or this more <a href="https://www.digitaltrends.com/photography/jpeg-vs-png/">technical explanation</a>.</li></ul>
+        </li>
+    </ul>
+</dd>
+</dl>
+
+<a href="#top"><em>Back to top</em></a>
 
 ## Text Editors
 <p>There are lots of great coding-friendly text editors out there, and even many excellent free ones. Essential features to look for are <em><a href="https://en.wikipedia.org/wiki/Syntax_highlighting#:~:text=Syntax%20highlighting%20is%20a%20feature,to%20the%20category%20of%20terms">syntax highlighting</a></em>; <em>soft wrapping</em> of text, so lines don't run off to the side forever (look for this in preferences); and the ability to <em>view several files side-by-side</em>, sometimes activated by right-clicking on the filename and asking to "split right" (or left, up, down, you get the idea).</p>
 
+<dl>
 <dt><a href="https://pulsar-dev.io">Pulsar text editor</a></dt>
 <dd>
-<p>I'd been pretty into the editor Atom: it's cross-platform; it uses your existing file system for project management (rather than inventing its own file system); it has flexible panes for viewing; it's open source and extendable – and thus has lots of packages out in the world, including for rendered HTML or Markdown previews. Plus, it can work directly with git and GitHub, without even having to leave the editor.</p>
-<p>Unfortunately, Atom was discontinued by Microsoft last year in favor of their own Visual Studio Code (see below). Fortunately, Atom was an open source project, and someone had forked the repository and kept it alive – now under the new name of Pulsar. Pretty much anything you see recommended for Atom should work smoothly in Pulsar, though of course nothing stays the same forever, and I make no outright promises.</p>
-<p>I'm still in the market for good tutorials, but <a href="https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_">this one from Level Up</a> looks pretty decent; essential episodes include <a href="https://www.youtube.com/watch?v=ZnzLPIhMJnw&list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_&index=4">#3 The Atom Interface with Tips and Tricks</a> and <a href="https://www.youtube.com/watch?v=IgSW1umKrVs&list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_&index=7">#6 Project Management In Atom</a>.</p>
+<p>The direct inheritor of Atom, the text editor developed by the GitHub community. It's got a lot going for it: it's cross-platform (Mac/Windows/Linux). It uses your existing file system for project management, rather than inventing its own file system like some IDEs. It has flexible panes for viewing and customizable color themes. And it's open source and extendable – and thus has lots of packages out in the world, including to preview rendered HTML or Markdown. Plus, because it works directly with git and GitHub, you can see what files have changed without even having to leave the editor.</p>
+<p>When Atom was discontinued by Microsoft in 2022 in favor of their own Visual Studio Code (see below), someone forked the repository and kept it alive – now under the new name of Pulsar. Pretty much anything you see recommended for Atom should work smoothly in Pulsar, though of course nothing stays the same forever, and I make no outright promises.</p>
+<p>I'm still in the market for good tutorials, but <a href="https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_">this Atom tutorial from Level Up</a> looks pretty decent; essential episodes include <a href="https://www.youtube.com/watch?v=ZnzLPIhMJnw&list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_&index=4">#3 The Atom Interface with Tips and Tricks</a> and <a href="https://www.youtube.com/watch?v=IgSW1umKrVs&list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_&index=7">#6 Project Management In Atom</a>. I also highly recommend turning on Soft Wrap, which you can find under the "Editor" pane of Pulsar > Preferences.</p>
 </dd>
 
 <dt><a href="">Visual Studio Code</a></dt>
-<dd><p>This is a widely popular syntax-aware text editor, and ships with the "IntelliSense" predictive text feature already active for several popular programming languages (and extensible for others). It's particularly valuable when you power it up with <em>extensions</em> written by the open source community to add new functionality. In general, if there's anything you think VS Code <em>should</em> be able to do, chances are someone's already made it happen. To search for, install, or otherwise manage extensions from within VS Code, go to View > Extensions or click on the sidebar icon that looks like building blocks.</p>
+<dd>
+    <p>This is a widely popular syntax-aware text editor, and ships with the "IntelliSense" predictive text feature already active for several popular programming languages (and extensible for others). It's particularly valuable when you power it up with <em>extensions</em> written by the open source community to add new functionality. In general, if there's anything you think VS Code <em>should</em> be able to do, chances are someone's already made it happen. To search for, install, or otherwise manage extensions from within VS Code, go to View > Extensions or click on the sidebar icon that looks like building blocks. I personally prefer Atom/Pulsar for everyday use, but VS Code has a few legs up in some places, including its built-in terminal window.</p>
 
-<p>Some extensions I expect you'll find useful:</p>
+    <p>Some extensions I expect you'll find useful:</p>
+
     <ul>
         <li>
             <p><a href="https://marketplace.visualstudio.com/items?itemName=george-alisson.html-preview-vscode">HTML Preview</a>, by George Oliveira (note that the more-frequently downloaded one, by Thomas Haakon Townsend, is no longer being maintained). Lets you see a preview of your HTML file without having to head to the browser (though you may still want to, for inspector reasons!)</p>
         </li>
         <li>
-            <p><a href="https://marketplace.visualstudio.com/items?itemName=Compulim.compulim-vscode-closetag">Close HTML/XML tag</a>, by Compulim: adds a keyboard shortcut to automatically detect the last-opened html tag, and close it. Useful for proofreading!</p>
+            <p><a href="https://marketplace.visualstudio.com/items?itemName=Compulim.compulim-vscode-closetag">Close HTML/XML tag</a>, by Compulim: adds a keyboard shortcut to automatically detect the last-opened html tag, and close it. Useful for proofreading! (NB: this feature is already installed by default on Pulsar; see Packages > Bracket Matcher for the shortcut.)</p>
         </li>
         <li>
             <p><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto Rename Tag</a>, by Jun Han. If you change an <code class="language-plaintext highlighter-rouge">h2</code> to an <code class="language-plaintext highlighter-rouge">h3</code>, this will automatically update the corresponding closing or opening tag so you don’t end up with a mismatch.</p>
@@ -103,29 +132,32 @@ Table of contents:
         </li>
     </ul>
 
-<p>Read the README inside any installed package for tips on how to use it. This will open just like any other file, so you can move it, split it, etc.</p>
+    <p>Read the README inside any installed package for tips on how to use it. This will open just like any other file, so you can move it, split it, etc.</p>
 </dd>
-
-<dt>How to hide your website from search engines</dt>
-<dd><p>You can make your website accessible to the world by using GitHub Pages, which is great for sharing personal or professional sites with friends, family, and potential employers. But if you've made a website for a business that doesn't actually exist, you might not want the link to spread too widely, lest someone try to buy something you can't yet sell them.</p>
-
-<p>In that case, you'll want to create a file called <strong>robots.txt</strong> to tell all the webcrawlers (from Google and Yahoo, not from Marvel) to leave your site out of their indexes. See <a href="https://moz.com/learn/seo/robotstxt#:~:text=Blocking%20all%20web%20crawlers%20from%20all%20content">moz.com/learn/seo/robotstxt</a> for more information.</p>
-</dd>
-
-
-</dt></dt>
 </dl>
 
+<a href="#top"><em>Back to top</em></a>
 
-## File Compression
 
-If you're having trouble uploading large files to GitHub or through email, you can try <em>compressing</em> the files. But while most computers come with built-in compression algorithms, they tend not to be very good. Luckily, there are several excellent and free applications that will happily shrink your file sizes. Here are some recent roundups:
+## Options for publishing to the web
 
-* For any file/folder on **Windows:** <a href="http://www.makeuseof.com/tag/the-top-3-file-compression-extraction-softwares/">www.makeuseof.com/tag/the-top-3-file-compression-extraction-softwares/</a>
-* For any file/folder on **Mac:** <a href="https://mac.eltima.com/best-archiver-mac.html">mac.eltima.com/best-archiver-mac.html</a>
-* **For JPEG files**, specifically: <a href="http://www.jpegmini.com/app">www.jpegmini.com/app</a>
+There are a great many free options for publishing online these days, including WordPress in both <a href="https://wordpress.com">managed</a> (easier for beginners) and <a href="https://wordpress.org">self-hosted</a> (more customizable, but you have to have a server) formats; <a href="https://wix.com">Wix</a>; and <a href="https://medium.com">Medium</a>.
 
-* For more on .png vs .jpg file formats, see this <a href="https://www.techsmith.com/blog/jpg-vs-png/">overview</a> or this more <a href="https://www.digitaltrends.com/photography/jpeg-vs-png/">technical explanation</a>.
+If you're working with a GitHub repository, you can also create a website directly from your files with <a href="https://pages.github.com">GitHub Pages</a>: in fact, that's how I'm hosting this website!
+
+For a low-barrier entree into GitHub Pages, I recommend [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/): a templating structure designed from the outset to make it easier to work with HTML, and developed right here at Pitt by Dr. Stephen Quigley (English).
+
+<details><summary>Check out the 3-minute OpenFuego tutorial to learn more.</summary>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QzMJtLUncIg" title="Open Fuego Webtext Generator (3-min tutorial) via YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</details>
+
+
+### How to hide your website from search engines
+<p>You can make a website accessible to the world by using GitHub Pages, which is great for sharing personal or professional sites with friends, family, and potential employers. But while you're developing through several iterations, you may not be ready to spread the link around too too broadly.</p>
+
+<p>In that case, you'll want to create a file called <strong>robots.txt</strong> to tell all the webcrawlers (from Google and Yahoo, not from Marvel) to leave your site out of their indexes. See <a href="https://moz.com/learn/seo/robotstxt#:~:text=Blocking%20all%20web%20crawlers%20from%20all%20content">moz.com/learn/seo/robotstxt</a> for more information.</p>
+
+<a href="#top"><em>Back to top</em></a>
 
 ## Academic Journals
 
@@ -137,6 +169,7 @@ Digital studies and methods are deployed across the humanities and social scienc
 
 For more publication venues, see the roundups at [Pratt Institute Libraries](https://libguides.pratt.edu/digitalhumanities/journals) and the [Alliance of Digital Humanities Organizations](https://adho.org/publications/).
 
+<a href="#top"><em>Back to top</em></a>
 
 ## Other Resource Roundups
 
@@ -147,7 +180,7 @@ Especially in the realm of digital production, there's no need to reinvent the w
 <dd>In their own words, "We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching. We are committed to fostering a diverse and inclusive community of editors, writers, and readers." There were 102 lessons posted as of mid-August 2023, grouped under five large classes of action you might take with regard to digital materials: acquire, transform, analyze, present, and sustain. Despite the "programming" in the title, many of these tutorials do not require you to write your own code – though a fair number of them do, if that's what does the job best. Well worth skimming for ideas, and especially helpful when you find a match.</dd>
 
 <dt><a href="https://python-textbook.pythonhumanities.com/intro.html">Introduction to Python for Humanists</a></dt>
-<dd><p>I think Montfort does a great job, for the most part, of explaining why programming should appeal to humanistic researchers and creative writers or artists, and as such I'm hoping it'll work well for DSAM-ers across the board. But his exercises may not be as <em>directly</em> applicable to your independent projects as you might prefer. In that case, consider this alternate textbook – a public version of an under-contract manuscript by W.J.B. Mattingly, a postdoc at the Smithsonian and the U.S. Holocaust Memorial Museum. Mattingly's chapter on "Working with External Data" is a quick hit for how to get data into Python from other files, and the chapters on "Data Analysis with Pandas" (most relevant for so-called <em>rectangular data</em>, i.e. data that might fit into a spreadsheet) or "Natural Language Processing with spaCy," as well as chapters on topic modeling, text analysis, and social network analysis, should be quite useful for anyone whose work calls for a deeper dive into any of those methods.</p>
+<dd><p>I think Montfort does a great job, for the most part, of explaining why programming should appeal to humanistic researchers and creative writers or artists, and as such I'm hoping it'll work well for DSAM-ers across the board. But his exercises may not be as <em>directly</em> applicable to your independent projects as you might prefer. In that case, consider this alternate textbook – a public version of an under-contract manuscript by W.J.B. Mattingly, a postdoc at the Smithsonian and the U.S. Holocaust Memorial Museum. Mattingly's chapter on "<a href="https://python-textbook.pythonhumanities.com/01_intro/01_05-01_intro.html">Working with External Data</a>" is a quick hit for how to get data into Python from other files, and the chapters on "<a href="https://python-textbook.pythonhumanities.com/02_pandas/02_01_01_intro.html">Data Analysis with Pandas</a>" (most relevant for so-called <em>rectangular data</em>, i.e. data that might fit into a spreadsheet) or "<a href="https://python-textbook.pythonhumanities.com/03_spacy/03_01_01_intro.html">Natural Language Processing with spaCy</a>," as well as chapters on <a href="https://python-textbook.pythonhumanities.com/04_topic_modeling/04_01_01_intro.html">topic modeling</a>, <a href="https://python-textbook.pythonhumanities.com/08_booknlp/01_01_intro.html">text analysis</a> of large documents, and <a href="https://python-textbook.pythonhumanities.com/06_sna/06_01_01_intro.html">social network analysis</a>, should be quite useful for anyone whose project calls for a deeper dive into any of those methods.</p>
 <p>Full citation: Mattingly, William. <em>Introduction to Python for Digital Humanities</em>, 2022. python-textbook.pythonhumanities.com.</p>
 </dd>
 
@@ -161,4 +194,8 @@ Especially in the realm of digital production, there's no need to reinvent the w
 
 As the semester goes on, we can identify our own list of favorites!
 
-Finally, for a roundup of DH terms and definitions, check out the [Taxonomy of Digital Research Activities in the Humanities (TaDiRAH)](https://tadirah.info/pages/Browser.html). (For a version with text you can copy, go to https://vocabs.dariah.eu/tadirah/en/ and select the Hierarchy tab.)
+<hr>
+
+Finally, for a roundup of DH terms and definitions, check out the [Taxonomy of Digital Research Activities in the Humanities (TaDiRAH)](https://tadirah.info/pages/Browser.html). (For a version with text you can copy, go to <a href="https://vocabs.dariah.eu/tadirah/en/">https://vocabs.dariah.eu/tadirah/en/</a> and select the Hierarchy tab.)
+
+<a href="#top"><em>Back to top</em></a>

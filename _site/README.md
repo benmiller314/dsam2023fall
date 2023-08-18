@@ -18,8 +18,8 @@ NB: This is just source code! For the live site, with better formatting, please 
     * [X] Command Line Crash Course
     * [X] [Dangit, Git](https://dangitgit.com)
 - [ ] Add policies page
-    * [ ] Working with AI
-    * [ ] Grading and assessment
+    * [X] Working with AI
+    * [X] Grading and assessment
     * [ ] Readings calendar is subject to change with student input
     * [ ] Link from index.md and nav_top
 - [ ] Finalize initial assignment calendar
@@ -29,6 +29,7 @@ NB: This is just source code! For the live site, with better formatting, please 
 - [ ] Prep first-day materials
     * [ ] lesson plan
     * [ ] activate discussion board
+        - [ ] and update links in index.md and nav_top.html
     * [ ] update text-demo repository
     * [ ] update digital affordances repository
     * [ ] create fork-able project directory

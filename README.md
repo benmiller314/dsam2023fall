@@ -6,25 +6,30 @@ Many other syllabi were consulted in the construction of this one, but an especi
 NB: This is just source code! For the live site, with better formatting, please go to https://benmiller314.github.io/dsam2023fall.
 
 
+----
 
 ## Tasks before launch
-
 - [x] Finish projects page
-- [ ] Update resources page
-    * [ ] DSS Workshops
-    * [ ] Programming Historian
-    * [ ] Journals
-    * [ ] TaDiRaH / DIRT
-    * [ ] Command Line Crash Course
-    * [ ] [Dangit, Git](https://dangitgit.com)
+- [X] Update resources page
+    * [X] DSS Workshops
+    * [X] Programming Historian
+    * [X] Journals
+    * [X] TaDiRaH / DIRT
+    * [X] Command Line Crash Course
+    * [X] [Dangit, Git](https://dangitgit.com)
 - [ ] Add policies page
-    * [ ] Working with AI
-    * [ ] Readings calendar subject to change with student input
-    * [ ] Grading and assessment
+    * [X] Working with AI
+    * [X] Grading and assessment
+    * [ ] Readings calendar is subject to change with student input
+    * [ ] Link from index.md and nav_top
 - [ ] Finalize initial assignment calendar
+    * [ ] draft on paper
+    * [ ] check page counts in excel
+    * [ ] transfer to schedule.md
 - [ ] Prep first-day materials
     * [ ] lesson plan
     * [ ] activate discussion board
+        - [ ] and update links in index.md and nav_top.html
     * [ ] update text-demo repository
     * [ ] update digital affordances repository
     * [ ] create fork-able project directory
