@@ -166,6 +166,8 @@ Digital studies and methods are deployed across the humanities and social scienc
 * [Digital Humanities Quarterly](http://www.digitalhumanities.org/dhq/)
 * [Digital Scholarship in the Humanities](https://academic.oup.com/dsh)
 * [International Journal of Digital Humanities](https://www.springer.com/journal/42803)
+* [Journal of Cultural Analytics](https://culturalanalytics.org/)
+* [Journal of Writing Analytics](https://wac.colostate.edu/jwa/)
 
 For more publication venues, see the roundups at [Pratt Institute Libraries](https://libguides.pratt.edu/digitalhumanities/journals) and the [Alliance of Digital Humanities Organizations](https://adho.org/publications/).
 
