@@ -12,7 +12,6 @@
     <header class="d-flex align-items-center page-header justify-content-between">
       <div class="col col-md-6">
         <h1>{{site.course.name}}</h1>
-        <img src="{{site.course.cover_image_path}}" alt="{{site.course.cover_image_alt}}" />
       </div>
       <div class="flex-column justify-content-between align-items-center page-header col-md-6">
           <h2>{{ site.course.instructor.name }}</h2>
@@ -23,10 +22,11 @@
       </div>
     </header>
 
-    {%if page.featured_image %}
+    {%if page.course.cover_image_path %}
       <div id="featured-image" class="col-md-5 col-md-offset-1 col-sm-12">
 
-      {{ page.featured_image }}
+      <!-- {{ page.featured_image }} -->
+      <img src="{{site.course.cover_image_path}}" alt="{{site.course.cover_image_alt}}" />
 
       </div>
     {% endif %}
