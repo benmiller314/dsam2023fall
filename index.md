@@ -9,6 +9,7 @@ The DSAM Seminar is designed to prepare students to undertake independent digita
 <nav id="front-nav" class="nav nav-pills center-pills my-3">
     <a class="flex-lg-fill text-lg-center btn btn-outline-secondary nav-item nav-link" role="navigation" href="schedule" title="lesson plans and homeworks">Schedule</a>
     <a class="flex-lg-fill text-lg-center btn btn-outline-secondary nav-item nav-link" role="navigation" href="projects" title="major assignments for the course">Projects</a>
+    <a class="flex-lg-fill text-lg-center btn btn-outline-secondary nav-item nav-link" role="navigation" href="policies" title="useful links">Policies</a>
     <a class="flex-lg-fill text-lg-center btn btn-outline-secondary nav-item nav-link" role="navigation" href="resources" title="useful links">Resources</a>
     <a class="flex-lg-fill text-lg-center btn btn-outline-secondary nav-item nav-link" role="navigation" href="office" title="one-on-one is most hands-on">Office Hours</a>
     <a class="flex-lg-fill text-lg-center btn btn-outline-secondary nav-item nav-link" role="navigation" href="uploads" title="files and handouts">Uploads</a>
