@@ -1,6 +1,6 @@
 # Projects
 
-In addition to shared in-class assignments and weekly [reading responses](#readings-and-responses), everyone in the class will be expected to work on an independent project for several hours a week [outside of class](#mindful-practice-journal), and to update a [public archive](#iteration) of your progress as you go. You will [present your project to the class](#presentations-and-peer-review) three times over the semester for generous, formative review by your professor (me) and each other (writing two letters each).
+In addition to shared in-class assignments and weekly [reading responses](#readings-and-responses), everyone in the class will be expected to work on an independent project for several hours a week [outside of class](#mindful-practice-journal), and to iteratively update a [public archive](#palimpsest-of-public-iteration) of your progress as you go. You will [present your project to the class](#presentations-and-peer-review) three times over the semester for generous, formative review by your professor (me) and each other (writing two letters each).
 
 These projects can vary as much as your interests do, and should incorporate tools and theories appropriate to the questions each person is asking. I'll expect everyone to **[meet with me](office.md) before the end of week 3** (in 2023, that would be by Friday, September 15th) – and ideally before the end of week 2 (September 8th) – so I can help point you in productive directions.
 
@@ -26,7 +26,7 @@ To keep you present in this work, and in fact to help you see all the learning y
 
 <aside class="alert alert-info">NB: Because of the private, reflective nature of the mindful practice journal, I expect this will be separate from the more public commit messages you may compose for git / GitHub, if you're using it. That said, it's not a bad idea to commit frequently, e.g. at the end of working sessions in which your project's product changes, and to use these commit messages mindfully.</aside>
 
-## Iteration
+## Palimpsest of public iteration
 
 In addition to your private accounting for time, I am asking that you periodically update **a "deliverable," public-facing version of your project** that you host on the web. This will develop iteratively: whether you begin with ideas in pursuit of materials or materials in pursuit of ideas, you will most likely need to move back and forth between those poles multiple times, each time sharpening your sense of what you need or what you have. The **palimpsest** of these over-writing refinements will be a core component of your final portfolio for this class.
 While your Mindful Practice Journal is with yourself as the audience, this web-based palimpsest is best written for an audience that includes me as well as your peers.
