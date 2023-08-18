@@ -22,10 +22,10 @@ NB: This is just source code! For the live site, with better formatting, please 
     * [X] Grading and assessment
     * [ ] Readings calendar is subject to change with student input
     * [ ] Link from index.md and nav_top
-- [ ] Finalize initial assignment calendar
-    * [ ] draft on paper
-    * [ ] check page counts in excel
-    * [ ] transfer to schedule.md
+- [X] Finalize initial assignment calendar
+    * [X] draft on paper
+    * [X] check page counts in excel
+    * [X] transfer to schedule.md
 - [ ] Prep first-day materials
     * [ ] lesson plan
     * [ ] activate discussion board
