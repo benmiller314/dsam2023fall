@@ -25,10 +25,10 @@ Follow the links to individual class days for more information, including class 
 
 Week | Date | Lesson Title
 1 | Mon, Aug 28 | [Digital affordances](#week-1)
-2 | Mon, Sep 04 | [no class: Labor Day (getting ready)](#week-2)
+2 | Mon, Sep 04 | no class: Labor Day (getting ready)
 3 | Mon, Sep 11 | [Programming as literacy, as exploration](#week-3)
 4 | Mon, Sep 18 | [Critical code studies](#week-4)
-5 | Mon, Sep 25 | [no class: Yom Kippur (reflection and planning)](#week-5)
+5 | Mon, Sep 25 | no class: Yom Kippur (reflection and planning)
 6 | Mon, Oct 02 | [Presentations 1](#week-6)
 7 | Mon, Oct 09 | [Data 1: By whom? For what?](#week-7)
 8 | Mon, Oct 16 | [Data 2: Exploration and slicing](#week-8)
@@ -36,11 +36,11 @@ Week | Date | Lesson Title
 10 | Mon, Oct 30 | [Presentations 2](#week-10)
 11 | Mon, Nov 06 | [People's choice 1](#week-11)
 12 | Mon, Nov 13 | [People's choice 2](#week-12)
-13 | Mon, Nov 20 | [no class: Thanksgiving Break (digesting)](#week-13)
+13 | Mon, Nov 20 | no class: Thanksgiving Break (digesting)
 14 | Mon, Nov 27 | [People's choice 3](#week-14)
 15 | Mon, Dec 04 | [Presentations 3](#week-15)
 16 | Mon, Dec 11 | [Overflow day, iff needed](#week-16)
-{: .table }
+{: .table .table-sm}
 
 <a id="current">
 
@@ -56,10 +56,12 @@ and **read**:
 
 **Schedule** a meeting with Ben for some time next week (that isn't Monday); see the [office hours](office) page for how to claim a slot or request an alternative if the usual slots won't work for you.
 
-<h3 id="week-2">No class: Labor Day (getting ready)</h3>
+<h3 id="week-2">Week 2: Mon, Sep 04 – (getting ready)</h3>
+**No class: Labor Day**
+
 Meet Ben in [office hours](office) some time this week.
 
-By Friday, **read**:
+By Friday, **read**...
 * Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/</a>. Accessed 19 June 2015.
     - Section 1: "The Man in the Taupe Blazer."
     - Section 6.5: "And Now for Something Beautiful."
@@ -68,7 +70,7 @@ By Friday, **read**:
     - N Katherine Hayles. “PRINT IS FLAT, CODE IS DEEP: The Importance of Media-Specific Analysis.” _Transmedia Frictions_, edited by Tara McPherson and Marsha Kinder, 1st ed., University of California Press, 2014, pp. 20–33. pitt.primo.exlibrisgroup.com, <a href="https://doi.org/10.1525/j.ctt6wqc2f.6">https://doi.org/10.1525/j.ctt6wqc2f.6</a>.
 
 <h3 id="week-3"><a href='{{site.github_url}}/plans/week-3'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
-By Friday, **read**:
+By Friday, **read**...
 * Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C Marino, Michael Mateas, Casey Reas, Mark Sample, and Noah Vawter. “10: Introduction.” _10 PRINT CHR$(205.5+RND(1)); : GOTO 10_, The MIT Press, 2012, pp. 1–17. direct.mit.edu, <a href="https://doi.org/10.7551/mitpress/9040.001.0001">https://doi.org/10.7551/mitpress/9040.001.0001</a>.
 * Whalen, Zach. “Any Means Necessary to Refuse Erasure by Algorithm: Lillian-Yvonne Bertram’s Travesty Generator.” _Digital Humanities Quarterly_, vol. 017, no. 2, July 2023, <a href="http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html">http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html</a>.
 * Raja, Tasneem. “Is Coding the New Literacy?” _Mother Jones_, 16 June 2014, <a href="https://www.motherjones.com/media/2014/06/computer-science-programming-code-diversity-sexism-education/">https://www.motherjones.com/media/2014/06/computer-science-programming-code-diversity-sexism-education/</a>.
@@ -88,7 +90,7 @@ Optionally, schedule a meeting with Ben in [office hours](office) for early feed
 By Sunday, **pre-record** a 5-minute presentation to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
 <h3 id="week-6"><a href='{{site.github_url}}/plans/week-6'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
-By Friday, **read**:
+By Friday, **read**...
 * Montfort, Nick. “7: Standard Starting Points.” Exploratory Programming for the Arts and Humanities, Second Edition, The MIT Press, 2016, pp. 93–118. pitt.primo.exlibrisgroup.com, <a href="https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1">https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1</a>.
 * Ford, Paul. “3: Why Are Programmers So Intense About Languages?” What Is Code? If You Don’t Know, You Need to Read This, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/. Accessed 19 June 2015">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/. Accessed 19 June 2015</a>.
 * D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Four: ‘What Gets Counted Counts.’” Data Feminism, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095</a>.
@@ -100,7 +102,7 @@ and **watch**:
 
 <h3 id="week-7"><a href='{{site.github_url}}/plans/week-7'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
-By Friday, **read**:
+By Friday, **read**...
 
 * D’Ignazio, Catherine, and Lauren F. Klein. "5: Unicorns, Janitors, Ninjas, Wizards, and Rock Stars." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 * Schöch, Christof. “Big? Smart? Clean? Messy? Data in the Humanities.” Journal of Digital Humanities, Nov. 2013, <a href="https://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">https://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</a>.
@@ -111,7 +113,7 @@ By Friday, **read**:
 
 
 <h3 id="week-8"><a href='{{site.github_url}}/plans/week-8'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
-By Friday, **read**:
+By Friday, **read**...
 * Cairo, Alberto. “5: Basic Principles of Visualization.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html</a>.
 * Cairo, Alberto. “6: Exploring Data with Simple Charts.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html</a>.
 * D’Ignazio, Catherine, and Lauren F. Klein. "6: The Numbers Don't Speak for Themselves." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
@@ -126,7 +128,7 @@ Optionally, I also recommend that you **read**:
 
 
 <h3 id="week-10"><a href='{{site.github_url}}/plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
-By Friday, **read** *TBD! One possible cluster might be on ways the digital is still physical. That could include...*
+By Friday, **read**... *TBD! One possible cluster might be on ways the digital is still physical. That could include...*
 * Ford, Paul, "What is Code?" section 2: Let's Begin. <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi</a>.
 * Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo As An Anatomical Map of Human Labor, Data and Planetary Resources.” AI Now Institute and Share Lab, 7 Sept. 2018, https://www.anatomyof.ai.
 * Gries, Laurie, et al. “New Materialisms, Networks, and Humanities Research.” _Networked Humanities: Within and without the University_, edited by Jeff Rice and Brian McNely, Parlor Press, 2018, pp. 85–102.
@@ -140,7 +142,7 @@ By Friday, **read** *TBD! One possible cluster might be on ways the digital is s
 
 
 <h3 id="week-11"><a href='{{site.github_url}}/plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1</h3>
-By Friday, **read** *TBD! One possible cluster might be on topic modeling and distant reading. That could include...*
+By Friday, **read**... *TBD! One possible cluster might be on topic modeling and distant reading. That could include...*
 * Underwood, Ted. “Topic Modeling Made Just Simple Enough.” The Stone and the Shell, 7 Apr. 2012, <a href="http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/">http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/</a>.
 * Meeks, Elijah, and Scott B Weingart. “The Digital Humanities Contribution to Topic Modeling.” _Journal of Digital Humanities_, vol. 2, no. 1, Apr. 2013, <a href="http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/">http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/</a>.
 * More from that issue of _Journal of Digital Humanities_
