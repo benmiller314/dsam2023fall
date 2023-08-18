@@ -6,3 +6,4 @@ _config.yml
 plans/lesson*scrap.md
 .jekyll-metadata
 .DS_Store
+_site/**
