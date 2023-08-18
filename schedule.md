@@ -147,7 +147,10 @@ By Friday, **read**... *TBD! One possible cluster might be on topic modeling and
 * Meeks, Elijah, and Scott B Weingart. “The Digital Humanities Contribution to Topic Modeling.” _Journal of Digital Humanities_, vol. 2, no. 1, Apr. 2013, <a href="http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/">http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/</a>.
 * More from that issue of _Journal of Digital Humanities_
 * Cottom, Tressie McMillan. “47: More Scale, More Questions: Observations from Sociology.” Debates in the Digital Humanities 2016, University of Minnesota Press, 2016, <a href="https://dhdebates.gc.cuny.edu/read/untitled/section/55e48b34-543a-41f7-97c9-8c8643bf8844#ch47">https://dhdebates.gc.cuny.edu/read/untitled/section/55e48b34-543a-41f7-97c9-8c8643bf8844#ch47</a>.
-* EXT for eager readers: Underwood, Ted. “A Genealogy of Distant Reading.” Digital Humanities Quarterly, vol. 11, no. 2, 2017. Digital Humanities Quarterly, <a href="http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html">http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html</a>.
+* EXT for eager readers:
+    - Underwood, Ted. “A Genealogy of Distant Reading.” _Digital Humanities Quarterly_, vol. 11, no. 2, 2017. <a href="http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html">http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html</a>.
+    - Guldi, Jo. “Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora.” _Journal of Cultural Analytics_, Dec. 2018. <a href="https://culturalanalytics.org/article/11028">https://culturalanalytics.org/article/11028</a>
+
 
 
 <h3 id="week-12"><a href='{{site.github_url}}/plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2</h3>
