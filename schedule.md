@@ -24,6 +24,7 @@ Follow the links to individual class days for more information, including class 
 ## Outline of the semester:
 
 Week | Date | Lesson Title
+--- | --- | ---
 1 | Mon, Aug 28 | [Digital affordances](#week-1)
 2 | Mon, Sep 04 | no class: Labor Day (getting ready)
 3 | Mon, Sep 11 | [Programming as literacy, as exploration](#week-3)
