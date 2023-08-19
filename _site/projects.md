@@ -29,7 +29,8 @@ To keep you present in this work, and in fact to help you see all the learning y
 ## Palimpsest of public iteration
 
 In addition to your private accounting for time, I am asking that you periodically update **a "deliverable," public-facing version of your project** that you host on the web. This will develop iteratively: whether you begin with ideas in pursuit of materials or materials in pursuit of ideas, you will most likely need to move back and forth between those poles multiple times, each time sharpening your sense of what you need or what you have. The **palimpsest** of these over-writing refinements will be a core component of your final portfolio for this class.
-While your Mindful Practice Journal is written for yourself, this web-based palimpsest is best written for an audience that includes me as well as your peers.
+
+Note that while your Mindful Practice Journal is written for yourself, this web-based palimpsest is best written for an audience that includes me as well as your peers.
 
 You may use any web-based publishing platform you're comfortable with, e.g. Wix, WordPress, SquareSpace, Medium; there are many free options. One option you should be aware of, if you're not already, is GitHub Pages, which integrates with the git version control software I'll already be asking you to try out for tracking your changes. Perhaps the easiest path to making a public-facing website with GitHub is [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/): a templating structure designed from the outset to make it easier to work with HTML, and developed right here at Pitt by Dr. Stephen Quigley (English).
 
