@@ -16,7 +16,7 @@ You should in general also have access to all your work in class, so we can disc
 <div class="panel panel-info">
 <div class="panel-body">
 
-Follow the links to individual class days for more information, including class notes and more complete homework instructions. NB: This schedule is subject to revision based on our needs.
+Follow the links to individual class days for more information, including class notes and more complete homework instructions. <strong>NB: This schedule is subject to revision based on our needs.</strong>
 
 </div>
 </div>

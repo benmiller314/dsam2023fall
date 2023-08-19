@@ -17,10 +17,10 @@ NB: This is just source code! For the live site, with better formatting, please 
     * [X] TaDiRaH / DIRT
     * [X] Command Line Crash Course
     * [X] [Dangit, Git](https://dangitgit.com)
-- [ ] Add policies page
+- [X] Add policies page
     * [X] Working with AI
     * [X] Grading and assessment
-    * [ ] Readings calendar is subject to change with student input
+    * [X] Readings calendar is subject to change with student input
     * [ ] Link from index.md and nav_top
 - [X] Finalize initial assignment calendar
     * [X] draft on paper
@@ -37,3 +37,4 @@ NB: This is just source code! For the live site, with better formatting, please 
         - [ ] show students how to make that subdirectory private with .gitignore
 - [ ] Email students with hardware recommendations and software to download before the first class
     * [ ] also add reading from Hayles or J. Murray??
+        - [ ] or what about the Wesch video?
