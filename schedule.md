@@ -46,10 +46,12 @@ Week | Date | Lesson Title
 <a id="current">
 
 <h3 id="week1"><a href='{{site.github_url}}/plans/week-1'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
+
 By Friday, **watch**:
 * Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
 
 and **read**:
+
 * Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
 * Risam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” Digital Humanities Quarterly, vol. 16, no. 2, 2022, <a href="http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html">http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html</a>.
 * EXT for eager readers:
@@ -58,6 +60,7 @@ and **read**:
 **Schedule** a meeting with Ben for some time next week (that isn't Monday); see the [office hours](office) page for how to claim a slot or request an alternative if the usual slots won't work for you.
 
 <h3 id="week-2">Week 2: Mon, Sep 04 – (getting ready)</h3>
+
 **No class: Labor Day**
 
 Meet Ben in [office hours](office) some time this week.
@@ -71,7 +74,9 @@ By Friday, **read**...
     - N Katherine Hayles. “PRINT IS FLAT, CODE IS DEEP: The Importance of Media-Specific Analysis.” _Transmedia Frictions_, edited by Tara McPherson and Marsha Kinder, 1st ed., University of California Press, 2014, pp. 20–33. pitt.primo.exlibrisgroup.com, <a href="https://doi.org/10.1525/j.ctt6wqc2f.6">https://doi.org/10.1525/j.ctt6wqc2f.6</a>.
 
 <h3 id="week-3"><a href='{{site.github_url}}/plans/week-3'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
+
 By Friday, **read**...
+
 * Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C Marino, Michael Mateas, Casey Reas, Mark Sample, and Noah Vawter. “10: Introduction.” _10 PRINT CHR$(205.5+RND(1)); : GOTO 10_, The MIT Press, 2012, pp. 1–17. direct.mit.edu, <a href="https://doi.org/10.7551/mitpress/9040.001.0001">https://doi.org/10.7551/mitpress/9040.001.0001</a>.
 * Whalen, Zach. “Any Means Necessary to Refuse Erasure by Algorithm: Lillian-Yvonne Bertram’s Travesty Generator.” _Digital Humanities Quarterly_, vol. 017, no. 2, July 2023, <a href="http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html">http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html</a>.
 * Raja, Tasneem. “Is Coding the New Literacy?” _Mother Jones_, 16 June 2014, <a href="https://www.motherjones.com/media/2014/06/computer-science-programming-code-diversity-sexism-education/">https://www.motherjones.com/media/2014/06/computer-science-programming-code-diversity-sexism-education/</a>.
@@ -81,17 +86,21 @@ By Friday, **read**...
 
 
 <h3 id="week-4"><a href='{{site.github_url}}/plans/week-4'>Week 4: Mon, Sep 18</a> – Critical code studies</h3>
-By the time we get back in Week 6, **prepare a presentation** on your independent project: what are you looking at? what questions do you have about that? what are your next steps?
+
+By the time we get back in Week 6, [**prepare a presentation**](projects#presentations-and-peer-review) on your independent project: what are you looking at? what questions do you have about that? what are your next steps?
 
 Optionally, schedule a meeting with Ben in [office hours](office) for early feedback as you build your presentation.
 
 <h3 id="week-5">Week 5: Mon, Sep 25 – Reflection and planning</h3>
+
 **No class this week: Yom Kippur.**
 
 By Sunday, **pre-record** a 5-minute presentation to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
 <h3 id="week-6"><a href='{{site.github_url}}/plans/week-6'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
+
 By Friday, **read**...
+
 * Montfort, Nick. “7: Standard Starting Points.” Exploratory Programming for the Arts and Humanities, Second Edition, The MIT Press, 2016, pp. 93–118. pitt.primo.exlibrisgroup.com, <a href="https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1">https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1</a>.
 * Ford, Paul. “3: Why Are Programmers So Intense About Languages?” What Is Code? If You Don’t Know, You Need to Read This, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/. Accessed 19 June 2015">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/. Accessed 19 June 2015</a>.
 * D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Four: ‘What Gets Counted Counts.’” Data Feminism, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095</a>.
@@ -111,30 +120,34 @@ By Friday, **read**...
 * Gradek, Bob, and Liz Monk. "Dataset Summaries: Pivot Tables", 2022. vimeo.com, <a href="https://vimeo.com/703773939">https://vimeo.com/703773939</a>.
 
 
-
-
 <h3 id="week-8"><a href='{{site.github_url}}/plans/week-8'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
+
 By Friday, **read**...
+
 * Cairo, Alberto. “5: Basic Principles of Visualization.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html</a>.
 * Cairo, Alberto. “6: Exploring Data with Simple Charts.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html</a>.
 * D’Ignazio, Catherine, and Lauren F. Klein. "6: The Numbers Don't Speak for Themselves." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
 
-
 <h3 id="week-9"><a href='{{site.github_url}}/plans/week-9'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
+
 By Sunday, prepare an updated presentation to class, now with a stronger sense of your argument and evidence, even if they're still works in progress. **Pre-record 5 minutes** to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
 Optionally, I also recommend that you **read**:
+
 * Ford, Paul, _What is Code?_ section 6.2: "What is debugging?" <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>.
 
 
 <h3 id="week-10"><a href='{{site.github_url}}/plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
+
 By Friday, **read**... *TBD! One possible cluster might be on ways the digital is still physical. That could include...*
+
 * Ford, Paul, "What is Code?" section 2: Let's Begin. <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi</a>.
 * Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo As An Anatomical Map of Human Labor, Data and Planetary Resources.” AI Now Institute and Share Lab, 7 Sept. 2018, https://www.anatomyof.ai.
 * Gries, Laurie, et al. “New Materialisms, Networks, and Humanities Research.” _Networked Humanities: Within and without the University_, edited by Jeff Rice and Brian McNely, Parlor Press, 2018, pp. 85–102.
 
 *Another way forward might be to go deeper into programming as an exploratory, epistemic process. That could include...*
+
 * Montfort, Nick. _Exploratory Programming for the Arts and Humanities, 2nd edition_. MIT Press: 2021.
     * "Appendix A: Why Program?"
     * "6: Programming Fundamentals"
@@ -143,7 +156,9 @@ By Friday, **read**... *TBD! One possible cluster might be on ways the digital i
 
 
 <h3 id="week-11"><a href='{{site.github_url}}/plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1</h3>
+
 By Friday, **read**... *TBD! One possible cluster might be on topic modeling and distant reading. That could include...*
+
 * Underwood, Ted. “Topic Modeling Made Just Simple Enough.” The Stone and the Shell, 7 Apr. 2012, <a href="http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/">http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/</a>.
 * Meeks, Elijah, and Scott B Weingart. “The Digital Humanities Contribution to Topic Modeling.” _Journal of Digital Humanities_, vol. 2, no. 1, Apr. 2013, <a href="http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/">http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/</a>.
 * More from that issue of _Journal of Digital Humanities_
@@ -153,9 +168,10 @@ By Friday, **read**... *TBD! One possible cluster might be on topic modeling and
     - Guldi, Jo. “Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora.” _Journal of Cultural Analytics_, Dec. 2018. <a href="https://culturalanalytics.org/article/11028">https://culturalanalytics.org/article/11028</a>
 
 
-
 <h3 id="week-12"><a href='{{site.github_url}}/plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2</h3>
+
 By the time we get back from break, **read**: *TBD! One possible cluster might be on AI and large language models. That could include...*
+
 * Onuoha, Mimi and Mother Cyborg (Diana Nucera). “A People’s Guide To Tech: Artificial Intelligence.” Allied Media Projects, Aug. 2018, <a href="https://alliedmedia.org/resources/peoples-guide-to-ai">https://alliedmedia.org/resources/peoples-guide-to-ai</a>.
 * Crawford, Kate, and Trevor Paglen. “Excavating AI: The Politics of Training Sets for Machine Learning.” 19 Sept. 2019, <a href="https://excavating.ai">https://excavating.ai</a>.
 * Vee, Annette. “Large Language Models Write Answers.” _Composition Studies_, vol. 51, no. 1, Spring 2023, pp. 176–81.

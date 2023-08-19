@@ -7,7 +7,7 @@ These projects can vary as much as your interests do, and should incorporate too
 We'll have some time in class to collectively troubleshoot your independent projects-in-progress, which will surely help everyone to learn both about a wider range of tools and about the process of finding paths forward! But you can also always ask me for follow-up advice during office hours.
 
 ## Readings and Responses
-In most weeks, I will assign several texts or videos to review as preparation for the subsequent class. I've tried to keep these relatively light – they peak at about 81 pages – but I will suggest some optional extended readings for those of you who want to dig in deeper. (Some of these are already in the [schedule](schedule), marked with EXT.)
+In most weeks, I will assign several texts or videos to review as preparation for the subsequent class. I've tried to keep these relatively light, so you can continue working on your own research, analysis, and/or programming – they peak at about 81 pages, and average closer to 50. That said, I will also suggest some optional extended readings for those of you who want to dig in deeper. (Some of these are already in the [schedule](schedule), marked with EXT.)
 
 To help you process what you're reading, and to seed our in-class conversation, each week I'll ask you to post a _reader response_ on a shared [discussion forum]({{site.github_url}}/discussion). These should be grounded, where possible, in at least one quoted passage from the text, and can include questions, confusions, connections, excitements, or incitements. If you aim to write at least 100 of your own words, that should give us a place to begin.
 
@@ -29,7 +29,7 @@ To keep you present in this work, and in fact to help you see all the learning y
 ## Palimpsest of public iteration
 
 In addition to your private accounting for time, I am asking that you periodically update **a "deliverable," public-facing version of your project** that you host on the web. This will develop iteratively: whether you begin with ideas in pursuit of materials or materials in pursuit of ideas, you will most likely need to move back and forth between those poles multiple times, each time sharpening your sense of what you need or what you have. The **palimpsest** of these over-writing refinements will be a core component of your final portfolio for this class.
-While your Mindful Practice Journal is with yourself as the audience, this web-based palimpsest is best written for an audience that includes me as well as your peers.
+While your Mindful Practice Journal is written for yourself, this web-based palimpsest is best written for an audience that includes me as well as your peers.
 
 You may use any web-based publishing platform you're comfortable with, e.g. Wix, WordPress, SquareSpace, Medium; there are many free options. One option you should be aware of, if you're not already, is GitHub Pages, which integrates with the git version control software I'll already be asking you to try out for tracking your changes. Perhaps the easiest path to making a public-facing website with GitHub is [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/): a templating structure designed from the outset to make it easier to work with HTML, and developed right here at Pitt by Dr. Stephen Quigley (English).
 
