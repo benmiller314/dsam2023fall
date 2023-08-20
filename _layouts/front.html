@@ -9,20 +9,21 @@
 
   <div id="foreground" class="foreground">
 
-    <header class="d-flex align-items-center page-header justify-content-between">
-      <div class="col col-md-6">
-        <h1>{{site.course.name}}</h1>
-      </div>
-      <div class="flex-column justify-content-between align-items-center page-header col-md-6">
-          <h2>{{ site.course.instructor.name }}</h2>
-          <h3>
-              {{ site.course.term }} |
-              {{ site.course.time }} |
-              {{ site.course.room }}</h3>
-      </div>
-    </header>
+      <header class="d-flex flex-row flex-sm-column m-4">
+        <div class="name-and-image d-flex flex-column">
+            <h1>{{site.course.name}}</h1>
+            <!-- <img class="featured-image"
+              src="{{site.course.featured_image}}" alt="{{site.course.featured_alt}}"> -->
+        </div>
+        <div class="who-when-where">
+            <h2>{{ site.course.instructor.name }}</h2>
+            <h2>{{ site.course.term }}</h2>
+            <h3>{{ site.course.time }}</h3>
+            <h3>{{ site.course.room }}</h3>
+        </div>
+      </header>
 
-    {%if page.course.cover_image_path %}
+    {%if page.course.featured_image %}
       <div id="featured-image" class="col-md-5 col-md-offset-1 col-sm-12">
 
       <!-- {{ page.featured_image }} -->
@@ -31,7 +32,7 @@
       </div>
     {% endif %}
 
-    <section id="content" class="d-flex justify-content-around flex-sm-wrap-reverse flex-lg-nowrap">
+    <section id="content" class="d-flex flex-column-reverse flex-sm-row-reverse">
 
     {{content}}
 
