@@ -45,7 +45,7 @@ Week | Date | Lesson Title
 
 <a id="current">
 
-<h3 id="week1"><a href='{{site.github_url}}/plans/week-1'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
+<h3 id="week-1"><a href='{{site.github_url}}/plans/week-1'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
 
 By Friday, **watch**:
 * Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
