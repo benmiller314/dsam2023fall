@@ -55,6 +55,7 @@ and **read**:
 * Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
 * Risam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” Digital Humanities Quarterly, vol. 16, no. 2, 2022, <a href="http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html">http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html</a>.
 * EXT for eager readers:
+    - Murray, Janet H. “Affordances of the Digital Medium.” <em>Inventing the Medium: Principles of Interaction Design as a Cultural Practice</em>, The MIT Press, 2011, pp. 51–85. <a href="https://ebookcentral.proquest.com/lib/pitt-ebooks/reader.action?docID=3339350&ppg=66">https://ebookcentral.proquest.com/lib/pitt-ebooks/reader.action?docID=3339350&ppg=66</a>.
     - N Katherine Hayles. “PRINT IS FLAT, CODE IS DEEP: The Importance of Media-Specific Analysis.” _Transmedia Frictions_, edited by Tara McPherson and Marsha Kinder, 1st ed., University of California Press, 2014, pp. 20–33. pitt.primo.exlibrisgroup.com, <a href="https://doi.org/10.1525/j.ctt6wqc2f.6">https://doi.org/10.1525/j.ctt6wqc2f.6</a>.
 
 **Schedule** a meeting with Ben for some time next week (that isn't Monday); see the [office hours](office) page for how to claim a slot or request an alternative if the usual slots won't work for you.
