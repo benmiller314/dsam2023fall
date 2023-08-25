@@ -111,6 +111,9 @@ footer a:hover, footer a:focus, footer a:visited {
     color: #6a9af4;
 }
 
+dfn {
+    font-style: initial;
+}
 
 /* Header spacing */
 
