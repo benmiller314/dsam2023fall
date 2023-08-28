@@ -26,15 +26,15 @@ Follow the links to individual class days for more information, including class 
 
 Week | Date | Lesson Title
 --- | --- | ---
-1 | Mon, Aug 28 | [Digital affordances](#week-1)
+1 | Mon, Aug 28 | [Digital affordances](#week-01)
 2 | Mon, Sep 04 | no class: Labor Day (getting ready)
-3 | Mon, Sep 11 | [Programming as literacy, as exploration](#week-3)
-4 | Mon, Sep 18 | [Critical code studies](#week-4)
+3 | Mon, Sep 11 | [Programming as literacy, as exploration](#week-03)
+4 | Mon, Sep 18 | [Critical code studies](#week-04)
 5 | Mon, Sep 25 | no class: Yom Kippur (reflection and planning)
-6 | Mon, Oct 02 | [Presentations 1](#week-6)
-7 | Mon, Oct 09 | [Data 1: By whom? For what?](#week-7)
-8 | Mon, Oct 16 | [Data 2: Exploration and slicing](#week-8)
-9 | Mon, Oct 23 | [Data 3: Analysis and visualization](#week-9)
+6 | Mon, Oct 02 | [Presentations 1](#week-06)
+7 | Mon, Oct 09 | [Data 1: By whom? For what?](#week-07)
+8 | Mon, Oct 16 | [Data 2: Exploration and slicing](#week-08)
+9 | Mon, Oct 23 | [Data 3: Analysis and visualization](#week-09)
 10 | Mon, Oct 30 | [Presentations 2](#week-10)
 11 | Mon, Nov 06 | [People's choice 1](#week-11)
 12 | Mon, Nov 13 | [People's choice 2](#week-12)
@@ -46,7 +46,7 @@ Week | Date | Lesson Title
 
 <a id="current">
 
-<h3 id="week-1"><a href='{{site.github_url}}/plans/week-1'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
+<h3 id="week-01"><a href='{{site.github_url}}/plans/week-01'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
 
 By Friday, **watch**:
 * Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
@@ -62,7 +62,7 @@ and **read**:
 
 **Schedule** a meeting with Ben for some time next week (that isn't Monday); see the [office hours](office) page for how to claim a slot or request an alternative if the usual slots won't work for you.
 
-<h3 id="week-2">Week 2: Mon, Sep 04 – (getting ready)</h3>
+<h3 id="week-02">Week 2: Mon, Sep 04 – (getting ready)</h3>
 
 **No class: Labor Day**
 
@@ -76,7 +76,7 @@ By Friday, **read**...
 * EXT for eager readers:
     - D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Seven: Show Your Work.” _Data Feminism_, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
-<h3 id="week-3"><a href='{{site.github_url}}/plans/week-3'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
+<h3 id="week-03"><a href='{{site.github_url}}/plans/week-03'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
 
 By Friday, **read**...
 
@@ -88,19 +88,19 @@ By Friday, **read**...
     - Vee, Annette. “Introduction: Computer Programming as Literacy.” _Coding Literacy_, MIT Press, 2017. pitt.primo.exlibrisgroup.com, <a href="https://doi.org/10.7551/mitpress/10655.003.0003">https://doi.org/10.7551/mitpress/10655.003.0003</a>.
 
 
-<h3 id="week-4"><a href='{{site.github_url}}/plans/week-4'>Week 4: Mon, Sep 18</a> – Critical code studies</h3>
+<h3 id="week-04"><a href='{{site.github_url}}/plans/week-04'>Week 4: Mon, Sep 18</a> – Critical code studies</h3>
 
 By the time we get back in Week 6, [**prepare a presentation**](projects#presentations-and-peer-review) on your independent project: what are you looking at? what questions do you have about that? what are your next steps?
 
 Optionally, schedule a meeting with Ben in [office hours](office) for early feedback as you build your presentation.
 
-<h3 id="week-5">Week 5: Mon, Sep 25 – Reflection and planning</h3>
+<h3 id="week-05">Week 5: Mon, Sep 25 – Reflection and planning</h3>
 
 **No class this week: Yom Kippur.**
 
 By Sunday, **pre-record** a 5-minute presentation to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
-<h3 id="week-6"><a href='{{site.github_url}}/plans/week-6'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
+<h3 id="week-06"><a href='{{site.github_url}}/plans/week-06'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
 
 By Friday, **read**...
 
@@ -113,7 +113,7 @@ and **watch**:
 * Beshero-Bondar, Elisa. “How to Grow Data Forests with XML Trees.” What Are Digital Humanities?, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/besherobondar/">https://cmu-lib.github.io/dhlg/project-videos/besherobondar/</a>.
 * Brown, AmyJo. “Building Your Own Data Set: A Journalist’s Approach.” What Are Digital Humanities?, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/brown/">https://cmu-lib.github.io/dhlg/project-videos/brown/</a>.
 
-<h3 id="week-7"><a href='{{site.github_url}}/plans/week-7'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
+<h3 id="week-07"><a href='{{site.github_url}}/plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
 By Friday, **read**...
 
@@ -123,7 +123,7 @@ By Friday, **read**...
 * Gradek, Bob, and Liz Monk. "Dataset Summaries: Pivot Tables", 2022. vimeo.com, <a href="https://vimeo.com/703773939">https://vimeo.com/703773939</a>.
 
 
-<h3 id="week-8"><a href='{{site.github_url}}/plans/week-8'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
+<h3 id="week-08"><a href='{{site.github_url}}/plans/week-08'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
 
 By Friday, **read**...
 
@@ -132,7 +132,7 @@ By Friday, **read**...
 * D’Ignazio, Catherine, and Lauren F. Klein. "6: The Numbers Don't Speak for Themselves." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
 
-<h3 id="week-9"><a href='{{site.github_url}}/plans/week-9'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
+<h3 id="week-09"><a href='{{site.github_url}}/plans/week-09'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
 
 By Sunday, prepare an updated presentation to class, now with a stronger sense of your argument and evidence, even if they're still works in progress. **Pre-record 5 minutes** to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
