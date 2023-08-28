@@ -33,7 +33,7 @@
 ### A few quick announcements before we really start:
 
 * I invite you to take a minute and make yourself a little name-plate on a tri-folded piece of paper – or adjust the way your name displays in Zoom. For example, I want you to know that you can call me Ben, and that I use he/him pronouns. How would you like us to address you?
-    - Relatedly, we have a NameCoach Roster where you can record how you'd like your name pronounced, and listen to recordings of your classmates. Please do use it!
+    <!-- - Relatedly, we have a NameCoach Roster where you can record how you'd like your name pronounced, and listen to recordings of your classmates. Please do use it! -->
 
 * For a little more getting to know you, please fill out [this first day info sheet](https://forms.gle/Nqc7KLeP5CMBVhBi8) via Google Forms. If you can't get to it now, then at your earliest convenience. And if you have a device but not this page, you can get here by loading [https://benmiller314.github.io/dsam2023fall](https://benmiller314.github.io/dsam2023fall), clicking Schedule, and scrolling down to click on Week 1. (Or use the "current lesson" shortcut link at the top.)
 
