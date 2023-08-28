@@ -268,6 +268,12 @@ details[open], aside {
 	          box-shadow: 0 8px 6px -4px hsl(0, 0%, 66%);
 }
 
+details summary h3 {
+    margin-top: -4em;
+    margin-left: 1em;
+    margin-bottom: 0;
+}
+
 /* But don't do this inside a colored alert */
 .alert summary {
     background-color: inherit;
