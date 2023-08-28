@@ -109,7 +109,7 @@ Again, let's try to use the [shared notes doc](https://bit.ly/dsam2023fall-notes
 
 
 ## 2. A letter from Ben
-You can [download it from the website](/{{site.course.base_path}}uploads/letter-from-ben.docx) if you'd like to follow along.
+You can download it from the website in [.docx](/{{site.course.base_path}}uploads/letter-from-ben.docx) or [.md](/{{site.course.base_path}}uploads/letter-from-ben.md) format if you'd like to follow along.
 
 ## 3. A letter back to Ben.
 I'll try to leave a little time at the end of class to add on, too, but let's take until about 10:30 to start an informal response.
