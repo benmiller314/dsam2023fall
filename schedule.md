@@ -8,6 +8,7 @@ banneralt: "banner: phases of the moon"
 # Class-by-Class Schedule
 
 *[Jump to latest lesson plan](#current)*
+*For the in-class notes doc, go to [bit.ly/dsam2023fall-notes](https://bit.ly/dsam2023fall-notes).*
 
 Assignments are listed (as HW) *on the day they are assigned*. Readings should be completed, if possible, <strong>by end-of-day Friday</strong><a href="#ftn1" class="ftnref" id="ftnref1" title="This early deadline is not my way of being mean; it's just that sometimes things will take longer than you expect, and I'd really like for you to be able to sleep, and for me to be able to look over your work in the morning before class. Those latter two things are the real priorities that the 'night before' policy is meant to achieve."><sup>[1]</sup></a>, so you can post to our <a href="{{site.github_url}}/discussions}}">discussion forum</a>. Exercises and presentations are due the following class meeting, unless otherwise specified, and given our early start time I recommend endeavoring to complete them *by 9pm the night before* at the latest.
 
@@ -52,7 +53,8 @@ By Friday, **watch**:
 
 and **read**:
 
-* Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
+* Posner, Miriam. How Did They Make That? 29 Aug. 2013, <a href="https://miriamposner.com/blog/how-did-they-make-that/">https://miriamposner.com/blog/how-did-they-make-that/</a>.
+
 * Risam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” Digital Humanities Quarterly, vol. 16, no. 2, 2022, <a href="http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html">http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html</a>.
 * EXT for eager readers:
     - Murray, Janet H. “Affordances of the Digital Medium.” <em>Inventing the Medium: Principles of Interaction Design as a Cultural Practice</em>, The MIT Press, 2011, pp. 51–85. <a href="https://ebookcentral.proquest.com/lib/pitt-ebooks/reader.action?docID=3339350&ppg=66">https://ebookcentral.proquest.com/lib/pitt-ebooks/reader.action?docID=3339350&ppg=66</a>.
@@ -81,7 +83,7 @@ By Friday, **read**...
 * Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C Marino, Michael Mateas, Casey Reas, Mark Sample, and Noah Vawter. “10: Introduction.” _10 PRINT CHR$(205.5+RND(1)); : GOTO 10_, The MIT Press, 2012, pp. 1–17. direct.mit.edu, <a href="https://doi.org/10.7551/mitpress/9040.001.0001">https://doi.org/10.7551/mitpress/9040.001.0001</a>.
 * Whalen, Zach. “Any Means Necessary to Refuse Erasure by Algorithm: Lillian-Yvonne Bertram’s Travesty Generator.” _Digital Humanities Quarterly_, vol. 017, no. 2, July 2023, <a href="http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html">http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html</a>.
 * Raja, Tasneem. “Is Coding the New Literacy?” _Mother Jones_, 16 June 2014, <a href="https://www.motherjones.com/media/2014/06/computer-science-programming-code-diversity-sexism-education/">https://www.motherjones.com/media/2014/06/computer-science-programming-code-diversity-sexism-education/</a>.
-* Benjamin, Ruha. "Preface" and “Introduction: The New Jim Code.” _Race after Technology: Abolitionist Tools for the New Jim Code_, Polity, 2019, pp. 16–101, but you can stop at p. 78 if you want.
+* Benjamin, Ruha. "Preface" and “Introduction: The New Jim Code.” _Race after Technology: Abolitionist Tools for the New Jim Code_, Polity, 2019, pp. 16–101, but you can stop at p. 78 if you want. [Available on Overdrive](https://pitt.primo.exlibrisgroup.com/permalink/01PITT_INST/e8h8hp/alma9999863389206236).
 * EXT for eager readers:
     - Vee, Annette. “Introduction: Computer Programming as Literacy.” _Coding Literacy_, MIT Press, 2017. pitt.primo.exlibrisgroup.com, <a href="https://doi.org/10.7551/mitpress/10655.003.0003">https://doi.org/10.7551/mitpress/10655.003.0003</a>.
 
