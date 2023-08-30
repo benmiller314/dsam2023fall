@@ -9,7 +9,7 @@ We'll have some time in class to collectively troubleshoot your independent proj
 ## Readings and Responses
 In most weeks, I will assign several texts or videos to review as preparation for the subsequent class. I've tried to keep these relatively light, so you can continue working on your own research, analysis, and/or programming – they peak at about 81 pages, and average closer to 50. That said, I will also suggest some optional extended readings for those of you who want to dig in deeper. (Some of these are already in the [schedule](schedule), marked with EXT.)
 
-To help you process what you're reading, and to seed our in-class conversation, each week I'll ask you to post a _reader response_ on a shared [discussion forum]({{site.github_url}}/discussion). These should be grounded, where possible, in at least one quoted passage from the text, and can include questions, confusions, connections, excitements, or incitements. If you aim to write at least 100 of your own words, that should give us a place to begin.
+To help you process what you're reading, and to seed our in-class conversation, each week I'll ask you to post a _reader response_ on a shared [discussion forum]({{site.github_url}}/issues). These should be grounded, where possible, in at least one quoted passage from the text, and can include questions, confusions, connections, excitements, or incitements. If you aim to write at least 100 of your own words, that should give us a place to begin.
 
 Direct responses to other students' posts are optional but encouraged; to make that more possible, please try to post by Friday evening when you can.
 
