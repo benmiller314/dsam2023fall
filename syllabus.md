@@ -36,9 +36,10 @@ NB: All this information and more will be accessible, in its most up-to-date for
 
 <!-- ## Resources at Pitt -->
 
-{% include microcontent.html content=services_at_pitt %}
+NB: Additional resources can be found on the course site at [{{site.github_url}}/resources]({{site.github_url}}/resources).
 
-Additional resources can be found on the course site at [{{site.course.github_url}}/resources]({{site.course.github_url}}/resources).
+{% include microcontent.html content=resources.services_at_pitt %} <!-- This doesn't work: it's just pulling in an empty div. -->
+
 
 ## Assignment Schedule
 
