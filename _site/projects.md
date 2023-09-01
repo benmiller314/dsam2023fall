@@ -34,7 +34,7 @@ Note that while your Mindful Practice Journal is written for yourself, this web-
 
 You may use any web-based publishing platform you're comfortable with, e.g. Wix, WordPress, SquareSpace, Medium; there are many free options. One option you should be aware of, if you're not already, is GitHub Pages, which integrates with the git version control software I'll already be asking you to try out for tracking your changes. Perhaps the easiest path to making a public-facing website with GitHub is [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/): a templating structure designed from the outset to make it easier to work with HTML, and developed right here at Pitt by Dr. Stephen Quigley (English).
 
-<details><summary>Check out the 3-minute OpenFuego tutorial to learn more.</summary>
+<details class="no-print"><summary>Check out the 3-minute OpenFuego tutorial to learn more.</summary>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QzMJtLUncIg" title="Open Fuego Webtext Generator (3-min tutorial) via YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </details>
 

@@ -23,7 +23,7 @@ Table of contents:
 
 <!-- /TOC -->
 
-
+{% capture services_at_pitt %}
 ## Services at Pitt
 <dl>
 <dt><a href="http://www.studentaffairs.pitt.edu/drs/">Disability Resources</a></dt>
@@ -42,7 +42,7 @@ Table of contents:
 <dd>Though not every consultant will have experience in multimodal composing or digital media, some will; but more importantly, the Writing Center's emphases on process-oriented reflection and rhetorical thinking makes every consultant a useful sounding board for developing ideas, getting feedback from an outside reader, and getting organized for revision and reflection. It's a good idea to <a href="http://writingcenter.pitt.edu/undergraduate-services">plan for your visit</a> and to make an appointment before you go.</dd>
 
 </dl>
-
+{% endcapture %}
 <a href="#top"><em>Back to top</em></a>
 
 ## Help with Git and GitHub
@@ -147,7 +147,7 @@ If you're working with a GitHub repository, you can also create a website direct
 
 For a low-barrier entree into GitHub Pages, I recommend [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/): a templating structure designed from the outset to make it easier to work with HTML, and developed right here at Pitt by Dr. Stephen Quigley (English).
 
-<details><summary>Check out the 3-minute OpenFuego tutorial to learn more.</summary>
+<details class="no-print"><summary>Check out the 3-minute OpenFuego tutorial to learn more.</summary>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QzMJtLUncIg" title="Open Fuego Webtext Generator (3-min tutorial) via YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </details>
 
