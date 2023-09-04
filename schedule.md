@@ -44,7 +44,7 @@ Week | Date | Lesson Title
 16 | Mon, Dec 11 | [Overflow day, iff needed](#week-16)
 {: .table .table-sm}
 
-<a id="current">
+
 
 <h3 id="week-01"><a href='{{site.github_url}}/plans/week-01'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
 
@@ -62,7 +62,8 @@ and **read**:
 
 **Schedule** a meeting with Ben for some time next week (that isn't Monday); see the [office hours](office) page for how to claim a slot or request an alternative if the usual slots won't work for you.
 
-<h3 id="week-02">Week 2: Mon, Sep 04 – (getting ready)</h3>
+<a id="current"></a>
+<h3 id="week-02"><a href="plans/week-02">Week 2: Mon, Sep 04</a> – (getting ready)</h3>
 
 **No class: Labor Day**
 
@@ -179,6 +180,8 @@ By the time we get back from break, **read**: *TBD! One possible cluster might b
 * Crawford, Kate, and Trevor Paglen. “Excavating AI: The Politics of Training Sets for Machine Learning.” 19 Sept. 2019, <a href="https://excavating.ai">https://excavating.ai</a>.
 * Vee, Annette. “Large Language Models Write Answers.” _Composition Studies_, vol. 51, no. 1, Spring 2023, pp. 176–81.
 * more from that _Composition Studies_ "Where we are now" section
+* selections from the brand-new (since the start of the semester!) collection _TextGenEd: Teaching with Text Generation Technologies_, edited by Annette Vee, Tim Laquintano, and Carly Schnitzler, WAC Clearinghouse, 2023, https://wac.colostate.edu/repository/collections/textgened/.
+
 
 <h3 id="week-13"><a href='{{site.github_url}}/plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
 
