@@ -37,7 +37,12 @@
     content: " (" attr(title) ")";
   }
 
+  .no-print {
+      display: none;
+  }
+
 }
+
 
 @media (min-width: 48em) {
   body {
