@@ -69,6 +69,8 @@ and **read**:
 
 Meet Ben in [office hours](office) some time this week.
 
+By Monday, **install** a plain-text editor (e.g. [Pulsar](https://pulsar-edit.dev/) or [Visual Studio Code](https://code.visualstudio.com/)) if you don't already have one.
+
 By Friday, **read**...
 * Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/</a>. Accessed 19 June 2015.
     - Section 1: "The Man in the Taupe Blazer."

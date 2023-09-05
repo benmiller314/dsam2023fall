@@ -38,6 +38,7 @@ Planning on a small-scale deliverable from the outset and then adding stretch go
 
 When we get back together on September 11th, I'd like to continue our conversation about what "digital" affords by looking at executable _code_ as a quintessential digital affordance, and why it might be helpful to think of programming as a literate practice – including as a generative practice.
 
+By Monday, **install** a plain-text editor (e.g. [Pulsar](https://pulsar-edit.dev/) or [Visual Studio Code](https://code.visualstudio.com/)) if you don't already have one.
 
 By Friday, **read**...
 * Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/</a>. Accessed 19 June 2015.
