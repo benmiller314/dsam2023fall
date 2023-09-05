@@ -44,7 +44,7 @@ Week | Date | Lesson Title
 16 | Mon, Dec 11 | [Overflow day, iff needed](#week-16)
 {: .table .table-sm}
 
-<a id="current">
+
 
 <h3 id="week-01"><a href='{{site.github_url}}/plans/week-01'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
 
@@ -62,6 +62,7 @@ and **read**:
 
 **Schedule** a meeting with Ben for some time next week (that isn't Monday); see the [office hours](office) page for how to claim a slot or request an alternative if the usual slots won't work for you.
 
+<a id="current">
 <h3 id="week-02">Week 2: Mon, Sep 04 – (getting ready)</h3>
 
 **No class: Labor Day**
