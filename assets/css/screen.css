@@ -332,8 +332,7 @@ pre code {
 	display: none;
 }
 
-/* TO DO: Add powerpoint-like "appear" animation where desired,
-          using @keyframes and :active
+/* TO DO: Add powerpoint-like "appear" animation where desired, using @keyframes and :active
 
 
 */
@@ -447,8 +446,16 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
-  display: inline;
+	display: inline-block;
+}
+
+blockquote p.bq_cite {
+	max-width: 50%;
+	margin-right: 0;
+	margin-left: auto;
+	font-style: italic;
 }
 
 
