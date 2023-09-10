@@ -14,7 +14,7 @@
       {{content}}
 
       {% if page.url contains "plans" %}
-          <a class="smaller" href="/schedule#{{page.url | slice:-12,7}}">Back to the calendar</a>
+          <a class="smaller" href="/{{base_path}}schedule#{{page.url | slice:-12,7}}">Back to the calendar</a>
       {% endif %}
 
   </article>
