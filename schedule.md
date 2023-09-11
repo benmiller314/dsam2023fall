@@ -62,7 +62,6 @@ and **read**:
 
 **Schedule** a meeting with Ben for some time next week (that isn't Monday); see the [office hours](office) page for how to claim a slot or request an alternative if the usual slots won't work for you.
 
-<a id="current"></a>
 <h3 id="week-02"><a href="plans/week-02">Week 2: Mon, Sep 04</a> – (getting ready)</h3>
 
 **No class: Labor Day**
