@@ -150,7 +150,7 @@ By Friday, **read**... *TBD! One possible cluster might be on ways the digital i
 
 * Ford, Paul, "What is Code?" section 2: Let's Begin. <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi</a>.
 * Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo As An Anatomical Map of Human Labor, Data and Planetary Resources.” AI Now Institute and Share Lab, 7 Sept. 2018, <a href="https://www.anatomyof.ai">https://www.anatomyof.ai</a>.
-* Gries, Laurie, et al. “New Materialisms, Networks, and Humanities Research.” _Networked Humanities: Within and without the University_, edited by Jeff Rice and Brian McNely, Parlor Press, 2018, pp. 85–102.
+* Gries, Laurie, Jenny Bay, Derek Mueller, and Nathaniel Rivers. “New Materialisms, Networks, and Humanities Research.” _Networked Humanities: Within and without the University_, edited by Jeff Rice and Brian McNely, Parlor Press, 2018, pp. 85–102.
 
 *Another way forward might be to go deeper into programming as an exploratory, epistemic process. That could include...*
 
