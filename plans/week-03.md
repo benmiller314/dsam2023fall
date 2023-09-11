@@ -57,6 +57,8 @@ Assuming we left off at 10:30, let's aim to start up again at 10:40 or so. That 
 - What did you notice? What do you wonder?
 - Where does it add to what you'd read/viewed, and vice versa?
 
+Let's take notes at [bit.ly/dsam2023fall-notes](https://bit.ly/dsam2023fall-notes)
+
 <details><summary>As needed, some passages/questions from the forum</summary>
     <details><summary>On project scope</summary>
         <blockquote>
