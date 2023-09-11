@@ -27,10 +27,10 @@ Follow the links to individual class days for more information, including class 
 Week | Date | Lesson Title
 --- | --- | ---
 1 | Mon, Aug 28 | [Digital affordances](#week-01)
-2 | Mon, Sep 04 | no class: Labor Day (getting ready)
+2 | Mon, Sep 04 | [no class: Labor Day (getting ready)](#week-02)
 3 | Mon, Sep 11 | [Programming as literacy, as exploration](#week-03)
 4 | Mon, Sep 18 | [Critical code studies](#week-04)
-5 | Mon, Sep 25 | no class: Yom Kippur (reflection and planning)
+5 | Mon, Sep 25 | [no class: Yom Kippur (reflection and planning)](#week-05)
 6 | Mon, Oct 02 | [Presentations 1](#week-06)
 7 | Mon, Oct 09 | [Data 1: By whom? For what?](#week-07)
 8 | Mon, Oct 16 | [Data 2: Exploration and slicing](#week-08)
@@ -46,7 +46,7 @@ Week | Date | Lesson Title
 
 
 
-<h3 id="week-01"><a href='{{site.github_url}}/plans/week-01'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
+<h3 id="week-01"><a href='plans/week-01'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
 
 By Friday, **watch**:
 * Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
@@ -79,7 +79,8 @@ By Friday, **read**...
 * EXT for eager readers:
     - D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Seven: Show Your Work.” _Data Feminism_, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
-<h3 id="week-03"><a href='{{site.github_url}}/plans/week-03'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
+<a id="current"></a>
+<h3 id="week-03"><a href='plans/week-03'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
 
 By Friday, **read**...
 
@@ -91,7 +92,7 @@ By Friday, **read**...
     - Vee, Annette. “Introduction: Computer Programming as Literacy.” _Coding Literacy_, MIT Press, 2017. pitt.primo.exlibrisgroup.com, <a href="https://doi.org/10.7551/mitpress/10655.003.0003">https://doi.org/10.7551/mitpress/10655.003.0003</a>.
 
 
-<h3 id="week-04"><a href='{{site.github_url}}/plans/week-04'>Week 4: Mon, Sep 18</a> – Critical code studies</h3>
+<h3 id="week-04"><a href='plans/week-04'>Week 4: Mon, Sep 18</a> – Critical code studies</h3>
 
 By the time we get back in Week 6, [**prepare a presentation**](projects#presentations-and-peer-review) on your independent project: what are you looking at? what questions do you have about that? what are your next steps?
 
@@ -103,7 +104,7 @@ Optionally, schedule a meeting with Ben in [office hours](office) for early feed
 
 By Sunday, **pre-record** a 5-minute presentation to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
-<h3 id="week-06"><a href='{{site.github_url}}/plans/week-06'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
+<h3 id="week-06"><a href='plans/week-06'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
 
 By Friday, **read**...
 
@@ -116,7 +117,7 @@ and **watch**:
 * Beshero-Bondar, Elisa. “How to Grow Data Forests with XML Trees.” What Are Digital Humanities?, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/besherobondar/">https://cmu-lib.github.io/dhlg/project-videos/besherobondar/</a>.
 * Brown, AmyJo. “Building Your Own Data Set: A Journalist’s Approach.” What Are Digital Humanities?, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/brown/">https://cmu-lib.github.io/dhlg/project-videos/brown/</a>.
 
-<h3 id="week-07"><a href='{{site.github_url}}/plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
+<h3 id="week-07"><a href='plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
 By Friday, **read**...
 
@@ -126,7 +127,7 @@ By Friday, **read**...
 * Gradek, Bob, and Liz Monk. "Dataset Summaries: Pivot Tables", 2022. vimeo.com, <a href="https://vimeo.com/703773939">https://vimeo.com/703773939</a>.
 
 
-<h3 id="week-08"><a href='{{site.github_url}}/plans/week-08'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
+<h3 id="week-08"><a href='plans/week-08'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
 
 By Friday, **read**...
 
@@ -135,7 +136,7 @@ By Friday, **read**...
 * D’Ignazio, Catherine, and Lauren F. Klein. "6: The Numbers Don't Speak for Themselves." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
 
-<h3 id="week-09"><a href='{{site.github_url}}/plans/week-09'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
+<h3 id="week-09"><a href='plans/week-09'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
 
 By Sunday, prepare an updated presentation to class, now with a stronger sense of your argument and evidence, even if they're still works in progress. **Pre-record 5 minutes** to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
@@ -144,7 +145,7 @@ Optionally, I also recommend that you **read**:
 * Ford, Paul, _What is Code?_ section 6.2: "What is debugging?" <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>.
 
 
-<h3 id="week-10"><a href='{{site.github_url}}/plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
+<h3 id="week-10"><a href='plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
 
 By Friday, **read**... *TBD! One possible cluster might be on ways the digital is still physical. That could include...*
 
@@ -161,7 +162,7 @@ By Friday, **read**... *TBD! One possible cluster might be on ways the digital i
 * Miller, Benjamin. “Chapter 17: The Pleasurable Difficulty of Programming.” _Methods and Methodologies for Research in Digital Writing and Rhetoric Centering Positionality in Computers and Writing Scholarship_, Volume 2, edited by Victor Del Hierro and Crystal VanKooten, The WAC Clearinghouse; University Press of Colorado, 2022, pp. 159–83. DOI.org (Crossref), <a href="https://doi.org/10.37514/PRA-B.2022.1664.2.17">https://doi.org/10.37514/PRA-B.2022.1664.2.17</a>.
 
 
-<h3 id="week-11"><a href='{{site.github_url}}/plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1</h3>
+<h3 id="week-11"><a href='plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1</h3>
 
 By Friday, **read**... *TBD! One possible cluster might be on topic modeling and distant reading. That could include...*
 
@@ -174,7 +175,7 @@ By Friday, **read**... *TBD! One possible cluster might be on topic modeling and
     - Guldi, Jo. “Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora.” _Journal of Cultural Analytics_, Dec. 2018. <a href="https://culturalanalytics.org/article/11028">https://culturalanalytics.org/article/11028</a>
 
 
-<h3 id="week-12"><a href='{{site.github_url}}/plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2</h3>
+<h3 id="week-12"><a href='plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2</h3>
 
 By the time we get back from break, **read**: *TBD! One possible cluster might be on AI and large language models. That could include...*
 
@@ -185,13 +186,13 @@ By the time we get back from break, **read**: *TBD! One possible cluster might b
 * selections from the brand-new (since the start of the semester!) collection _TextGenEd: Teaching with Text Generation Technologies_, edited by Annette Vee, Tim Laquintano, and Carly Schnitzler, WAC Clearinghouse, 2023, https://wac.colostate.edu/repository/collections/textgened/.
 
 
-<h3 id="week-13"><a href='{{site.github_url}}/plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
+<h3 id="week-13"><a href='plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
 
 
-<h3 id="week-14"><a href='{{site.github_url}}/plans/week-14'>Week 14: Mon, Nov 27</a> – People's choice 3</h3>
+<h3 id="week-14"><a href='plans/week-14'>Week 14: Mon, Nov 27</a> – People's choice 3</h3>
 By Sunday, prepare your final presentation to class. Pre-record 10 minutes, and be ready to discuss!
 
-<h3 id="week-15"><a href='{{site.github_url}}/plans/week-15'>Week 15: Mon, Dec 04</a> – Presentations (iteration 3)</h3>
+<h3 id="week-15"><a href='plans/week-15'>Week 15: Mon, Dec 04</a> – Presentations (iteration 3)</h3>
 
 Work toward your final reflections. If we collectively agree that we need another studio day, we'll use week 16; otherwise, the final portfolio (reflection plus last iteration on your palimpsest) is due Wednesday, December 13 at 2pm.
 
