@@ -82,6 +82,14 @@ Assuming we left off at 10:30, let's aim to start up again at 10:40 or so. That 
         </blockquote>
         <p>I imagine this may also bring in <a href="https://github.com/benmiller314/dsam2023fall/issues/4#issuecomment-1712620347">Chloe's comments</a> about business-writing conventions and the mystification of digital tools: "what kind of tools we think of like levers and pulleys and which ones we think of like magic."</p>
     </details><!--/ On audience -->
+    <details><summary>On exploration vs. exploitation</summary>
+        <p><a href="https://github.com/benmiller314/dsam2023fall/issues/4#issuecomment-1712920772">Alex points us</a> toward this distinction of Montfort's, noting that trying to apply his grocery store metaphor to learning code is frustrating. Here's one representative paragraph:</p>
+        <blockquote>
+            <p>In organizational behavior, machine learning, and grocery shopping, it is desirable to balance exploration with exploitation. We can imagine a shopper who does nothing but explore—who tries new foods at random but never returns to enjoy a particularly pleasing food again. What is being learned from such exploration? <strong>As described, nothing at all is being learned. Not just very little, but nothing: each random selection is completely independent of the previous ones.</strong> One day’s grocery basket could be improved by remembering some of the best items found so far and selecting those while also continuing to look for new food. Most grocery-seeking individuals balance exploration and exploitation in some way, just as successful companies try to profit from existing, stable lines of business while they also try out new opportunities that might pay off significantly. A robot finding its way around a changing or partially known environment should exploit some known ways to get from place to place while also devoting some time to exploration, in the hopes that it can find more efficient routes. </p>
+            <p class="bq_cite">Montfort 5–6, boldface Ben's</p>
+        </blockquote>
+        <p>How do we understand the terms of this metaphor? What is Montfort after with it, do you think? Can we come up with a better metaphorical framework for expressing that intervention?</p>
+    </details><!--/ On exploration vs. exploitation -->
 </details><!-- end of "if needed" section -->
 
 ### Grok writing
