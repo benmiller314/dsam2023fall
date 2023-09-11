@@ -22,12 +22,13 @@
 
 For today's exercise, I've created a repository with instructions in the README. This also has the benefit of linking them together, so it'll be easy later for us all to see what the others have been up to.
 
-Head on over to [github.com/benmiller314/dsam-montfort-03](https://github.com/benmiller314/dsam-montfort-03), where we'll follow the instructions through these parts:
+<div class="alert alert-success"><strong>Head on over to <a href="https://github.com/benmiller314/dsam-montfort-03">github.com/benmiller314/dsam-montfort-03</a></strong>, where we'll follow the instructions through these parts:
 
-1. Find the code
-2. Change the code
-3. Explore the possibilities
-4. Share it back
+<ol><li>Find the code</li>
+<li>Change the code</li>
+<li>Explore the possibilities</li>
+<li>Share it back</li></ol>
+</div>
 
 That should take us pretty much through the first half of class.
 
@@ -120,11 +121,11 @@ The phrase "to grok" comes from Robert Heinlein's science fiction novel _Strange
     <blockquote>
         <p>The Martian Race had encountered the people of the fifth planet, grokked them completely, and had taken action; asteroid ruins were all that remained, save that the Martians continued to cherish and praise the people they had destroyed. This new work of art was one of many attempts to grok the whole beautiful experience in all its complexity in one opus. But before it could be judged it was necessary to grok how to judge it. (Heinlein 93)</p>
     </blockquote>
-    <p>Wikipedia's<a href="https://en.wikipedia.org/w/index.php?title=Grok&amp;oldid=695270451#In_computer_programmer_culture">current page on "Grok"</a> features this definition, which matches my experience of the term's usage:</p>
+    <p>Wikipedia's <a href="https://en.wikipedia.org/w/index.php?title=Grok&amp;oldid=695270451#In_computer_programmer_culture">current page on "Grok"</a> features this definition, which matches my experience of the term's usage:</p>
     <blockquote>
-        <p>The<a href="https://en.wikipedia.org/wiki/Jargon_File">Jargon File</a>, which describes itself as a "Hacker's Dictionary" and has been published under that name three times, puts grok in a programming context:</p>
+        <p>The <a href="https://en.wikipedia.org/wiki/Jargon_File">Jargon File</a>, which describes itself as a "Hacker's Dictionary" and has been published under that name three times, puts grok in a programming context:</p>
         <blockquote>
-            <p>When you claim to "grok" some knowledge or technique, you are asserting that you have not merely learned it in a detached instrumental way but that it has become part of you, part of your identity. For example, to say that you "know"<a href="http://www.catb.org/jargon/html/L/LISP.html">Lisp</a>is simply to assert that you can code in it if necessary &mdash; but to say you "grok" LISP is to claim that you have deeply entered the world-view and spirit of the language, with the implication that it has transformed your view of programming. Contrast<a href="http://www.catb.org/jargon/html/Z/zen.html">zen</a>, which is a similar supernatural understanding experienced as a single brief flash.</p>
+            <p>When you claim to "grok" some knowledge or technique, you are asserting that you have not merely learned it in a detached instrumental way but that it has become part of you, part of your identity. For example, to say that you "know" <a href="http://www.catb.org/jargon/html/L/LISP.html">Lisp</a> is simply to assert that you can code in it if necessary &mdash; but to say you "grok" LISP is to claim that you have deeply entered the world-view and spirit of the language, with the implication that it has transformed your view of programming. Contrast <a href="http://www.catb.org/jargon/html/Z/zen.html">zen</a>, which is a similar supernatural understanding experienced as a single brief flash.</p>
         </blockquote>
     </blockquote>
 </details> <!--/ fun quotes -->
