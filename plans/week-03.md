@@ -156,6 +156,9 @@ Building on today's work with code, for next time I've chosen some readings from
 <p><strong>Quick show of hands:</strong> Who wants to try the other thing to compare the affordances? Who would rather stick to what we've already used?</p>
 </div>
 
+UPDATE: after some demonstration, and a second vote, we decided to test out _Discussions_. It's basically like Issues, but with threads and a somewhat softer-looking index page. I've updated all the links that weren't to particular existing posts!
+
+
 By Friday, please **read** and post a short response to the following:
 
 * Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C Marino, Michael Mateas, Casey Reas, Mark Sample, and Noah Vawter. “10: Introduction.” _10 PRINT CHR$(205.5+RND(1)); : GOTO 10_, The MIT Press, 2012, pp. 1–17. direct.mit.edu, <a href="https://doi.org/10.7551/mitpress/9040.001.0001">https://doi.org/10.7551/mitpress/9040.001.0001</a>.
