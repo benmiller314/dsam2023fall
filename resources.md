@@ -16,6 +16,7 @@ Table of contents:
 - [Help with Git and GitHub](#help-with-git-and-github)
     - [Dealing with Large Files](#dealing-with-large-files)
 - [Text Editors](#text-editors)
+- [Digital Literacies Tutorials](#digital-literacies-tutorials)
 - [Options for publishing to the web](#options-for-publishing-to-the-web)
     - [How to hide your website from search engines](#how-to-hide-your-website-from-search-engines)
 - [Academic Journals](#academic-journals)
@@ -138,6 +139,19 @@ Table of contents:
 
 <a href="#top"><em>Back to top</em></a>
 
+
+## Digital Literacies Tutorials
+
+In this section, I want to add tutorials for acquiring digital competencies that will apply broadly, beyond specific tools or use-cases.
+
+<dl>
+<dt>Regular Expressions</dt>
+<dd><p>The first example I want to add is for the souped-up search-and-replace tool, <em>regular expressions</em> (or <em>regex</em> for short). Do you need to find all the words in a document that start with capital letters but don't start sentences? Need to find names listed Lastname, Firstname and dynamically reshape them so they're Firstname Lastname – in a single step? Need to add a new XML tag or CSS class to every datelike string in a document? Regex lets you do all this, and more. I've found it as useful for parsing unstructured documents into data-like formats as for updating lesson plans and application materials from one year to the next.</p>
+
+<p>And I've just discovered an interactive tutorial that makes it pretty quick to learn: check out <a href="https://regexlearn.com/">https://regexlearn.com/</a>. You might just <a href="https://xkcd.com/208/" title="xkcd is by Randall Munroe, and is licensed under CC-BY-NC-2.5.">feel like a superhero</a>.</p>
+</dd>
+<dd>More suggestions welcome as you find them!</dd>
+</dl>
 
 ## Options for publishing to the web
 
