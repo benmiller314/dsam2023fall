@@ -78,7 +78,7 @@ By Friday, **read**...
 * EXT for eager readers:
     - D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Seven: Show Your Work.” _Data Feminism_, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
-<a id="current"></a>
+
 <h3 id="week-03"><a href='plans/week-03'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
 
 By Friday, **read**...
@@ -90,7 +90,7 @@ By Friday, **read**...
 * EXT for eager readers:
     - Vee, Annette. “Introduction: Computer Programming as Literacy.” _Coding Literacy_, MIT Press, 2017. pitt.primo.exlibrisgroup.com, <a href="https://doi.org/10.7551/mitpress/10655.003.0003">https://doi.org/10.7551/mitpress/10655.003.0003</a>.
 
-
+<a id="current"></a>
 <h3 id="week-04"><a href='plans/week-04'>Week 4: Mon, Sep 18</a> – Critical code studies</h3>
 
 By the time we get back in Week 6, [**prepare a presentation**](projects#presentations-and-peer-review) on your independent project: what are you looking at? what questions do you have about that? what are your next steps?
