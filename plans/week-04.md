@@ -113,15 +113,15 @@ To use Jupyter Notebook...
 
 <details><summary>Show me</summary>
 <figure>
-    <img alt="screenshot of Anaconda Navigator." src="../assets/img/jupyter-notebook-01-launch.png"></img>
+    <img alt="screenshot of Anaconda Navigator." src="../assets/img/jupyter-notebook-01-launch.png">
     <figcaption>Don't be fooled by JupyterLab or Anaconda Notebooks; the one we want is Jupyter Notebook.</figcaption>
 </figure>
 <figure>
-    <img alt="Jupyter Notebook opens with a list of files by default" src="../assets/img/jupyter-notebook-02-new-file.png"></img>
+    <img alt="Jupyter Notebook opens with a list of files by default" src="../assets/img/jupyter-notebook-02-new-file.png">
     <figcaption>Notice the similarity to the GitHub interface? (We could use that high-contrast color to highlight the New file button, but alas.)</figcaption>
 </figure>
 <figure>
-    <img alt="Jupyter Notebook new Python3 file" src="../assets/img/jupyter-notebook-03-interactive-cell.png"></img>
+    <img alt="Jupyter Notebook new Python3 file" src="../assets/img/jupyter-notebook-03-interactive-cell.png">
     <figcaption>When you see a cell inviting you "In [ ]:" you've made it.</figcaption>
 </figure>
 <figure>
@@ -146,6 +146,10 @@ And don't forget to save and commit (with a meaningful message) when you reach a
 <a id="hw"></a>
 ## Homework for next time
 
+<div class="alert alert-danger">
+    Reminder: <strong>no class next week</strong>, because of Yom Kippur. We'll meet again on Monday, October 2nd.
+</div>
+
 * No new readings!
 * If you didn't finish these two chapters during class, catch up on your own time.
 * Other than that, **these two weeks are all about your independent projects.**
@@ -158,21 +162,23 @@ And don't forget to save and commit (with a meaningful message) when you reach a
 
 ### About those presentations
 
-* What should they include?
+* _What should they include?_
     - Give us a brief **overview of the project as a whole**. What are you trying to do?
     - Give us a brief **update on the project's current status**, including a tour of the most recent public-facing version of your project.
         * Depending on your project, this might be a GitHub repository with some files in it and a README; it might be a searchable Google spreadsheet; it might be a Scalar site with just a handful of objects; it might be a series of scanned sketches and a timeline for how you'll move forward. Just get something started, so you can see how much it's changed by the end of the course.
     - Give us a brief **process reflection**: what's working well so far? What are you excited about? What are you wondering?
 
-* Did you say "pre-recorded"?
+* _Did you say "pre-recorded"?_
     - This is a bit of an experiment, but yes: I'm asking you to record yourself giving a short timed talk.
     - There are multiple reasons to do this: it builds a record for people who may have to be absent; it encourages you to practice your talk and decide what's most essential; and that, in turn, makes it more likely that we'll have enough time for everyone's presentation in the first half of class, so we can start writing comments to peers in the second half.
 
-* What should we be recording, exactly?
+* _What should we be recording, exactly?_
     - While I won't require that you prepare slides, some visuals are probably going to be helpful, and more so as the semester goes on and the public face of your project develops further. What do your source materials look like? How are you processing them, or trying to? How are you presenting them to readers (for now, us)? In addition to the sources, seeing the interfaces of your digital tools will help us all think about the affordances of those tools.
     - After we've seen everyone's presentations, we can talk about what we valued as audience members, and what we might want to try, method-wise, in terms of future presentations.
 
-* How do we make these recordings?
+* _How do we make these recordings?_
     - I don't have a preference for what tech to use for your recording, but one option you should know about is Panopto screen capture; you should have access through my.pitt.edu. Alternatives include Vimeo Record, Screencast-O-Matic, and any number of options you can find in online roundups and reviews; and you can also record a Zoom even if you're the only one in the room, which should allow you to both share your screen and add a picture-in-picture of your face.
 
 Any other questions or suggestions?
+
+Have a great couple of weeks, everyone, and please do be in touch in the meantime if I can be of any help!
