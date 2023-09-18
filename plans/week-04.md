@@ -30,7 +30,7 @@ Let's take notes at [bit.ly/dsam2023fall-notes](https://bit.ly/dsam2023fall-note
 
 All three posts this week were on Ruha Benjamin's <em>Race after Technology</em>! Happy to talk about that.
 
-(That said, as we're talking, let's see if we can also find opportunities to fold in the example of 10 PRINT, the idea of digital literacy as infrastructural, or the poetics of code.)
+(That said, as we're talking, let's see if we can also find opportunities to fold in the example of 10 PRINT, the idea of computational literacy as infrastructural, or the poetics of code.)
 
 As needed, some passages/questions from the forum:
 <details><summary>"Move Slower": naivety and the illusion of neutrality</summary>
