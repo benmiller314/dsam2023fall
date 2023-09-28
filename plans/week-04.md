@@ -179,6 +179,11 @@ And don't forget to save and commit (with a meaningful message) when you reach a
 * _How do we make these recordings?_
     - I don't have a preference for what tech to use for your recording, but one option you should know about is Panopto screen capture; you should have access through my.pitt.edu. Alternatives include Vimeo Record, Screencast-O-Matic, and any number of options you can find in online roundups and reviews; and you can also record a Zoom even if you're the only one in the room, which should allow you to both share your screen and add a picture-in-picture of your face.
 
+* _UPDATE: Where and how should we post?_
+    - When your video is ready, head over to the [discussion forum]({{site.github_url}}/discussions), where I've added a forum for posting your videos and links to the current iterations of your [public-facing palimpsests](https://benmiller314.github.io/dsam2023fall/projects#palimpsest-of-public-iteration).
+    - Adding a video is as easy as dragging a local file into the editing box for your post!
+
+
 Any other questions or suggestions?
 
 Have a great couple of weeks, everyone, and please do be in touch in the meantime if I can be of any help!
