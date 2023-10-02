@@ -121,33 +121,47 @@ That process, one more time: (1) presentation, (2) saying back…?, (3)&nbsp;con
 
 
 <a id="peer-review"></a>
-## Writing time: Work toward peer review letters (until 11:45)
+## Follow-ups to the project discussions
 
-See the [notes above](#peer-review-guidelines) for how I'm hoping these will work, but in brief:
+* If you haven't yet posted a link to a public-facing deliverable, please do so ASAP: even if it's just the text of your presentation (I saw that several of you had scripts) or a folder with a CSV dataset and a README file, that will be helpful for your peer reviewers – and for your own later reflection.
+    - I'd be happy to help you create a fresh GitHub repo if you need one.
 
-1. Have a look through the public-facing version of the project.
+* If time and interest allows,
 
-2. Be a genuine and generous audience: help your partner see their work through your eyes. What do you notice? What do you wonder? What does it make you think of?
 
-You can post these notes as replies to the [discussion forum]({{site.repo_url}}/discussions) posts containing the videos and links to projects.
+## ~~Writing time: Work toward peer review letters (until 11:45)~~ Discussion: organizing data, working with metadata
+
+(Instead of spending the last 20 minutes of class silently, I made a call to talk more about nuts and bolts: how and why to add metadata fields in Scalar, strategies for organizing information *as data* for later examination. I also gave a verbal overview of the homework readings and how they transition us from practice with coding to practice with data.)
 
 
 <a id="hw"></a>
 ## Homework for next time
 
-* If you didn't finish writing in response to your peers, please do so as soon as possible.
+<details open><summary>If you didn't finish writing in response to your peers, please do so as soon as possible.</summary><p>See the <a href="#peer-review-guidelines">notes above</a> for how I'm hoping these will work, but in brief:</p>
+    <ol>
+        <li>Have a look through the public-facing version of the project.</li>
+        <li>Be a genuine and generous audience: help your partner see their work through your eyes. What do you notice? What do you wonder? What does it make you think of?</li>
+    </ol>
+    <p>You can post these notes as replies to the <a href="{{site.repo_url}}/discussions">discussion forum</a> posts containing the videos and links to projects.</p>
+    </details>
+
 
 In addition, please **read**:
 
 * Montfort, Nick. “7: Standard Starting Points.” _Exploratory Programming for the Arts and Humanities_, Second Edition, The MIT Press, 2016, pp. 93–118. pitt.primo.exlibrisgroup.com, <a href="https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1">https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1</a>.
-* Ford, Paul. “3: Why Are Programmers So Intense About Languages?” _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/</a>. Accessed 19 June 2015.
+
 * D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Four: ‘What Gets Counted Counts.’” _Data Feminism_, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="https://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">https://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
 and **watch**:
 
 * Beshero-Bondar, Elisa. “How to Grow Data Forests with XML Trees.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/besherobondar/">https://cmu-lib.github.io/dhlg/project-videos/besherobondar/</a>.
+
 * Brown, AmyJo. “Building Your Own Data Set: A Journalist’s Approach.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/brown/">https://cmu-lib.github.io/dhlg/project-videos/brown/</a>.
+
 
 Finally, please **write**: as usual, you'll find a [discussion forum]({{site.repo_url}}/discussions) for your 100-ish-word responses (excitements, incitements, enticements), which I'll look at while I prepare next week's lesson plan. Pointing us to a particular place in one of the readings (or videos) will be the most helpful, I expect. And if you were able to get them up by Friday (and I know it's not always possible), that's always ideal.
 
 P.S. If you have missed posting in the past, please do add your voice to the forum from here on in? :¬)
+
+* UPDATE: Ford is now moved to an EXT for eager readers... and chapter 4 may be more relevant, anyway, now that I go back and reread them in light of our past conversations.
+    - Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>. "4: Why Are Coders Angry?" and “3: Why Are Programmers So Intense About Languages?”

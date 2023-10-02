@@ -109,13 +109,16 @@ By Sunday, **pre-record** a 5-minute presentation to show in class, and be ready
 By Friday, **read**...
 
 * Montfort, Nick. “7: Standard Starting Points.” _Exploratory Programming for the Arts and Humanities_, Second Edition, The MIT Press, 2016, pp. 93–118. pitt.primo.exlibrisgroup.com, <a href="https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1">https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1</a>.
-* Ford, Paul. “3: Why Are Programmers So Intense About Languages?” _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/. Accessed 19 June 2015">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/. Accessed 19 June 2015</a>.
 * D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Four: ‘What Gets Counted Counts.’” _Data Feminism_, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095</a>.
 
 and **watch**:
 
 * Beshero-Bondar, Elisa. “How to Grow Data Forests with XML Trees.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/besherobondar/">https://cmu-lib.github.io/dhlg/project-videos/besherobondar/</a>.
 * Brown, AmyJo. “Building Your Own Data Set: A Journalist’s Approach.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/brown/">https://cmu-lib.github.io/dhlg/project-videos/brown/</a>.
+
+* UPDATE: Ford is now moved to an EXT for eager readers... and chapter 4 may be more relevant, anyway, now that I go back and reread them in light of our past conversations.
+    - Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>. "4: Why Are Coders Angry?" and “3: Why Are Programmers So Intense About Languages?”
+
 
 <h3 id="week-07"><a href='plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
