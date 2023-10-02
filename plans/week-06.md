@@ -1,6 +1,6 @@
 
 # Week 6: Presentations (iteration 1)
-<span class="date">October 1, 2023</span>
+<span class="date">October 2, 2023</span>
 
 ## Plan for the day:
 
@@ -28,16 +28,19 @@ Here's how I'd like it to work. Each person's project will get about 15-20 minut
 
 1. The first five minutes will be a live version of the **presentation** you've pre-recorded.
 2. From there, the rest of us start by **saying back** what we see as the main questions or hypotheses being explored in the project, but with a twist: we'll add a **...?** to the end, opening a space for the presenter to say more.
-    - This kind of _active listening_ can often get us to the edge of our current thinking, testing out the almost-said implications of what feels right and what feels off. I can go start us off, for the first presenter, to demonstrate what I mean.
-3. That should set up a more organic back-and-forth **conversation** about the project. Anything is fair game here: tools, materials, or scholarship you think would be useful to bring in; questions or clarifications about the process; comparisons with your own projects.
-4. At the 15-minute mark, we'll look for a stopping point and take some quick private **notes**: what do we want to remember for our own future projects or presentations... or for our written peer review?
+    - This kind of _active listening_ can often get us to the edge of our current thinking, testing out the almost-said implications of what feels right and what feels off. I can start us off after the first presention, to demonstrate what I mean.
+3. That should set up a more organic back-and-forth **conversation** about the project. Anything is fair game here: tools, materials, or scholarship you think would be useful to bring in; questions or clarifications about the process (including questions about sources, processing, or presentation platforms); comparisons with your own projects; etc.
+4. At the 15-minute mark, we'll look for a stopping point and then take some quick private **notes**: what do we want to remember for our own future projects or presentations?  for our written peer review?
 
 ### Peer review guidelines
-About that peer review: you'll each be responsible for **writing back to two of your classmates**. In those reviews, I'm NOT asking you to evaluate the successes of the project; rather, I'm asking you to help synthesize some _formative feedback_, oriented toward next steps, assuming that everything is still a work in progress.
+About that peer review: you'll each be responsible for **writing back to two of your classmates**. In those reviews, I'm NOT asking you to evaluate the success of the project; rather, I'm asking you to help synthesize some _formative feedback_, oriented toward next steps, assuming that everything is still a work in progress.
 
-You may be wondering, "How am I supposed to offer feedback when I'm still figuring so much out myself?" In part, by being a genuine audience for your classmates:
+You may be wondering, "How am I supposed to offer feedback when I'm still figuring so much out myself?" Well, in part, by being a genuine audience for your classmates:
+
 * Help them see how their work is coming across to you by summarizing back to them what you see them doing, trying to do, or _almost_ doing. (That last is often a good place to lean into.)
+
 * Help them see how you've tried to engage with the project through its public-facing platform, and what it makes you think of: as in my suggestions for conversation above, this may include tools, materials, or scholarship you think would be useful to bring in; questions or clarifications about the process; comparisons with your own projects; and so on.
+
 * Above all, be generous. That doesn't mean only singing praises, though by all means do so when it feels genuine! You can be generously critical, as long as you're critically generous at the same time. Demonstrate your care and investment in each other's success, knowing that there's still more to do to get there. Together.
 
 I've split presentations in two sets of three, with peer reviews crossing from one set to the  the other. That way, you can pay extra attention to your assigned partner without having to worry that your own presentation is imminent.
@@ -56,13 +59,13 @@ I've split presentations in two sets of three, with peer reviews crossing from o
       <td>Sidra</td>
       <td>1</td>
       <td>Alex</td>
-      <td>Mustafa</td>
+      <td>Reza</td>
     </tr>
     <tr>
       <td>Khushboo</td>
       <td>2</td>
       <td>Reza</td>
-      <td>Reza</td>
+      <td>Chloe</td>
     </tr>
     <tr>
       <td>Mustafa</td>
@@ -100,7 +103,8 @@ The order started out alphabetical by last name; then I tweaked it so that film 
 * Khusboo
 * Mustafa
 
-That process, again: (1) presentation, (2) saying back, (3) conversation, (4) writing notes while the next person sets up.
+That process, again: (1) presentation, (2) saying back…?, (3)&nbsp;conversation, (4)&nbsp;writing notes (while the next person sets up).
+
 
 ## Break (10 minutes)
 We should hit the break at around 10:10 today.
@@ -112,10 +116,18 @@ We should hit the break at around 10:10 today.
 * Alex
 * Reza
 
+That process, one more time: (1) presentation, (2) saying back…?, (3)&nbsp;conversation, (4)&nbsp;writing notes (while the next person sets up).
+
+
+
 <a id="peer-review"></a>
 ## Writing time: Work toward peer review letters (until 11:45)
 
-See the [notes above](#peer-review-guidelines) for how I'm hoping these will work.
+See the [notes above](#peer-review-guidelines) for how I'm hoping these will work, but in brief:
+
+1. Have a look through the public-facing version of the project.
+
+2. Be a genuine and generous audience: help your partner see their work through your eyes. What do you notice? What do you wonder? What does it make you think of?
 
 You can post these notes as replies to the [discussion forum]({{site.repo_url}}/discussions) posts containing the videos and links to projects.
 
@@ -136,6 +148,6 @@ and **watch**:
 * Beshero-Bondar, Elisa. “How to Grow Data Forests with XML Trees.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/besherobondar/">https://cmu-lib.github.io/dhlg/project-videos/besherobondar/</a>.
 * Brown, AmyJo. “Building Your Own Data Set: A Journalist’s Approach.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/brown/">https://cmu-lib.github.io/dhlg/project-videos/brown/</a>.
 
-Finally, please **write**: as usual, you'll find a [discussion forum]({{site.repo_url}}/discussions) for your 100-ish-word responses, which I'll look at while I prepare next week's lesson plan. Pointing us to a particular place in the reading (or video) will be the most helpful, I expect. And if you were able to get them up by Friday (and I know it's not always possible), that's always ideal.
+Finally, please **write**: as usual, you'll find a [discussion forum]({{site.repo_url}}/discussions) for your 100-ish-word responses (excitements, incitements, enticements), which I'll look at while I prepare next week's lesson plan. Pointing us to a particular place in one of the readings (or videos) will be the most helpful, I expect. And if you were able to get them up by Friday (and I know it's not always possible), that's always ideal.
 
-P.S. If you have missed posting in the past, please do post from here on in? :¬)
+P.S. If you have missed posting in the past, please do add your voice to the forum from here on in? :¬)
