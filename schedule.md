@@ -116,10 +116,11 @@ and **watch**:
 * Beshero-Bondar, Elisa. “How to Grow Data Forests with XML Trees.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/besherobondar/">https://cmu-lib.github.io/dhlg/project-videos/besherobondar/</a>.
 * Brown, AmyJo. “Building Your Own Data Set: A Journalist’s Approach.” _What Are Digital Humanities?_, 11 Nov. 2022, <a href="https://cmu-lib.github.io/dhlg/project-videos/brown/">https://cmu-lib.github.io/dhlg/project-videos/brown/</a>.
 
-UPDATE: Ford is now moved to an EXT for eager readers... and chapter 4 may be more relevant, anyway, now that I go back and reread them in light of our past conversations.
+EXT for eager readers:
 * Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>.
     - "4: Why Are Coders Angry?"
     - “3: Why Are Programmers So Intense About Languages?”
+* Birnbaum, David J. "What is XML and why should humanists care? An even gentler introduction to XML." [http://dh.obdurodon.org/what-is-xml.xhtml](http://dh.obdurodon.org/what-is-xml.xhtml). 31 December 2021.
 
 
 <h3 id="week-07"><a href='plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>

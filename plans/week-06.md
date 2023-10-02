@@ -163,5 +163,10 @@ Finally, please **write**: as usual, you'll find a [discussion forum]({{site.rep
 
 P.S. If you have missed posting in the past, please do add your voice to the forum from here on in? :¬)
 
-* UPDATE: Ford is now moved to an EXT for eager readers... and chapter 4 may be more relevant, anyway, now that I go back and reread them in light of our past conversations.
-    - Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>. "4: Why Are Coders Angry?" and “3: Why Are Programmers So Intense About Languages?”
+<div class="alert alert-warning">UPDATE: Ford is now moved to an EXT for eager readers... and chapter 4 may be more relevant, anyway, now that I go back and reread them in light of our past conversations.</div>
+
+EXT for eager readers:
+* Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>.
+    - "4: Why Are Coders Angry?"
+    - “3: Why Are Programmers So Intense About Languages?”
+* Birnbaum, David J. "What is XML and why should humanists care? An even gentler introduction to XML." [http://dh.obdurodon.org/what-is-xml.xhtml](http://dh.obdurodon.org/what-is-xml.xhtml). 31 December 2021.
