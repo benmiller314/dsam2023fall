@@ -103,7 +103,7 @@ Optionally, schedule a meeting with Ben in [office hours](office) for early feed
 
 By Sunday, **pre-record** a 5-minute presentation to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
-<a id="current"></a>
+
 <h3 id="week-06"><a href='plans/week-06'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
 
 By Friday, **read**...
@@ -122,7 +122,7 @@ EXT for eager readers:
     - “3: Why Are Programmers So Intense About Languages?”
 * Birnbaum, David J. "What is XML and why should humanists care? An even gentler introduction to XML." [http://dh.obdurodon.org/what-is-xml.xhtml](http://dh.obdurodon.org/what-is-xml.xhtml). Originally from 2011; updated as of 31 December 2021.
 
-
+<a id="current"></a>
 <h3 id="week-07"><a href='plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
 By Friday, **read**...

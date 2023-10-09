@@ -149,7 +149,7 @@ That process, one more time: (1) presentation, (2) saying back…?, (3)&nbsp;con
 In addition, please **read**:
 
 * Montfort, Nick. “7: Standard Starting Points.” _Exploratory Programming for the Arts and Humanities_, Second Edition, The MIT Press, 2016, pp. 93–118. pitt.primo.exlibrisgroup.com, <a href="https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1">https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1</a>.
-
+<!-- NOTE FOR NEXT TIME: This chapter contains six exercises and three free projects. For the first five exercises, create separate files using the naming convention ch7-ex1.py, iterating the number appropriately. Save these to your fork of the dsam-montfort repository. Then choose one of the free exercises (though you can do more if you like), and save that using a similar naming convention, swapping 'ex' for 'free'. Save and commit as you go, and push your files to the cloud when you're done. (Exercise 7-6 is optional, and something we can discuss alongside the other readings.) -->
 * D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Four: ‘What Gets Counted Counts.’” _Data Feminism_, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="https://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">https://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 
 and **watch**:
