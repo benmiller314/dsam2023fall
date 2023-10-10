@@ -122,14 +122,14 @@ EXT for eager readers:
     - “3: Why Are Programmers So Intense About Languages?”
 * Birnbaum, David J. "What is XML and why should humanists care? An even gentler introduction to XML." [http://dh.obdurodon.org/what-is-xml.xhtml](http://dh.obdurodon.org/what-is-xml.xhtml). Originally from 2011; updated as of 31 December 2021.
 
-<a id="current"></a>
+<a id="current"></a>xtq
 <h3 id="week-07"><a href='plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
 By Friday, **read**...
 
 * D’Ignazio, Catherine, and Lauren F. Klein. "5: Unicorns, Janitors, Ninjas, Wizards, and Rock Stars." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 * Schöch, Christof. “Big? Smart? Clean? Messy? Data in the Humanities.” Journal of Digital Humanities, Nov. 2013, <a href="https://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">https://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</a>.
-* Rawson, Katie, and Trevor Muñoz. “23: Against Cleaning.” Debates in the Digital Humanities 2019, edited by Matthew K. Gold and Lauren F. Klein, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23. Accessed 18 Aug. 2023">https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23. Accessed 18 Aug. 2023</a>.
+* Rawson, Katie, and Trevor Muñoz. “23: Against Cleaning.” Debates in the Digital Humanities 2019, edited by Matthew K. Gold and Lauren F. Klein, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23">https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23</a>. Accessed 18 Aug. 2023.
 * Gradek, Bob, and Liz Monk. "Dataset Summaries: Pivot Tables", 2022. vimeo.com, <a href="https://vimeo.com/703773939">https://vimeo.com/703773939</a>.
 
 

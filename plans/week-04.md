@@ -94,6 +94,8 @@ But also, you'll note that last week we were working in JavaScript, and part of 
 To help you get a little deeper into those patterns, today I'm asking you to read through Montfort's fourth and fifth chapters, doing the exercises in real time while we're around the table to help each other.
 </div>
 
+<!-- To make that even more explicit: **you do not have to do these exercises alone.** It often helps to puzzle through things together, especially when they're new. That applies moving forward, too, for hands-on exercises outside of class, as well as for projects. Collaboration is welcome here. -->
+
 * Chapter 4, "Calculating and Using Jupyter Notebook," is mostly intended to get you used to writing small snippets of Python code in the Jupyter Notebook interactive interface. While most of the examples are simple math, the bigger lessons here are to see how *error reporting* works in your favor, and to draw a useful distinction between **valid** programs (i.e. syntactically correct, compiling) and **intentional** programs (i.e. programs that do what you want).
     - Toward the end of the chapter, there's a somewhat interesting digression on the history of HTML and why you can write invalid HTML and it'll still load in your browser. By all means read it if the first part goes quickly! But if you need to skip this to get to the more exciting stuff in chapter 5, go ahead and save section 4.5 for another day.
 
