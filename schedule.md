@@ -122,7 +122,7 @@ EXT for eager readers:
     - “3: Why Are Programmers So Intense About Languages?”
 * Birnbaum, David J. "What is XML and why should humanists care? An even gentler introduction to XML." [http://dh.obdurodon.org/what-is-xml.xhtml](http://dh.obdurodon.org/what-is-xml.xhtml). Originally from 2011; updated as of 31 December 2021.
 
-<a id="current"></a>xtq
+
 <h3 id="week-07"><a href='plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
 By Friday, **read**...
@@ -132,7 +132,7 @@ By Friday, **read**...
 * Rawson, Katie, and Trevor Muñoz. “23: Against Cleaning.” Debates in the Digital Humanities 2019, edited by Matthew K. Gold and Lauren F. Klein, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23">https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23</a>. Accessed 18 Aug. 2023.
 * Gradek, Bob, and Liz Monk. "Dataset Summaries: Pivot Tables", 2022. vimeo.com, <a href="https://vimeo.com/703773939">https://vimeo.com/703773939</a>.
 
-
+<a id="current"></a>
 <h3 id="week-08"><a href='plans/week-08'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
 
 By Friday, **read**...
@@ -140,7 +140,7 @@ By Friday, **read**...
 * Cairo, Alberto. “5: Basic Principles of Visualization.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html</a>.
 * Cairo, Alberto. “6: Exploring Data with Simple Charts.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html</a>.
 * D’Ignazio, Catherine, and Lauren F. Klein. "6: The Numbers Don't Speak for Themselves." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
-
+* NEW: * Arnold, Taylor, and Lauren Tilton. “New Data? The Role of Statistics in DH.” _Debates in the Digital Humanities_ 2019, Univ of Minnesota Press, 2019, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24">https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24</a>.
 
 <h3 id="week-09"><a href='plans/week-09'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
 
