@@ -28,7 +28,7 @@ I want to start in a similar way to last time, by calling to mind some terms fro
 * indexing
 * plural(ism)
 * un/semi/structured
-* (non)scalabile
+* (non)scalable
 * capta
 * data settings
 * explicit
