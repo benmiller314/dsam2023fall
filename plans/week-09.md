@@ -111,7 +111,7 @@ When the end of the class is approaching, **please head back into the google doc
 * What are your new priorities for the coming week?
 
 
-
+<a id="hw"></a>
 ## Homework for Next Time
 
 Final reminder of the upcoming DSAM-relevant event! Not required, but highly recommended:

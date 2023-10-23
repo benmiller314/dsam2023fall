@@ -118,7 +118,7 @@ _Advanced level:_ Try to document the reasons you give for the trees you select,
 
 If you're energized for your project and/or you've used pivot tables and open data before, go ahead and make progress on your work. Don't forget to save and commit (if you're using GitHub) and to log your time in your Mindful Practice Journal.
 
-
+<a id="hw"></a>
 ## Homework for Next Time
 
 Upcoming DSAM-relevant event! Not required, but highly recommended:
