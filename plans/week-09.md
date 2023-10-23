@@ -16,8 +16,8 @@
         * Work toward them
         * Exit note
     - EXT: Troubleshooting projects, together
-    - ALT: Exploring datavis suites
-* [Homework for next time](#hw):
+    - ALT: Spreadsheets & datavis
+* [Homework for next time](#hw): second iteration
 
 <a id="first-half"></a>
 ## First half: Discussion
@@ -85,7 +85,9 @@ Assuming we left off at 10:30, let's aim to start up again at 10:40 or so. That 
 
 With the second public iteration of your projects coming due next week (online and in class presentations), I expect most people will want to focus on their projects, and I'm happy to dedicate the time to studio.
 
-If you need an alternative to your project, may I recommend again looking for relevant tips on [the InfoEco cookbook](https://infoeco.hcommons.org/infoecocookbook/cookbook-modules/) or [the Programming Historian](https://programminghistorian.org/en/lessons/)? And if you'd rather keep it relevant to this week's theme of graphs and data, remember that the squirrel video came with [several excellent guided exercises](https://infoeco.hcommons.org/infoecocookbook/cookbook-modules/pivot-tables/).
+If you want an alternative to your project, may I recommend again looking for relevant tips on [the InfoEco cookbook](https://infoeco.hcommons.org/infoecocookbook/cookbook-modules/)? If you'd rather keep it relevant to this week's theme of graphs and data, for instance, the squirrel video came with [several excellent guided exercises](https://infoeco.hcommons.org/infoecocookbook/cookbook-modules/pivot-tables/).
+
+When it comes time to visualize, I've been enjoying [DataWrapper](https://datawrapper.de), which employs a <dfn><abbr title="graphical user interface">GUI</abbr></dfn> to enable fast switching among a wide array visualization modes (gotta love that grammar of graphics) and has a great many shapefiles for mapping already built in (or you can upload your own, because it does not include all regions, or in the combinations you might need). The forms thoughtfully include prompts for naming and linking to your data sources and for adding notes (e.g. on what's included, and what isn't, and what your units mean). The site also includes a ton of [good advice on designing for communication with data](https://academy.datawrapper.de/), alongside tutorials with sample datasets provided.
 
 ### Reflective writing / Goal setting
 Before we all split off, though, take a moment to check in with yourself: do some private writing in response to these questions.
@@ -104,7 +106,7 @@ Get started, and call me over as needed!
 <div class="alert alert-info"> Don't forget to save and commit (if you're using GitHub) and to log your time in your Mindful Practice Journal.</div>
 
 ## Exit note
-When the end of the class is approaching, **please head back into the google doc** and respond to your own note from earlier: 
+When the end of the class is approaching, **please head back into the google doc** and respond to your own note from earlier:
 * How far did you get?
 * What are your new priorities for the coming week?
 
