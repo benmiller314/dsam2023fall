@@ -192,4 +192,16 @@ We've now reached the point in the semester where I had too many ideas, and I wa
     <p>You can post these notes as replies to the <a href="{{site.repo_url}}/discussions">discussion forum</a> posts containing the videos and links to projects.</p>
 
 
-In addition, please do **read** the cluster we agreed on for next week.
+In addition, please do **read** the cluster we agreed on for next week:
+<ul>
+    <li>Jaffe, Rachel. "Library Guide: Metadata Creation." UC Santa Cruz University Library. <a href="https://guides.library.ucsc.edu/c.php?g=618773">https://guides.library.ucsc.edu/c.php?g=618773</a>. (Don't miss the five sections; I searched long and hard for a good intro to Dublin Core, and this is one of the most straightforward I found.)</li>
+    <li>Gilliland, Anne J. "Setting the Stage." <em>Introduction to Metadata.</em> Edited by Murtha Baca, Getty Research Institute, Los Angeles, 2016, <a href="http://www.getty.edu/publications/intrometadata">http://www.getty.edu/publications/intrometadata</a>.</li>
+    <li>Using Dublin Core. 26 May 2005, <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/elements/">https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/elements/</a>. What the DublinCore team thinks is a simple introduction.</li>
+    <li>Jessop, Martyn. “Metadata Creation for Digital Humanities Projects.” Archiving Conference, vol. 3, no. 1, Jan. 2006, pp. 84–87. DOI.org (Crossref), <a href="https://doi.org/10.2352/issn.2168-3204.2006.3.1.art00020">https://doi.org/10.2352/issn.2168-3204.2006.3.1.art00020</a>.</li>
+    <li><a href="https://scalar.usc.edu/works/intro-to-dh-hs3393/media/seeingstandards_glossary_poster.pdf">Glossary of metadata standards</a>: a giant poster created and shared by Jenn Riley under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC-BY-NC-SA license</a>.<ul><li>NB: I found this on the Scalar site for an <a href="https://scalar.usc.edu/works/intro-to-dh-hs3393/media/seeing-standards-glossary-1">Introduction to Digital Humanities course</a> taught by Dr. Andrea Davis, a historian at Arkansas State. And looking up more about Davis led me to a new resource you might want to bookmark: <a href="https://handbook.pubpub.org/">Visualizing Objects, Places, and Spaces: A Digital Project Handbook</a>. It pays to click around!</li></ul></li>
+    <li>EXT for eager readers:
+        <ul><li>Eide, Øyvind, and Christian-Emil Smith Ore. “Ontologies and Data Modeling.” <em>The Shape of Data in the Digital Humanities: Modeling Texts and Text-Based Resources</em>, edited by Julia Flanders and Fotis Jannidis, 1st ed., Routledge, 2018, pp. 178–96. DOI.org (Crossref), <a href="https://doi.org/10.4324/9781315552941">https://doi.org/10.4324/9781315552941</a>.</li></ul>
+    </li>
+</ul>
+
+And finally, as always, if you can **write** a brief reader-response post to the [discussion forum](https://github.com/benmiller314/dsam2023fall/discussions), it will help focus our conversation on the questions and takeaways you find most compelling.

@@ -154,7 +154,18 @@ Optionally, I also recommend that you **read**:
 <a id="current"></a>
 <h3 id="week-10"><a href='plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
 
-By Friday, **read**... *TBD! See the lesson plan for details.*
+By Friday, **read**...
+<ul>
+    <li>Jaffe, Rachel. "Library Guide: Metadata Creation." UC Santa Cruz University Library. <a href="https://guides.library.ucsc.edu/c.php?g=618773">https://guides.library.ucsc.edu/c.php?g=618773</a>. (Don't miss the five sections; I searched long and hard for a good intro to Dublin Core, and this is one of the most straightforward I found.)</li>
+    <li>Gilliland, Anne J. "Setting the Stage." <em>Introduction to Metadata.</em> Edited by Murtha Baca, Getty Research Institute, Los Angeles, 2016, <a href="http://www.getty.edu/publications/intrometadata">http://www.getty.edu/publications/intrometadata</a>.</li>
+    <li>Using Dublin Core. 26 May 2005, <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/elements/">https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/elements/</a>. What the DublinCore team thinks is a simple introduction.</li>
+    <li>Jessop, Martyn. “Metadata Creation for Digital Humanities Projects.” Archiving Conference, vol. 3, no. 1, Jan. 2006, pp. 84–87. DOI.org (Crossref), <a href="https://doi.org/10.2352/issn.2168-3204.2006.3.1.art00020">https://doi.org/10.2352/issn.2168-3204.2006.3.1.art00020</a>.</li>
+    <li><a href="https://scalar.usc.edu/works/intro-to-dh-hs3393/media/seeingstandards_glossary_poster.pdf">Glossary of metadata standards</a>: a giant poster created and shared by Jenn Riley under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC-BY-NC-SA license</a>.</li>
+    <li>EXT for eager readers:
+        <ul><li>Eide, Øyvind, and Christian-Emil Smith Ore. “Ontologies and Data Modeling.” <em>The Shape of Data in the Digital Humanities: Modeling Texts and Text-Based Resources</em>, edited by Julia Flanders and Fotis Jannidis, 1st ed., Routledge, 2018, pp. 178–96. DOI.org (Crossref), <a href="https://doi.org/10.4324/9781315552941">https://doi.org/10.4324/9781315552941</a>.</li></ul>
+    </li>
+</ul>
+
 
 <!--One possible cluster might be on ways the digital is still physical. That could include...*
 
@@ -171,10 +182,15 @@ By Friday, **read**... *TBD! See the lesson plan for details.*
 * Miller, Benjamin. “Chapter 17: The Pleasurable Difficulty of Programming.” _Methods and Methodologies for Research in Digital Writing and Rhetoric Centering Positionality in Computers and Writing Scholarship_, Volume 2, edited by Victor Del Hierro and Crystal VanKooten, The WAC Clearinghouse; University Press of Colorado, 2022, pp. 159–83. DOI.org (Crossref), <a href="https://doi.org/10.37514/PRA-B.2022.1664.2.17">https://doi.org/10.37514/PRA-B.2022.1664.2.17</a>.
 -->
 
-<h3 id="week-11"><a href='plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1</h3>
+<h3 id="week-11"><a href='plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1: Metadata and digital ontologies</h3>
 
-By Friday, **read**... *TBD! I'll fill this in after lesson 10.*
+By Friday, **read**...
 
+<ul>
+    <li>Ford, Paul, “What is Code?” section 2: Let’s Begin. <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin</a>.</li>
+    <li>Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo As An Anatomical Map of Human Labor, Data and Planetary Resources.” AI Now Institute and Share Lab, 7 Sept. 2018, <a href="https://www.anatomyof.ai">https://www.anatomyof.ai</a>.</li>
+    <li>Gries, Laurie, Jenny Bay, Derek Mueller, and Nathaniel Rivers. “New Materialisms, Networks, and Humanities Research.” <em>Networked Humanities: Within and without the University</em>, edited by Jeff Rice and Brian McNely, Parlor Press, 2018, pp. 85–102. (I have a scan of this one, which I'll share if you vote for it.)</li>
+</ul>
 <!-- One possible cluster might be on topic modeling and distant reading. That could include...*
 
 * Underwood, Ted. “Topic Modeling Made Just Simple Enough.” The Stone and the Shell, 7 Apr. 2012, <a href="http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/">http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/</a>.
@@ -186,23 +202,23 @@ By Friday, **read**... *TBD! I'll fill this in after lesson 10.*
     - Guldi, Jo. “Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora.” _Journal of Cultural Analytics_, Dec. 2018. <a href="https://culturalanalytics.org/article/11028">https://culturalanalytics.org/article/11028</a>
 -->
 
-<h3 id="week-12"><a href='plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2</h3>
+<h3 id="week-12"><a href='plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2: the physicality of the digital</h3>
 
-By the time we get back from break, **read**: *TBD! I'll fill this in after lesson 10.*
+By the time we get back from break, please **read**...
 
-<!-- One possible cluster might be on AI and large language models. That could include...*
-
-* Onuoha, Mimi and Mother Cyborg (Diana Nucera). “A People’s Guide To Tech: Artificial Intelligence.” Allied Media Projects, Aug. 2018, <a href="https://alliedmedia.org/resources/peoples-guide-to-ai">https://alliedmedia.org/resources/peoples-guide-to-ai</a>.
-* Crawford, Kate, and Trevor Paglen. “Excavating AI: The Politics of Training Sets for Machine Learning.” 19 Sept. 2019, <a href="https://excavating.ai">https://excavating.ai</a>.
-* Vee, Annette. “Large Language Models Write Answers.” _Composition Studies_, vol. 51, no. 1, Spring 2023, pp. 176–81.
-* more from that _Composition Studies_ "Where we are now" section
-* selections from the brand-new (since the start of the semester!) collection _TextGenEd: Teaching with Text Generation Technologies_, edited by Annette Vee, Tim Laquintano, and Carly Schnitzler, WAC Clearinghouse, 2023, https://wac.colostate.edu/repository/collections/textgened/.
--->
+<ul>
+    <li>Onuoha, Mimi and Mother Cyborg (Diana Nucera). “A People’s Guide To Tech: Artificial Intelligence.” Allied Media Projects, Aug. 2018, <a href="https://alliedmedia.org/resources/peoples-guide-to-ai">https://alliedmedia.org/resources/peoples-guide-to-ai</a>.</li>
+    <li>Crawford, Kate, and Trevor Paglen. “Excavating AI: The Politics of Training Sets for Machine Learning.” 19 Sept. 2019, <a href="https://excavating.ai">https://excavating.ai</a>.</li>
+    <li>Vee, Annette. “Large Language Models Write Answers.” <em>Composition Studies</em>, vol. 51, no. 1, Spring 2023, pp. 176–81. <a href="https://compositionstudiesjournal.files.wordpress.com/2023/06/vee.pdf">https://compositionstudiesjournal.files.wordpress.com/2023/06/vee.pdf</a></li>
+    <li>Your choice of 2-3 more items from the “Where we are now” section of the same <a href="https://compstudiesjournal.com/current-issue-spring-2023-51-1/"><em>Composition Studies</em> issue</a> (i.e. the surrounding context for Annette's piece)</li>
+    <li>Laquintano, Tim, Carly Schnitzler and Annette Vee, A. (2023). "Introduction to teaching with text generation technologies." In A. Vee, T. Laquintano, & C. Schnitzler (Eds.), TextGenEd: Teaching with Text Generation Technologies. The WAC Clearinghouse. <a href="https://doi.org/10.37514/TWR-J.2023.1.1.02">https://doi.org/10.37514/TWR-J.2023.1.1.02</a></li>
+    <li>Your choice of 2-3 assignments from the TextGenEd collection. (Multiple Pitt PhD students and faculty, past or present, are included!)</li>
+</ul>
 
 <h3 id="week-13"><a href='plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
 
 
-<h3 id="week-14"><a href='plans/week-14'>Week 14: Mon, Nov 27</a> – People's choice 3</h3>
+<h3 id="week-14"><a href='plans/week-14'>Week 14: Mon, Nov 27</a> – People's choice 3: Artificial Intelligence and Large Language Models</h3>
 By Sunday, prepare your final presentation to class. Pre-record 10 minutes, and be ready to discuss!
 
 <h3 id="week-15"><a href='plans/week-15'>Week 15: Mon, Dec 04</a> – Presentations (iteration 3)</h3>
