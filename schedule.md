@@ -142,7 +142,7 @@ By Friday, **read**...
 * D’Ignazio, Catherine, and Lauren F. Klein. "6: The Numbers Don't Speak for Themselves." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 * NEW: Arnold, Taylor, and Lauren Tilton. “New Data? The Role of Statistics in DH.” _Debates in the Digital Humanities_ 2019, Univ of Minnesota Press, 2019, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24">https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24</a>.
 
-<a id="current"></a>
+
 <h3 id="week-09"><a href='plans/week-09'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
 
 By Sunday, prepare an updated presentation to class, now with a stronger sense of your argument and evidence, even if they're still works in progress. **Pre-record 5 minutes** to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
@@ -151,10 +151,12 @@ Optionally, I also recommend that you **read**:
 
 * Ford, Paul, _What is Code?_ section 6.2: "What is debugging?" <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>.
 
-
+<a id="current"></a>
 <h3 id="week-10"><a href='plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
 
-By Friday, **read**... *TBD! One possible cluster might be on ways the digital is still physical. That could include...*
+By Friday, **read**... *TBD! See the lesson plan for details.*
+
+<!--One possible cluster might be on ways the digital is still physical. That could include...*
 
 * Ford, Paul, "What is Code?" section 2: Let's Begin. <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begi</a>.
 * Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo As An Anatomical Map of Human Labor, Data and Planetary Resources.” AI Now Institute and Share Lab, 7 Sept. 2018, <a href="https://www.anatomyof.ai">https://www.anatomyof.ai</a>.
@@ -167,11 +169,13 @@ By Friday, **read**... *TBD! One possible cluster might be on ways the digital i
     * "6: Programming Fundamentals"
     * "10: Image I: Pixel by Pixel"
 * Miller, Benjamin. “Chapter 17: The Pleasurable Difficulty of Programming.” _Methods and Methodologies for Research in Digital Writing and Rhetoric Centering Positionality in Computers and Writing Scholarship_, Volume 2, edited by Victor Del Hierro and Crystal VanKooten, The WAC Clearinghouse; University Press of Colorado, 2022, pp. 159–83. DOI.org (Crossref), <a href="https://doi.org/10.37514/PRA-B.2022.1664.2.17">https://doi.org/10.37514/PRA-B.2022.1664.2.17</a>.
-
+-->
 
 <h3 id="week-11"><a href='plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1</h3>
 
-By Friday, **read**... *TBD! One possible cluster might be on topic modeling and distant reading. That could include...*
+By Friday, **read**... *TBD! I'll fill this in after lesson 10.*
+
+<!-- One possible cluster might be on topic modeling and distant reading. That could include...*
 
 * Underwood, Ted. “Topic Modeling Made Just Simple Enough.” The Stone and the Shell, 7 Apr. 2012, <a href="http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/">http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/</a>.
 * Meeks, Elijah, and Scott B Weingart. “The Digital Humanities Contribution to Topic Modeling.” _Journal of Digital Humanities_, vol. 2, no. 1, Apr. 2013, <a href="http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/">http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/</a>.
@@ -180,18 +184,20 @@ By Friday, **read**... *TBD! One possible cluster might be on topic modeling and
 * EXT for eager readers:
     - Underwood, Ted. “A Genealogy of Distant Reading.” _Digital Humanities Quarterly_, vol. 11, no. 2, 2017. <a href="http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html">http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html</a>.
     - Guldi, Jo. “Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora.” _Journal of Cultural Analytics_, Dec. 2018. <a href="https://culturalanalytics.org/article/11028">https://culturalanalytics.org/article/11028</a>
-
+-->
 
 <h3 id="week-12"><a href='plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2</h3>
 
-By the time we get back from break, **read**: *TBD! One possible cluster might be on AI and large language models. That could include...*
+By the time we get back from break, **read**: *TBD! I'll fill this in after lesson 10.*
+
+<!-- One possible cluster might be on AI and large language models. That could include...*
 
 * Onuoha, Mimi and Mother Cyborg (Diana Nucera). “A People’s Guide To Tech: Artificial Intelligence.” Allied Media Projects, Aug. 2018, <a href="https://alliedmedia.org/resources/peoples-guide-to-ai">https://alliedmedia.org/resources/peoples-guide-to-ai</a>.
 * Crawford, Kate, and Trevor Paglen. “Excavating AI: The Politics of Training Sets for Machine Learning.” 19 Sept. 2019, <a href="https://excavating.ai">https://excavating.ai</a>.
 * Vee, Annette. “Large Language Models Write Answers.” _Composition Studies_, vol. 51, no. 1, Spring 2023, pp. 176–81.
 * more from that _Composition Studies_ "Where we are now" section
 * selections from the brand-new (since the start of the semester!) collection _TextGenEd: Teaching with Text Generation Technologies_, edited by Annette Vee, Tim Laquintano, and Carly Schnitzler, WAC Clearinghouse, 2023, https://wac.colostate.edu/repository/collections/textgened/.
-
+-->
 
 <h3 id="week-13"><a href='plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
 
