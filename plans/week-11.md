@@ -25,7 +25,7 @@
 
 ### Warm-up writing
 
-
+What metadata have you worked with most extensively? 
 
 ### Let's talk!
 
@@ -58,9 +58,9 @@ And maybe we can take some collaborative notes at [bit.ly/dsam2023fall-notes](ht
     <p>Here's <a href="https://xkcd.com/927/">one take, from Randall Munroe</a>.</p>
     </details></li><!-- too many standards -->
 
-    <!-- <li><details><summary>Search results and metadata</summary>
-    <p>Chloe read on to the chapter by Tony Gill, on "Metadata and the Web," and learned why Google can return a search result that, when you click on it, no longer exists: it's because the engine is searching an index derived <em>from</em> the web, not the web itself. As Chloe <a href="https://github.com/benmiller314/dsam2023fall/discussions/13#discussioncomment-7471744">writes</a>, this explanation "helps illuminate the black box of digital work a bit more," breaking down the magic. And that does, yes, set up our readings for next week, on the materiality of the digital. Thanks for the lookahead, Chloe!</p>
-    </details></li>     -->
+    <li><details><summary>Search results and metadata</summary>
+    <p>This one's maybe less of a thorny topic and more of a cool extension. Chloe read on to the chapter by Tony Gill, on "Metadata and the Web," and learned why Google can return a search result that, when you click on it, no longer exists. I'll let her tell it. :¬) <!--: it's because the engine is searching an index derived <em>from</em> the web, not the web itself. -->As Chloe <a href="https://github.com/benmiller314/dsam2023fall/discussions/13#discussioncomment-7471744">writes</a>, this explanation "helps illuminate the black box of digital work a bit more," breaking down the magic. And that does, yes, set up our readings for next week, on the materiality of the digital. Thanks for the lookahead, Chloe!</p>
+    </details></li>
 </ol>
 </details>
 
