@@ -92,7 +92,7 @@ program at Pitt in Fall 2023 under a
 license.
 </p>
 
-<button type="button" href="../uploads/metadata_practice_bmm.docx" class="btn btn-outline-info">Also available as a .docx download</button>
+<a href="../uploads/metadata_practice_bmm.docx" role="button" class="btn btn-outline-info">Also available as a .docx download</a>
 
 <p>After defining your project goals and working through the initial
 planning stages, your next steps are to ask:</p>
