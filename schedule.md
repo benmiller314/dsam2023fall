@@ -151,7 +151,7 @@ Optionally, I also recommend that you **read**:
 
 * Ford, Paul, _What is Code?_ section 6.2: "What is debugging?" <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code</a>.
 
-<a id="current"></a>
+
 <h3 id="week-10"><a href='plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
 
 By Friday, **read**...
@@ -181,7 +181,7 @@ By Friday, **read**...
     * "10: Image I: Pixel by Pixel"
 * Miller, Benjamin. “Chapter 17: The Pleasurable Difficulty of Programming.” _Methods and Methodologies for Research in Digital Writing and Rhetoric Centering Positionality in Computers and Writing Scholarship_, Volume 2, edited by Victor Del Hierro and Crystal VanKooten, The WAC Clearinghouse; University Press of Colorado, 2022, pp. 159–83. DOI.org (Crossref), <a href="https://doi.org/10.37514/PRA-B.2022.1664.2.17">https://doi.org/10.37514/PRA-B.2022.1664.2.17</a>.
 -->
-
+<a id="current"></a>
 <h3 id="week-11"><a href='plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1: Metadata and digital ontologies</h3>
 
 By Friday, **read**...
@@ -189,7 +189,7 @@ By Friday, **read**...
 <ul>
     <li>Ford, Paul, “What is Code?” section 2: Let’s Begin. <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin</a>.</li>
     <li>Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo As An Anatomical Map of Human Labor, Data and Planetary Resources.” AI Now Institute and Share Lab, 7 Sept. 2018, <a href="https://www.anatomyof.ai">https://www.anatomyof.ai</a>.</li>
-    <li>Gries, Laurie, Jenny Bay, Derek Mueller, and Nathaniel Rivers. “New Materialisms, Networks, and Humanities Research.” <em>Networked Humanities: Within and without the University</em>, edited by Jeff Rice and Brian McNely, Parlor Press, 2018, pp. 85–102. (I have a scan of this one, which I'll share if you vote for it.)</li>
+    <li>Gries, Laurie, Jenny Bay, Derek Mueller, and Nathaniel Rivers. “New Materialisms, Networks, and Humanities Research.” <em>Networked Humanities: Within and without the University</em>, edited by Jeff Rice and Brian McNely, Parlor Press, 2018, pp. 85–102. (I have a scan of this one, which is <a href="https://canvas.pitt.edu/courses/220016/files?preview=14626125">now posted to Canvas</a> – remember Canvas?)</li>
 </ul>
 <!-- One possible cluster might be on topic modeling and distant reading. That could include...*
 
