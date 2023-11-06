@@ -25,7 +25,7 @@
 
 ### Warm-up writing
 
-What metadata have you worked with most extensively? 
+What metadata have you worked with most extensively?
 
 ### Let's talk!
 
@@ -134,7 +134,7 @@ Before we all split off, though, take a moment to check in with yourself: do som
 
 3. Look over your list, and **choose one thing you'd like to accomplish – or ask about – in class**. If you can't pick just one, choose a top three... and then pick one to start with.
 
-<div class="alert alert-success">When you have a sense of your studio goals, please write them into the shared google doc: <a href="https://bit.ly/dsam2023fall">https://bit.ly/dsam2023fall</a></div>
+<div class="alert alert-success">When you have a sense of your studio goals, please write them into the shared google doc: <a href="https://bit.ly/dsam2023fall-notes">https://bit.ly/dsam2023fall-notes</a></div>
 
 ## Go to!
 Get started, and call me over as needed!
