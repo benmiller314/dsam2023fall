@@ -181,7 +181,7 @@ By Friday, **read**...
     * "10: Image I: Pixel by Pixel"
 * Miller, Benjamin. “Chapter 17: The Pleasurable Difficulty of Programming.” _Methods and Methodologies for Research in Digital Writing and Rhetoric Centering Positionality in Computers and Writing Scholarship_, Volume 2, edited by Victor Del Hierro and Crystal VanKooten, The WAC Clearinghouse; University Press of Colorado, 2022, pp. 159–83. DOI.org (Crossref), <a href="https://doi.org/10.37514/PRA-B.2022.1664.2.17">https://doi.org/10.37514/PRA-B.2022.1664.2.17</a>.
 -->
-<a id="current"></a>
+
 <h3 id="week-11"><a href='plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1: Metadata and digital ontologies</h3>
 
 By Friday, **read**...
@@ -202,6 +202,7 @@ By Friday, **read**...
     - Guldi, Jo. “Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora.” _Journal of Cultural Analytics_, Dec. 2018. <a href="https://culturalanalytics.org/article/11028">https://culturalanalytics.org/article/11028</a>
 -->
 
+<a id="current"></a>
 <h3 id="week-12"><a href='plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2: the physicality of the digital</h3>
 
 By the time we get back from break, please **read**...
@@ -210,8 +211,8 @@ By the time we get back from break, please **read**...
     <li>Onuoha, Mimi and Mother Cyborg (Diana Nucera). “A People’s Guide To Tech: Artificial Intelligence.” Allied Media Projects, Aug. 2018, <a href="https://alliedmedia.org/resources/peoples-guide-to-ai">https://alliedmedia.org/resources/peoples-guide-to-ai</a>.</li>
     <li>Crawford, Kate, and Trevor Paglen. “Excavating AI: The Politics of Training Sets for Machine Learning.” 19 Sept. 2019, <a href="https://excavating.ai">https://excavating.ai</a>.</li>
     <li>Vee, Annette. “Large Language Models Write Answers.” <em>Composition Studies</em>, vol. 51, no. 1, Spring 2023, pp. 176–81. <a href="https://compositionstudiesjournal.files.wordpress.com/2023/06/vee.pdf">https://compositionstudiesjournal.files.wordpress.com/2023/06/vee.pdf</a></li>
-    <li>Your choice of 2-3 more items from the “Where we are now” section of the same <a href="https://compstudiesjournal.com/current-issue-spring-2023-51-1/"><em>Composition Studies</em> issue</a> (i.e. the surrounding context for Annette's piece)</li>
-    <li>Laquintano, Tim, Carly Schnitzler and Annette Vee, A. (2023). "Introduction to teaching with text generation technologies." In A. Vee, T. Laquintano, & C. Schnitzler (Eds.), TextGenEd: Teaching with Text Generation Technologies. The WAC Clearinghouse. <a href="https://doi.org/10.37514/TWR-J.2023.1.1.02">https://doi.org/10.37514/TWR-J.2023.1.1.02</a></li>
+    <li>Your choice of 2-3 more items from the “Where we are now” section of the same <a href="https://compstudiesjournal.com/current-issue-spring-2023-51-1/#:~:text=where%20we%20are"><em>Composition Studies</em> issue</a> (i.e. the surrounding context for Annette's piece)</li>
+    <li>Laquintano, Tim, Carly Schnitzler and Annette Vee (2023). "Introduction to teaching with text generation technologies." In A. Vee, T. Laquintano, & C. Schnitzler (Eds.), <em>TextGenEd: Teaching with Text Generation Technologies</em>. The WAC Clearinghouse. <a href="https://doi.org/10.37514/TWR-J.2023.1.1.02">https://doi.org/10.37514/TWR-J.2023.1.1.02</a></li>
     <li>Your choice of 2-3 assignments from the TextGenEd collection. (Multiple Pitt PhD students and faculty, past or present, are included!)</li>
 </ul>
 

@@ -99,28 +99,11 @@ planning stages, your next steps are to ask:</p>
 <ol type="1">
 <li><p>What type of material are you describing (e.g., images,
 documents, mixed materials, etc.)?</p></li>
-<li><p>Who is your audience, now and in the future? Who is going to be
-using these resources and how? What kind of experience are you trying to
-create (e.g., a timeline, a map, etc.)?</p></li>
-<li><p>What data points are necessary to support that user experience?
-What data points are necessary to make your resources meaningful? Create
-metadata your wish list; find your golden minimum based on your project
-goals. What kind of information do you want to record?</p></li>
-<li><p>Map your desired data points to appropriate <a
-href="https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/elements/">Dublin
-Core elements</a>: Title, Subject, Description, Type, Source, Relation,
-Coverage, Creator, Publisher, Contributor, Rights, Date, Format,
-Identifier, Language. Note that some of these elements are allowed to
-repeat, and that you may have some data points that don’t map onto the
-Dublin Core 15.</p></li>
-<li><p>For which metadata elements do you want make use of data value
-standards (e.g., controlled vocabulary terms, specific encoding or
-formats standards)? For which do you want to develop your own? For each
-of your golden minimum metadata elements, list anticipated/allowed
-values, indicating which elements are open-ended (e.g. free
-text).</p></li>
-<li><p>Using your metadata template, create descriptive metadata records
-for each of the information objects in your project.</p></li>
+<li><p>Who is your audience, now and in the future? Who is going to be using these resources and how? What kind of experience are you trying to create (e.g., a timeline, a map, etc.)?</p></li>
+<li><p>What data points are necessary to support that user experience? What data points are necessary to make your resources meaningful? Create metadata your wish list; find your golden minimum based on your project goals. What kind of information do you want to record?</p></li>
+<li><p>Map your desired data points to appropriate <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/elements/">Dublin Core elements</a>: Title, Subject, Description, Type, Source, Relation, Coverage, Creator, Publisher, Contributor, Rights, Date, Format, Identifier, Language. Note that some of these elements are allowed to repeat, and that you may have some data points that don’t map onto the Dublin Core 15.</p></li>
+<li><p>For which metadata elements do you want make use of data value standards (e.g., controlled vocabulary terms, specific encoding or formats standards)? For which do you want to develop your own? For each of your golden minimum metadata elements, list anticipated/allowed values, indicating which elements are open-ended (e.g. free text).</p></li>
+<li><p>Using your metadata template, create descriptive metadata records for each of the information objects in your project.</p></li>
 </ol>
 </details><!-- metacognitive metadata exercise -->
 
