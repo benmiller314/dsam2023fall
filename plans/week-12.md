@@ -15,7 +15,7 @@
         * Set goals
         * Work toward them
         * Exit note
-* [Homework for next time](#hw): second iteration
+* [Homework for next time](#hw): AI and LLMs
 
 <a id="first-half"></a>
 ## First half: Discussion

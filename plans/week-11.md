@@ -18,7 +18,7 @@
         * Set goals
         * Work toward them
         * Exit note
-* [Homework for next time](#hw): second iteration
+* [Homework for next time](#hw): the digital is still physical
 
 <a id="first-half"></a>
 ## First half: Discussion
