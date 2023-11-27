@@ -202,7 +202,7 @@ By Friday, **read**...
     - Guldi, Jo. “Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora.” _Journal of Cultural Analytics_, Dec. 2018. <a href="https://culturalanalytics.org/article/11028">https://culturalanalytics.org/article/11028</a>
 -->
 
-<a id="current"></a>
+
 <h3 id="week-12"><a href='plans/week-12'>Week 12: Mon, Nov 13</a> – People's choice 2: the physicality of the digital</h3>
 
 By the time we get back from break, please **read**...
@@ -218,7 +218,7 @@ By the time we get back from break, please **read**...
 
 <h3 id="week-13"><a href='plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
 
-
+<a id="current"></a>
 <h3 id="week-14"><a href='plans/week-14'>Week 14: Mon, Nov 27</a> – People's choice 3: Artificial Intelligence and Large Language Models</h3>
 By Sunday, prepare your final presentation to class. Pre-record 10 minutes, and be ready to discuss!
 
