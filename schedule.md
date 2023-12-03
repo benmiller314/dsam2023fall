@@ -218,10 +218,10 @@ By the time we get back from break, please **read**...
 
 <h3 id="week-13"><a href='plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
 
-<a id="current"></a>
 <h3 id="week-14"><a href='plans/week-14'>Week 14: Mon, Nov 27</a> – People's choice 3: Artificial Intelligence and Large Language Models</h3>
 By Sunday, prepare your final presentation to class. Pre-record 10 minutes, and be ready to discuss!
 
+<a id="current"></a>
 <h3 id="week-15"><a href='plans/week-15'>Week 15: Mon, Dec 04</a> – Presentations (iteration 3)</h3>
 
 Work toward your final reflections. If we collectively agree that we need another studio day, we'll use week 16; otherwise, the final portfolio (reflection plus last iteration on your palimpsest) is due Wednesday, December 13 at 2pm.
