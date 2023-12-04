@@ -151,8 +151,8 @@ I'm happy to talk more about how to make these self-assessments as meaningful as
 
 On the final discussion forum for the semester, please **post** the following by Wednesday, December 13 at 2pm:
 
-1. A link to the final-for-now version of your **public-facing project**
-    - As we discussed back at the previous iteration, please be sure to _give credit to sources_ you used within your public-facing site, e.g. by linking back to originals or by having a page within the project with more complete bibliographic information (title, author, location, license).
+1. A link to the final-for-now (a.k.a. Iteration 4) version of your **public-facing project**
+    - As we discussed back at the previous presentation stage, please be sure to _give credit to sources_ you used within your public-facing site, e.g. by linking back to originals or by having a page within the project with more complete bibliographic information (title, author, location, license).
     - Note that you should also _credit yourself_! If your name and a brief bio do not yet exist on your public-facing site, consider: you use information about site creators to gauge your trust levels, right? Help others to trust you, too. : )
 2. If relevant, a link to a **repository** of source materials that you have been shaping or processing to produce your project.
     - NB: Both GitHub or OneDrive offer functionality to share a folder, either publicly or with specific people. If you have a repo and aren't sure how to share it, I can help.
