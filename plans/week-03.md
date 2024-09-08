@@ -18,7 +18,8 @@
 - a repo is a folder
 - a fork is a copy you control
 - a clone brings the folder from the **clo**ud to the **ne**ar
-- to sync local changes to the web,
+- to sync local changes to the cloud, you need to **push** them out into the world
+- to sync online changes from the cloud to your local machine, you need to **pull**
 
 For today's exercise, I've created a repository with instructions in the README. This also has the benefit of linking them together, so it'll be easy later for us all to see what the others have been up to.
 

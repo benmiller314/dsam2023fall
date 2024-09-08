@@ -108,6 +108,11 @@ Here at the end of the term, I'm asking you to _go back through it and see what 
 Your final assignment is to compose a message, as a letter or a video, addressing the following questions. Your audience is at least two-fold: me (Ben) and your own future self.
 </div>
 
+<!--
+FOR NEXT TIME, ADD:
+NB: While you might at times feel tempted to just say "all of it" or "none of it," that's not really much of an answer. It's fine to start there, but then try to prioritize; name something specific, so it's written somewhere you’ll be able to find it later.
+-->
+
 1. What **methods and workflows** have worked for you (perhaps as compared to those that have not)? What were the challenges and the joys that keep you moving through them?
 
 2. What surprised you, or what **surprises** you now as you look back? e.g. What things did you learn that you did not expect to learn, or not learn that you had expected to? What realizations or questions do those surprises point you toward?
