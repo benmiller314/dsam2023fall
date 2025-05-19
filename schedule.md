@@ -36,10 +36,10 @@ Week | Date | Lesson Title
 8 | Mon, Oct 16 | [Data 2: Exploration and slicing](#week-08)
 9 | Mon, Oct 23 | [Data 3: Analysis and visualization](#week-09)
 10 | Mon, Oct 30 | [Presentations 2](#week-10)
-11 | Mon, Nov 06 | [People's choice 1](#week-11)
-12 | Mon, Nov 13 | [People's choice 2](#week-12)
+11 | Mon, Nov 06 | [People's choice 1: Metadata and digital ontologies](#week-11)
+12 | Mon, Nov 13 | [People's choice 2: The physicality of the digital](#week-12)
 13 | Mon, Nov 20 | no class: Thanksgiving Break (digesting)
-14 | Mon, Nov 27 | [People's choice 3](#week-14)
+14 | Mon, Nov 27 | [People's choice 3: Artificial intelligence and large language models](#week-14)
 15 | Mon, Dec 04 | [Presentations 3](#week-15)
 16 | Mon, Dec 11 | [Overflow day, iff needed](#week-16)
 {: .table .table-sm}
