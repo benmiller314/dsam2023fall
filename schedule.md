@@ -48,7 +48,7 @@ Week | Date | Lesson Title
 
 <h3 id="week-01"><a href='plans/week-01'>Week 1: Mon, Aug 28</a> – Digital affordances</h3>
 
-By Friday, **watch**:
+In prep for week 2, by Friday, **watch**:
 * Posner, Miriam. “How Did They Make That? The Video!” Miriam Posner's Blog, April 17, 2014. <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/">http://miriamposner.com/blog/how-did-they-make-that-the-video/</a>.
 
 and **read**:
@@ -68,7 +68,7 @@ and **read**:
 
 Meet Ben in [office hours](office) some time this week.
 
-By Monday, **install** a plain-text editor (e.g. [Pulsar](https://pulsar-edit.dev/) or [Visual Studio Code](https://code.visualstudio.com/)) if you don't already have one.
+In prep for week 3, by Monday, **install** a plain-text editor (e.g. [Pulsar](https://pulsar-edit.dev/) or [Visual Studio Code](https://code.visualstudio.com/)) if you don't already have one.
 
 By Friday, **read**...
 * Ford, Paul. _What Is Code? If You Don’t Know, You Need to Read This_, Bloomberg.com, <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/</a>. Accessed 19 June 2015.
@@ -81,7 +81,7 @@ By Friday, **read**...
 
 <h3 id="week-03"><a href='plans/week-03'>Week 3: Mon, Sep 11</a> – Programming as literacy, as exploration</h3>
 
-By Friday, **read**...
+In prep for week 4, by Friday, **read**...
 
 * Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C Marino, Michael Mateas, Casey Reas, Mark Sample, and Noah Vawter. “10: Introduction.” _10 PRINT CHR$(205.5+RND(1)); : GOTO 10_, The MIT Press, 2012, pp. 1–17. direct.mit.edu, <a href="https://doi.org/10.7551/mitpress/9040.001.0001">https://doi.org/10.7551/mitpress/9040.001.0001</a>.
 * Whalen, Zach. “Any Means Necessary to Refuse Erasure by Algorithm: Lillian-Yvonne Bertram’s Travesty Generator.” _Digital Humanities Quarterly_, vol. 017, no. 2, July 2023, <a href="http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html">http://digitalhumanities.org:8081/dhq/vol/17/2/000707/000707.html</a>.
@@ -101,12 +101,12 @@ Optionally, schedule a meeting with Ben in [office hours](office) for early feed
 
 **No class this week: Yom Kippur.**
 
-By Sunday, **pre-record** a 5-minute presentation to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
+In prep for week 6, by Sunday, **pre-record** a 5-minute presentation to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
 
 <h3 id="week-06"><a href='plans/week-06'>Week 6: Mon, Oct 02</a> – Presentations (iteration 1)</h3>
 
-By Friday, **read**...
+In prep for week 7, by Friday, **read**...
 
 * Montfort, Nick. “7: Standard Starting Points.” _Exploratory Programming for the Arts and Humanities_, Second Edition, The MIT Press, 2016, pp. 93–118. pitt.primo.exlibrisgroup.com, <a href="https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1">https://mitpress.ublish.com/ebook/epah2e-preview/12629/C1</a>.
 * D’Ignazio, Catherine, and Lauren F. Klein. “Chapter Four: ‘What Gets Counted Counts.’” _Data Feminism_, MIT Press, 2020, pp. 97–124. mitpressonpubpub.mitpress.mit.edu, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=612095</a>.
@@ -125,7 +125,7 @@ EXT for eager readers:
 
 <h3 id="week-07"><a href='plans/week-07'>Week 7: Mon, Oct 09</a> – Data 1: By whom? For what?</h3>
 
-By Friday, **read**...
+In prep for week 8, by Friday, **read**...
 
 * D’Ignazio, Catherine, and Lauren F. Klein. "5: Unicorns, Janitors, Ninjas, Wizards, and Rock Stars." _Data Feminism_. MIT Press, 2020. ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950">http://ebookcentral.proquest.com/lib/pitt-ebooks/detail.action?docID=6120950</a>.
 * Schöch, Christof. “Big? Smart? Clean? Messy? Data in the Humanities.” Journal of Digital Humanities, Nov. 2013, <a href="https://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">https://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</a>.
@@ -135,7 +135,7 @@ By Friday, **read**...
 
 <h3 id="week-08"><a href='plans/week-08'>Week 8: Mon, Oct 16</a> – Data 2: Exploration and slicing</h3>
 
-By Friday, **read**...
+In prep for week 9, by Friday, **read**...
 
 * Cairo, Alberto. “5: Basic Principles of Visualization.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch05.html</a>.
 * Cairo, Alberto. “6: Exploring Data with Simple Charts.” The Truthful Art: Data, Charts, and Maps for Communication, New Riders, 2016. learning.oreilly.com, <a href="https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html">https://learning.oreilly.com/library/view/the-truthful-art/9780133440492/ch06.html</a>.
@@ -145,7 +145,7 @@ By Friday, **read**...
 
 <h3 id="week-09"><a href='plans/week-09'>Week 9: Mon, Oct 23</a> – Data 3: Analysis and visualization</h3>
 
-By Sunday, prepare an updated presentation to class, now with a stronger sense of your argument and evidence, even if they're still works in progress. **Pre-record 5 minutes** to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
+In prep for week 10, by Sunday, prepare an updated presentation to class, now with a stronger sense of your argument and evidence, even if they're still works in progress. **Pre-record 5 minutes** to show in class, and be ready to discuss! NB: _bring your own dongle_, if you need one.
 
 Optionally, I also recommend that you **read**:
 
@@ -154,7 +154,7 @@ Optionally, I also recommend that you **read**:
 
 <h3 id="week-10"><a href='plans/week-10'>Week 10: Mon, Oct 30</a> – Presentations (iteration 2)</h3>
 
-By Friday, **read**...
+In prep for week 11, by Friday, **read**...
 <ul>
     <li>Jaffe, Rachel. "Library Guide: Metadata Creation." UC Santa Cruz University Library. <a href="https://guides.library.ucsc.edu/c.php?g=618773">https://guides.library.ucsc.edu/c.php?g=618773</a>. (Don't miss the five sections; I searched long and hard for a good intro to Dublin Core, and this is one of the most straightforward I found.)</li>
     <li>Gilliland, Anne J. "Setting the Stage." <em>Introduction to Metadata.</em> Edited by Murtha Baca, Getty Research Institute, Los Angeles, 2016, <a href="http://www.getty.edu/publications/intrometadata">http://www.getty.edu/publications/intrometadata</a>.</li>
@@ -184,7 +184,7 @@ By Friday, **read**...
 
 <h3 id="week-11"><a href='plans/week-11'>Week 11: Mon, Nov 06</a> – People's choice 1: Metadata and digital ontologies</h3>
 
-By Friday, **read**...
+In prep for week 12, by Friday, **read**...
 
 <ul>
     <li>Ford, Paul, “What is Code?” section 2: Let’s Begin. <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin">https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin</a>.</li>
@@ -219,12 +219,12 @@ By the time we get back from break, please **read**...
 <h3 id="week-13"><a href='plans/week-13'>Week 13: Mon, Nov 20</a> – no class: Thanksgiving Break (digesting)</h3>
 
 <h3 id="week-14"><a href='plans/week-14'>Week 14: Mon, Nov 27</a> – People's choice 3: Artificial Intelligence and Large Language Models</h3>
-By Sunday, prepare your final presentation to class. Pre-record 10 minutes, and be ready to discuss!
+In prep for week 15, by Sunday, prepare your final presentation to class. Pre-record 10 minutes, and be ready to discuss!
 
 <a id="current"></a>
 <h3 id="week-15"><a href='plans/week-15'>Week 15: Mon, Dec 04</a> – Presentations (iteration 3)</h3>
 
-Work toward your final reflections. If we collectively agree that we need another studio day, we'll use week 16; otherwise, the final portfolio (reflection plus last iteration on your palimpsest) is due Wednesday, December 13 at 2pm.
+After class, work toward your final reflections. If we collectively agree that we need another studio day, we'll use week 16; otherwise, the final portfolio (reflection plus last iteration on your palimpsest) is due Wednesday, December 13 at 2pm.
 
 <h3 id="week-16">Week 16: Mon, Dec 11 – Overflow day, iff needed</h3>
 
